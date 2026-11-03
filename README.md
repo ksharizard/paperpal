@@ -110,6 +110,23 @@ written as a small `data/bank.json` manifest plus ordered parts in
 `data/bank-parts/`. Each part is at most 20 MB; concatenate the `questions`
 arrays from the listed `questionParts` to reconstruct the complete bank.
 
+### GitHub Pages
+
+The site is published from the repository root on the `main` branch:
+
+- Home: <https://ksharizard.github.io/paperpal/>
+- App: <https://ksharizard.github.io/paperpal/web/>
+
+`index.html` at the repo root redirects to `web/`, and the app uses hash routes
+(`#bank`, `#practice`, `#papers`) so refreshing works without server rewrites.
+
+PDFs are intentionally not committed for now (`papers/` is in `.gitignore`), so
+the "Open paper PDF" links in the archive return 404. The question bank,
+practice mode and archive metadata all work. To publish the PDFs later, remove
+`papers/` from `.gitignore`, commit them, and keep the published site under
+GitHub Pages' 1 GB limit. `data/auto-questions.json` is also ignored because it
+is a large build cache and is not needed by the site.
+
 ### Maths / LaTeX
 
 Question text, options, model answers and notes are rendered as rich text. Wrap maths
