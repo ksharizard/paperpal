@@ -502,6 +502,7 @@ async function init() {
   applyTheme(localStorage.getItem("paperpal.theme") || "dark");
   bindChrome();
   const view = currentView();
+  canonicalizeRoute(view);
   switchView(view, false);
   if (view === "papers") {
     try { await loadArchive(); } catch { return; }
@@ -632,7 +633,11 @@ function bindChrome() {
 
   bindLightbox();
   window.addEventListener("popstate", () => switchView(currentView(), false));
-  window.addEventListener("hashchange", () => switchView(currentView(), false));
+  window.addEventListener("hashchange", () => {
+    const view = currentView();
+    canonicalizeRoute(view);
+    switchView(view, false);
+  });
   window.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeNavigationMenu();
   });
@@ -652,22 +657,49 @@ function applyTheme(theme) {
   document.documentElement.dataset.theme = theme;
 }
 
+const ROUTES = ["home", "bank", "practice", "papers"];
+
+function routePath(view) {
+  // The app shell is shared by the generated clean-URL entry pages. The site
+  // root is one level above the app assets, no matter which page was opened.
+  return view === "home" ? "../" : `../${view}/`;
+}
+
+function routeUrl(view) {
+  return new URL(routePath(view), document.baseURI);
+}
+
+function canonicalizeRoute(view) {
+  const url = routeUrl(view);
+  if (url.pathname !== window.location.pathname || window.location.search || window.location.hash) {
+    window.history.replaceState({ view }, "", url.href);
+  }
+}
+
 function currentView() {
-  // Hash routing works on GitHub Pages project sites, where server-side
-  // rewrites for /bank, /practice and /papers are not available.
+  // Old hash links (#bank) still work; init() rewrites them to clean URLs.
   const hash = window.location.hash.replace(/^#\/?/, "").replace(/\/+$/, "");
-  if (["home", "bank", "practice", "papers"].includes(hash)) return hash;
-  const path = window.location.pathname.replace(/\/+$/, "");
-  const route = path.split("/").pop();
+  if (ROUTES.includes(hash)) return hash;
+
+  // Clean routes are real directories (/bank/, /practice/, /papers/). Resolve
+  // the path against the app's base so the project-site prefix and the legacy
+  // /web/ shell do not affect the route.
+  const appRoot = new URL("../", document.baseURI).pathname;
+  let path = window.location.pathname;
+  if (path.startsWith(appRoot)) path = path.slice(appRoot.length);
+  const segments = path.split("/").filter(Boolean);
+  if (segments[segments.length - 1] === "index.html") segments.pop();
+  const route = segments.pop();
   if (["bank", "practice", "papers"].includes(route)) return route;
+
   const view = new URLSearchParams(window.location.search).get("view");
-  return ["home", "bank", "practice", "papers"].includes(view) ? view : "home";
+  return ROUTES.includes(view) ? view : "home";
 }
 
 function switchView(view, navigate = true) {
-  if (!["home", "bank", "practice", "papers"].includes(view)) view = "home";
+  if (!ROUTES.includes(view)) view = "home";
   if (navigate) {
-    window.history.pushState({ view }, "", `#${view}`);
+    window.history.pushState({ view }, "", routeUrl(view).href);
   }
   $$(".view").forEach((section) => section.classList.toggle("is-active", section.id === `view-${view}`));
   $$(".tab").forEach((tab) => tab.classList.toggle("is-active", tab.dataset.view === view));

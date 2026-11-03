@@ -36,6 +36,16 @@ MANIFEST_FILE = PAPERS_DIR / "scraped-manifest.json"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".svg", ".gif"}
 IMAGE_PLACEMENTS = {"question", "solution"}
 
+# The app shell is shared by the clean-URL entry pages. GitHub Pages is
+# static, so /bank/, /practice/ and /papers/ each need a real directory with an
+# index.html; only the <base> differs so assets and data resolve identically.
+SITE_PAGES = {
+    "index.html": "web/",
+    "bank/index.html": "../web/",
+    "practice/index.html": "../web/",
+    "papers/index.html": "../web/",
+}
+
 
 def load_json(path: Path):
     with path.open(encoding="utf-8") as handle:
@@ -857,6 +867,24 @@ def _write_bank_parts(bank: dict) -> list[str]:
     return part_files
 
 
+def write_site_pages() -> None:
+    """Generate the clean-URL entry pages from the app shell in ``web/``.
+
+    Each page uses the same markup; only the ``<base>`` value changes so the
+    shared assets, question data and PDF links resolve from the same place
+    whichever route the visitor opened. Run this again after editing
+    ``web/index.html`` (``paperpal build`` does it automatically).
+    """
+    shell = (WEB_DIR / "index.html").read_text(encoding="utf-8")
+    marker = '<base href="./">'
+    if marker not in shell:
+        raise SystemExit('web/index.html: expected <base href="./"> to generate route pages')
+    for relative, base in SITE_PAGES.items():
+        target = ROOT / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(shell.replace(marker, f'<base href="{base}">'), encoding="utf-8")
+
+
 def build_bank():
     def progress(message: str):
         print(f"[build] {message}", flush=True)
@@ -1154,6 +1182,9 @@ def build_bank():
     with BANK_INDEX_FILE.open("w", encoding="utf-8") as handle:
         json.dump(bank_index, handle, ensure_ascii=False, separators=(",", ":"))
         handle.write("\n")
+
+    progress("Writing clean-URL entry pages")
+    write_site_pages()
 
     progress(
         f"Finished: {bank['meta']['questionCount']:,} questions, "

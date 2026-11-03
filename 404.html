@@ -6,14 +6,18 @@
     <script>
       (function () {
         var parts = location.pathname.split("/").filter(Boolean);
+        if (parts[parts.length - 1] === "index.html") parts.pop();
         var route = parts[parts.length - 1] || "";
         var known = ["bank", "practice", "papers"];
-        var root = parts.length > 1 ? "/" + parts[0] + "/" : "/";
-        location.replace(root + "web/" + (known.indexOf(route) !== -1 ? "#" + route : ""));
+        if (known.indexOf(route) !== -1) {
+          location.replace("/" + parts.slice(0, -1).concat(route + "/").join("/"));
+        } else {
+          location.replace("/" + (parts.length > 1 ? parts[0] + "/" : ""));
+        }
       })();
     </script>
   </head>
   <body>
-    <p><a href="./web/">Open PaperPal</a></p>
+    <p><a href="./">Open PaperPal</a></p>
   </body>
 </html>

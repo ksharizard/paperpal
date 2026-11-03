@@ -18,12 +18,6 @@ class PaperPalHandler(SimpleHTTPRequestHandler):
         if any(part in BLOCKED for part in Path(path).parts):
             self.send_error(404)
             return
-        route_names = {"bank", "practice", "papers"}
-        route = Path(path).name if path not in {"/", "/web", "/web/"} else ""
-        if path in {"/", "/web", "/web/"}:
-            self.path = "/web/index.html"
-        elif path in {f"/{name}" for name in route_names} | {f"/web/{name}" for name in route_names}:
-            self.path = f"/web/index.html?view={route}"
         super().do_GET()
 
     def list_directory(self, path):  # noqa: N802 - http.server API
@@ -43,7 +37,7 @@ def serve(port=8000, open_browser=True):
     except OSError as error:
         raise SystemExit(f"Could not bind port {port}: {error}") from error
 
-    url = f"http://127.0.0.1:{port}/web/"
+    url = f"http://127.0.0.1:{port}/"
     print(f"PaperPal running at {url}")
     print("Press Ctrl+C to stop.")
     if open_browser:
