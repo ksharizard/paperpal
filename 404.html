@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>PaperPal</title>
+    <script>
+      (function () {
+        var parts = location.pathname.split("/").filter(Boolean);
+        var route = parts[parts.length - 1] || "";
+        var known = ["bank", "practice", "papers"];
+        var root = parts.length > 1 ? "/" + parts[0] + "/" : "/";
+        location.replace(root + "web/" + (known.indexOf(route) !== -1 ? "#" + route : ""));
+      })();
+    </script>
+  </head>
+  <body>
+    <p><a href="./web/">Open PaperPal</a></p>
+  </body>
+</html>

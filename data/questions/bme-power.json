@@ -1,0 +1,83 @@
+[
+  {
+    "id": "bme-pp-01",
+    "subject": "basic-mechanical",
+    "chapter": "power-plants",
+    "topic": "Reaction turbines",
+    "type": "DES",
+    "marks": 10,
+    "question": "With a neat sketch illustrating the pressure and velocity changes, explain the working of a reaction turbine.",
+    "solution": "A reaction turbine uses the reaction force produced when steam expands and accelerates through stationary and moving blades. Steam from the boiler first passes through a set of fixed (guide) blades, where it expands and its pressure falls while its velocity rises. It then enters the moving blades, where it continues to expand; the pressure drops further and the relative velocity increases, producing a reaction force on the blades in addition to the impulse from the change in direction. Because expansion occurs in both fixed and moving blades, the pressure falls progressively from stage to stage while the velocity rises and falls alternately. The moving blades are therefore of increasing height and the rotor is partly full of steam, so the turbine must be enclosed and usually has several stages. The pressure-velocity diagram shows pressure decreasing continuously across each stage and velocity rising in the fixed blades and falling in the moving blades.",
+    "papers": [
+      { "id": "bme-2016-dec", "qno": "1C" },
+      { "id": "bme-2019-apr", "qno": "4A" }
+    ],
+    "note": "Asked for 5 marks in the 2016 paper and 10 marks in the 2019 paper."
+  },
+  {
+    "id": "bme-pp-02",
+    "subject": "basic-mechanical",
+    "chapter": "power-plants",
+    "topic": "Impulse turbines",
+    "type": "DES",
+    "marks": 2,
+    "question": "Justify the statement: a single-stage impulse turbine is suitable only for small power generation plants.",
+    "solution": "In a single-stage impulse turbine the whole pressure drop takes place in one set of nozzles and the steam leaves the stage at high velocity. A large part of the kinetic energy is lost in the leaving steam, so the stage efficiency is low. The rotor also runs at a very high speed for a good velocity ratio, which limits the size and the power that can be transmitted. Since only one stage is available, the enthalpy drop per stage is limited and a large power output would require an impractically large steam flow or wheel. Multiple stages are therefore used for larger plants to extract energy progressively and improve efficiency.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "5A(ii)" }]
+  },
+  {
+    "id": "bme-pp-03",
+    "subject": "basic-mechanical",
+    "chapter": "power-plants",
+    "topic": "Thermal power plants",
+    "type": "DES",
+    "marks": 10,
+    "question": "With a neat schematic diagram, explain the working principle of a thermal power plant.",
+    "solution": "A thermal power plant converts the chemical energy of coal into electrical energy through a steam cycle. Coal is pulverized and burned in the boiler furnace, transferring heat to water in the boiler tubes. The water evaporates and the steam is superheated, then expanded through a steam turbine, which drives an alternator to generate electricity. The exhaust steam is condensed in a condenser, usually cooled by circulating water from a cooling tower or river, and the condensate is pumped back to the boiler by the feed pump through feedwater heaters. The flue gases pass over an economizer and air preheater before being cleaned in an electrostatic precipitator and released through the chimney. The main components are the coal handling plant, boiler, superheater, turbine, generator, condenser, cooling tower and feedwater system. The cycle is the Rankine cycle, and its efficiency is improved by high steam pressure and temperature and by regenerative feed heating.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "3B" }]
+  },
+  {
+    "id": "bme-pp-04",
+    "subject": "basic-mechanical",
+    "chapter": "power-plants",
+    "topic": "Water turbines",
+    "type": "DES",
+    "marks": 10,
+    "question": "Explain with a neat sketch any one type of water turbine.",
+    "solution": "A Pelton wheel is an impulse water turbine used for high heads and low discharges. Water from the reservoir is carried through a penstock to one or more nozzles. Each nozzle converts the pressure energy of the water into kinetic energy, producing a high-velocity jet that strikes the buckets on the runner. The buckets are double-cup shaped with a central splitter, so the jet is divided into two halves and turned through nearly 180°, giving a large change in momentum and hence a large impulse. The runner rotates and drives a generator through a shaft. A spear valve inside the nozzle regulates the flow, and a deflector plate is used to divert the jet during load rejection. The casing is not water-tight; it only prevents splashing. Pelton wheels are suitable for heads above about 100 m.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "4B" }]
+  },
+  {
+    "id": "bme-pp-05",
+    "subject": "basic-mechanical",
+    "chapter": "power-plants",
+    "topic": "Water turbines",
+    "type": "DES",
+    "marks": 4,
+    "question": "Explain the working principle of an impulse, tangential-flow water turbine.",
+    "solution": "The Pelton wheel is the common impulse, tangential-flow water turbine. A high-velocity jet from a nozzle strikes the buckets tangentially at the pitch circle of the runner. The jet is split by the bucket's central ridge, flows over the two cup-shaped halves and leaves with a small absolute velocity in the opposite direction. The change in the tangential momentum of the water produces an impulse on each bucket, and the resulting torque rotates the runner. Because the jet strikes only part of the runner at a time and the pressure all around the runner is atmospheric, the casing is not pressure-tight. The turbine is used for high heads and low flows, and the nozzle area is adjusted with a spear to control the flow and power.",
+    "papers": [{ "id": "bme-2022-jul", "qno": "Q2A" }]
+  },
+  {
+    "id": "bme-pp-06",
+    "subject": "basic-mechanical",
+    "chapter": "power-plants",
+    "topic": "Gas turbines",
+    "type": "DES",
+    "marks": 2,
+    "question": "Briefly explain with a sketch the working principle of a gas turbine.",
+    "solution": "A gas turbine works on the Brayton cycle. Air is compressed in a compressor, fuel is burned with the compressed air in a combustion chamber at essentially constant pressure, and the high-temperature, high-pressure gases expand through a turbine. The turbine drives the compressor, and the remaining power drives a generator or a propeller through a shaft; in an open-cycle plant the exhaust gases are discharged to atmosphere. The main components are the compressor, combustion chamber and turbine, and the machine is compact and quick-starting but needs clean fuel and has lower part-load efficiency.",
+    "papers": [{ "id": "bme-2022-jul", "qno": "Q2B" }]
+  },
+  {
+    "id": "bme-pp-07",
+    "subject": "basic-mechanical",
+    "chapter": "power-plants",
+    "topic": "Nuclear and thermal plants",
+    "type": "DES",
+    "marks": 4,
+    "question": "Draw the schematic diagrams of nuclear and thermal power plants.",
+    "solution": "Thermal plant: coal handling -> boiler furnace -> superheater -> steam turbine -> generator; turbine exhaust -> condenser -> feed pump -> economizer/feedwater heaters -> boiler; flue gases -> economizer -> air preheater -> electrostatic precipitator -> chimney; condenser cooling water -> cooling tower. Nuclear plant: reactor core (fuel rods, moderator, control rods, coolant) -> heat exchanger/steam generator -> steam turbine -> generator; turbine exhaust -> condenser -> feed pump -> steam generator; the primary coolant circulates in a closed loop between the reactor and the steam generator, and a concrete biological shield surrounds the reactor. In a boiling-water reactor the steam is raised directly in the reactor and goes to the turbine, while in a pressurized-water reactor the primary loop heats a secondary loop in the steam generator.",
+    "papers": [{ "id": "bme-2022-jul", "qno": "Q2C" }]
+  }
+]

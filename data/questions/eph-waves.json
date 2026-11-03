@@ -1,0 +1,285 @@
+[
+  {
+    "id": "eph-int-01",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Double-slit fringe width",
+    "type": "DES",
+    "marks": 5,
+    "question": "Obtain an expression for the fringe width in the interference of light of wavelength λ from a double slit of slit separation d. The screen is at distance D from the slits.",
+    "solution": "The path difference at a point P on the screen at distance y from the centre is Δ = d sinθ ≈ dy/D. For constructive interference Δ = mλ, so y_m = mλD/d. The fringe width is the separation of consecutive maxima: β = y_(m+1) - y_m = λD/d. Bright and dark fringes are equally spaced when θ is small.",
+    "papers": [{ "id": "eph-2013-jan", "qno": "1A" }]
+  },
+  {
+    "id": "eph-int-02",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Newton's rings",
+    "type": "DES",
+    "marks": 5,
+    "question": "Obtain an expression for the radius of the m-th order bright ring in the case of Newton's rings.",
+    "solution": "For a plano-convex lens of radius R on a flat plate, the thickness of the air film at radius r is t ≈ r²/(2R). In reflected light, bright rings satisfy 2t = (m - 1/2)λ for m = 1, 2, 3, ... Substituting t gives r_m² = (m - 1/2)λR, so r_m = sqrt((2m - 1)λR/2). The diameter is D_m = sqrt(2(2m - 1)λR).",
+    "papers": [{ "id": "eph-2011-jul-new", "qno": "1C" }]
+  },
+  {
+    "id": "eph-int-03",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Wedge-shaped film",
+    "type": "DES",
+    "marks": 2,
+    "question": "Explain the interference pattern in the case of a wedge-shaped thin film.",
+    "solution": "A wedge-shaped air film has a thickness that increases linearly along the wedge. For reflected light, the condition 2t = (m + 1/2)λ gives straight, parallel bright fringes, with dark fringes midway between them. The fringe spacing is β = λ/(2α), where α is the wedge angle, so the fringes are equally spaced and become closer as the wedge angle increases.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "2C" }]
+  },
+  {
+    "id": "eph-int-04",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Thin-film interference",
+    "type": "DES",
+    "marks": 5,
+    "question": "A soap film (n = 1.33) in air is 482 nm thick. It is illuminated with white light at normal incidence. Which wavelengths will reinforce in reflected light? Which will reinforce in transmitted light?",
+    "solution": "For reflection from a film in air there is a phase reversal at the top surface only. Constructive reflection: 2nt = (m + 1/2)λ, so λ = 4nt/(2m + 1) = 4 × 1.33 × 482/(2m + 1) = 2564/(2m + 1) nm. Values: 2564 nm (m = 0, IR), 855 nm (m = 1), 513 nm (m = 2, green), 366 nm (m = 3, UV). The visible reflected wavelength is therefore about 513 nm. For transmitted light the conditions are interchanged: 2nt = mλ, so λ = 1282/m nm, giving 1282 nm (m = 1), 641 nm (m = 2, red) and 427 nm (m = 3, violet). Thus visible transmitted light is reinforced near 641 nm and 427 nm.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "4A" }]
+  },
+  {
+    "id": "eph-int-05",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Missing orders",
+    "type": "DES",
+    "marks": 5,
+    "question": "How many complete fringes appear between the first minima of the fringe envelope on either side of the central maximum for a double-slit pattern if λ = 557 nm, slit separation d = 0.150 mm and slit width a = 0.030 mm? What is the ratio of the intensity of the third fringe to the side of the centre to that of the central fringe?",
+    "solution": "The envelope minima occur when a sinθ = λ. Interference maxima occur when d sinθ = mλ. A maximum is missing when d/a = m, so here d/a = 5 and the fifth-order fringe is missing. Between the first envelope minima on either side the visible orders are m = -4 to +4, giving 2 × 4 + 1 = 9 complete fringes. For the third fringe, the intensity is I = I0 (sinβ/β)² cos²α with a/d = 0.2. At m = 3, β = πa sinθ/λ = 3πa/d = 0.6π, so sinβ/β = sin(0.6π)/(0.6π) = 0.951/1.885 = 0.505. The ratio is therefore 0.505² ≈ 0.25, i.e. about 25% of the central intensity.",
+    "papers": [
+      { "id": "eph-2011-jul-new", "qno": "4B" },
+      { "id": "eph-2013-jan", "qno": "4A" },
+      { "id": "eph-2011-jul-rcs", "qno": "6A" }
+    ]
+  },
+  {
+    "id": "eph-int-06",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Newton's rings - liquid",
+    "type": "DES",
+    "marks": 2,
+    "question": "The diameter of the tenth bright ring in a Newton's rings apparatus changes from 1.42 cm to 1.27 cm when a liquid is introduced between the lens and the plate. Find the refractive index of the liquid.",
+    "solution": "For the same ring, D² ∝ λ/n, so D_air/D_liquid = sqrt(n). Hence n = (D_air/D_liquid)² = (1.42/1.27)² ≈ 1.25.",
+    "papers": [{ "id": "eph-2013-jan", "qno": "5C" }]
+  },
+  {
+    "id": "eph-int-07",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Michelson interferometer",
+    "type": "DES",
+    "marks": 3,
+    "question": "Explain Michelson's interferometer and how it is used to determine the wavelength of monochromatic light.",
+    "solution": "A beam from the source is split by a partially silvered plate into two perpendicular paths, reflected by two mirrors and recombined. The path difference produces circular interference fringes. Moving one mirror by a distance d changes the path difference by 2d. If N fringes cross the field of view, 2d = Nλ, so λ = 2d/N. Counting fringes for a measured mirror displacement therefore gives the wavelength.",
+    "papers": [
+      { "id": "eph-2013-dec", "qno": "1B" },
+      { "id": "eph-2011-jul-rcs", "qno": "3A" }
+    ]
+  },
+  {
+    "id": "eph-int-08",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Newton's rings - radius of curvature",
+    "type": "DES",
+    "marks": 2,
+    "question": "A Newton's rings set-up in air is used to determine the radius of curvature of a lens. The radii of the n-th and (n + 20)-th bright rings are 0.162 cm and 0.368 cm in light of wavelength 546 nm. Calculate the radius of curvature of the lower surface of the lens.",
+    "solution": "For bright rings, r_m² = (m - 1/2)λR, so r_(n+20)² - r_n² = 20λR. Thus R = (0.368² - 0.162²) cm²/(20 × 546×10^-7 cm) = (0.1354 - 0.0262)/(1.092×10^-3) cm ≈ 100 cm = 1.0 m.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "5D" }]
+  },
+  {
+    "id": "eph-int-09",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Thin-film minimum thickness",
+    "type": "DES",
+    "marks": 3,
+    "question": "A thin film of acetone (n = 1.25) coats a thick glass plate (n = 1.50). Plane light waves of variable wavelength are incident normally. On viewing the reflected wave, complete destructive interference occurs at 600 nm and constructive interference at 700 nm. Calculate the minimum thickness of the acetone film.",
+    "solution": "Both the air-acetone and acetone-glass interfaces involve reflection from a denser medium, so the two reflected waves have no net phase difference. Destructive reflection requires 2nt = (m + 1/2)λ and constructive reflection requires 2nt = pλ. Using 600 nm destructive and 700 nm constructive: (m + 1/2)600 = p700. The smallest solution is m = 3, p = 3, giving 2nt = 2100 nm. Hence t = 2100/(2 × 1.25) = 840 nm.",
+    "papers": [{ "id": "eph-2017-nov", "qno": "1B" }]
+  },
+  {
+    "id": "eph-int-10",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Thin-film interference",
+    "type": "DES",
+    "marks": 3,
+    "question": "White light reflected at perpendicular incidence from a soap film (n = 1.33) in air has, in the visible spectrum, an interference maximum at 600 nm and a minimum at 450 nm with no minimum in between. What is the film thickness, assumed uniform?",
+    "solution": "With one phase reversal (air-film), constructive reflection is 2nt = (m + 1/2)λ and destructive reflection is 2nt = pλ. Using the 600 nm maximum and the next 450 nm minimum: (m + 1/2)600 = p450. The lowest consistent integers are m = 1 and p = 2, so 2nt = 900 nm and t = 900/(2 × 1.33) ≈ 338 nm. No other minimum lies between 450 nm and 600 nm, as required.",
+    "papers": [
+      { "id": "eph-2013-dec", "qno": "4B" },
+      { "id": "eph-2011-jul-rcs", "qno": "6C" }
+    ]
+  },
+  {
+    "id": "eph-int-11",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Missing orders",
+    "type": "DES",
+    "marks": 2,
+    "question": "Design a double-slit system (find the slit separation in terms of the slit width) in which the fourth fringe, not counting the central maximum, is missing.",
+    "solution": "The m-th interference maximum coincides with the first diffraction minimum when d sinθ = mλ and a sinθ = λ, i.e. d/a = m. For the fourth fringe to be missing, d/a = 4, so the slit separation must be four times the slit width: d = 4a.",
+    "papers": [{ "id": "eph-2013-dec", "qno": "5C" }]
+  },
+  {
+    "id": "eph-int-12",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Double-slit numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "In a double-slit experiment the screen is 52 cm from the slits, the wavelength is 480 nm, the slit separation is 0.12 mm and the slit width is 0.025 mm. What is the spacing between adjacent fringes? What is the distance from the central maximum to the first minimum of the fringe envelope?",
+    "solution": "Fringe spacing β = λD/d = 480×10^-9 × 0.52/1.2×10^-4 = 2.08×10^-3 m ≈ 2.08 mm. The first envelope minimum is at y = λD/a = 480×10^-9 × 0.52/2.5×10^-5 = 9.98×10^-3 m ≈ 9.98 mm.",
+    "papers": [{ "id": "eph-2017-nov", "qno": "2B" }]
+  },
+  {
+    "id": "eph-int-13",
+    "subject": "engineering-physics",
+    "chapter": "interference",
+    "topic": "Double-slit intensity - phasor",
+    "type": "DES",
+    "marks": 5,
+    "question": "Obtain an expression for the intensity in a double-slit interference pattern using a phasor diagram.",
+    "solution": "Let the two coherent waves have equal amplitude a and phase difference δ = (2π/λ)d sinθ. In the phasor diagram the resultant of two equal phasors with angle δ between them has amplitude A = 2a cos(δ/2). Since intensity is proportional to amplitude squared, I = I0 cos²(δ/2) = I0 cos²(πd sinθ/λ), where I0 is the intensity of each wave. Maxima occur when δ = 2mπ (d sinθ = mλ) and minima when δ = (2m + 1)π.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "1A" }]
+  },
+  {
+    "id": "eph-dif-01",
+    "subject": "engineering-physics",
+    "chapter": "diffraction",
+    "topic": "Width of principal maximum",
+    "type": "DES",
+    "marks": 4,
+    "question": "Obtain an expression for the width of a principal maximum at an angle θ in the diffraction pattern due to multiple slits.",
+    "solution": "For N slits of spacing d, the intensity is I = I0 (sinNδ/2 / sinδ/2)² with δ = 2πd sinθ/λ. Principal maxima occur when δ = 2mπ. The first zero on either side occurs when Nδ/2 changes by π, i.e. Δδ = 2π/N. Since dδ = (2πd cosθ/λ)dθ, the angular half-width is Δθ = λ/(Nd cosθ) and the full width is 2λ/(Nd cosθ). Thus the maximum becomes narrower as N increases.",
+    "papers": [
+      { "id": "eph-2017-nov", "qno": "1A" },
+      { "id": "eph-2013-dec", "qno": "3A" }
+    ]
+  },
+  {
+    "id": "eph-dif-02",
+    "subject": "engineering-physics",
+    "chapter": "diffraction",
+    "topic": "Single-slit intensity",
+    "type": "DES",
+    "marks": 3,
+    "question": "Monochromatic light of wavelength 538 nm falls on a slit of width 25.2 μm. The screen is 3.48 m from the slit. Consider a point 1.13 cm from the central maximum. Calculate the ratio of the intensity at this point to the intensity at the central maximum.",
+    "solution": "For a single slit, I/I0 = (sinβ/β)² with β = πa sinθ/λ ≈ πay/(λD). Here β = π × 25.2×10^-6 × 0.0113/(538×10^-9 × 3.48) = 0.478 rad. Then sinβ/β = 0.460/0.478 = 0.962, so I/I0 = 0.962² ≈ 0.925.",
+    "papers": [{ "id": "eph-2011-jul-new", "qno": "4A" }]
+  },
+  {
+    "id": "eph-dif-03",
+    "subject": "engineering-physics",
+    "chapter": "diffraction",
+    "topic": "Rayleigh criterion",
+    "type": "DES",
+    "marks": 2,
+    "question": "Explain Rayleigh's criterion for resolving images due to a circular aperture.",
+    "solution": "A circular aperture produces an Airy pattern rather than a point image. Two point objects are just resolved when the central maximum of one diffraction pattern falls on the first minimum of the other. For a circular aperture this occurs at the angular separation θ = 1.22λ/D, where D is the aperture diameter. Smaller wavelengths and larger apertures therefore give better resolution.",
+    "papers": [
+      { "id": "eph-2011-jul-new", "qno": "2A" },
+      { "id": "eph-2013-jan", "qno": "2C" }
+    ]
+  },
+  {
+    "id": "eph-dif-04",
+    "subject": "engineering-physics",
+    "chapter": "diffraction",
+    "topic": "Rayleigh criterion - numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "A converging lens of diameter 32 mm has focal length 24 cm. What angular separation must two distant point objects have to satisfy Rayleigh's criterion at a wavelength of 550 nm? How far apart are the centres of the diffraction patterns in the focal plane?",
+    "solution": "θ = 1.22λ/D = 1.22 × 550×10^-9/0.032 = 2.10×10^-5 rad. In the focal plane the separation is s = fθ = 0.24 × 2.10×10^-5 = 5.03×10^-6 m ≈ 5.0 μm.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "6B" }]
+  },
+  {
+    "id": "eph-dif-05",
+    "subject": "engineering-physics",
+    "chapter": "diffraction",
+    "topic": "Grating angular width",
+    "type": "DES",
+    "marks": 2,
+    "question": "A source of light of two wavelengths (660 nm and 440 nm) is used in a diffraction experiment. The light is incident normally on a grating. Find the ratio of the angular widths of the zeroth-order principal maximum for 660 nm to that for 440 nm.",
+    "solution": "The angular width of a principal maximum is Δθ = 2λ/(Nd cosθ). At the zeroth order cosθ = 1, so Δθ ∝ λ. Therefore the ratio is 660/440 = 1.5.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "5C" }]
+  },
+  {
+    "id": "eph-dif-06",
+    "subject": "engineering-physics",
+    "chapter": "diffraction",
+    "topic": "Grating dispersion and resolving power",
+    "type": "DES",
+    "marks": 3,
+    "question": "A grating has 40,000 rulings spread over 76 mm. (a) What is its expected dispersion for sodium light of wavelength 589 nm in the first order? (b) What is its resolving power in this order?",
+    "solution": "Grating spacing d = 76×10^-3/40000 = 1.90×10^-6 m. For m = 1, sinθ = λ/d = 589×10^-9/1.90×10^-6 = 0.310, so θ = 18.1° and cosθ = 0.951. Dispersion D = dθ/dλ = m/(d cosθ) = 1/(1.90×10^-6 × 0.951) = 5.54×10^5 rad/m ≈ 0.0317 °/nm. Resolving power R = mN = 1 × 40000 = 4.0×10^4.",
+    "papers": [
+      { "id": "eph-2011-jul-new", "qno": "5A" },
+      { "id": "eph-2011-jul-rcs", "qno": "6B" }
+    ]
+  },
+  {
+    "id": "eph-dif-07",
+    "subject": "engineering-physics",
+    "chapter": "diffraction",
+    "topic": "Grating principal maxima",
+    "type": "DES",
+    "marks": 3,
+    "question": "A grating has 10^4 slits with a slit separation of 2100 nm. It is illuminated with sodium light of wavelength 589 nm. Find the angular positions of all principal maxima observed.",
+    "solution": "The grating equation is d sinθ = mλ, so sinθ = 589m/2100 = 0.2805m. Since |sinθ| ≤ 1, m can be 0, ±1, ±2, ±3. The angles are: m = 0 at 0°; m = ±1 at sin⁻¹(0.2805) = 16.3°; m = ±2 at sin⁻¹(0.561) = 34.1°; m = ±3 at sin⁻¹(0.8415) = 57.3°. The fourth order would require sinθ > 1 and is not observed.",
+    "papers": [{ "id": "eph-2013-jan", "qno": "6B" }]
+  },
+  {
+    "id": "eph-dif-08",
+    "subject": "engineering-physics",
+    "chapter": "diffraction",
+    "topic": "Grating orders",
+    "type": "DES",
+    "marks": 2,
+    "question": "Given a grating with 400 rulings/mm, how many orders of the entire visible spectrum (400-700 nm) can be produced?",
+    "solution": "d = 1/400 mm = 2.5×10^-6 m. For an order to contain the entire visible spectrum, the longest wavelength must satisfy mλmax ≤ d. Thus m ≤ 2.5×10^-6/700×10^-9 = 3.57, so three complete orders (m = 1, 2, 3) can be produced on each side of the central maximum.",
+    "papers": [{ "id": "eph-2013-dec", "qno": "6C" }]
+  },
+  {
+    "id": "eph-dif-09",
+    "subject": "engineering-physics",
+    "chapter": "diffraction",
+    "topic": "Zone plate",
+    "type": "DES",
+    "marks": 5,
+    "question": "Deduce an expression for the focal length of a zone plate. Write the difference between a zone plate and a convex lens.",
+    "solution": "For the n-th Fresnel zone, the path difference between the edge and the centre is nλ/2. With zone radius r_n and focal length f, r_n² ≈ nλf, so f = r_n²/(nλ). A zone plate therefore has multiple foci at f, f/3, f/5, ... and its focal length depends on wavelength (strong chromatic aberration). Unlike a convex lens, it works by diffraction rather than refraction and can form a real image even for X-rays.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "3B" }]
+  },
+  {
+    "id": "eph-dif-10",
+    "subject": "engineering-physics",
+    "chapter": "diffraction",
+    "topic": "Single-slit wavelength",
+    "type": "DES",
+    "marks": 2,
+    "question": "A beam of green light is diffracted by a slit of width 0.550 mm. The diffraction pattern forms on a wall 2.06 m beyond the slit. The distance to the position of the first zero intensity from the central bright fringe is 2.05 mm. Calculate the wavelength of the laser light.",
+    "solution": "The first minimum of a single slit occurs at a sinθ = λ, and for small angles sinθ ≈ y/D. Hence λ = ay/D = 0.550×10^-3 × 2.05×10^-3/2.06 ≈ 5.47×10^-7 m = 547 nm.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "4C" }]
+  },
+  {
+    "id": "eph-dif-11",
+    "subject": "engineering-physics",
+    "chapter": "diffraction",
+    "topic": "Coinciding minima",
+    "type": "DES",
+    "marks": 3,
+    "question": "A single slit is illuminated by light of wavelengths λA and λB, chosen so that the first diffraction minimum of the λA component coincides with the second minimum of the λB component. What is the relationship between the two wavelengths? Do any other minima in the two patterns coincide?",
+    "solution": "For a single slit the minima satisfy a sinθ = nλ. Coincidence of the first minimum of A with the second minimum of B gives λA = 2λB. In general mλA = nλB becomes 2mλB = nλB, so n = 2m. Hence every minimum of A coincides with an even-order minimum of B, and the two patterns share every second minimum of B.",
+    "papers": [{ "id": "eph-2017-nov", "qno": "1C" }]
+  }
+]

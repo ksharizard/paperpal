@@ -1,0 +1,242 @@
+[
+  {
+    "id": "eph-semi-01",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Energy bands",
+    "type": "DES",
+    "marks": 3,
+    "question": "Define an energy band. Sketch the energy bands of a sodium crystal containing N atoms, label each band and indicate the number of allowed energy states in each band.",
+    "solution": "An energy band is a range of closely spaced allowed electron energies formed when atomic energy levels split and overlap in a solid. Sodium has the configuration 1s² 2s² 2p⁶ 3s¹. In a crystal of N atoms, the 1s, 2s and 2p bands are full and lie well below the Fermi level. The 3s band holds 2N states and is half filled (N electrons); it overlaps the empty 3p band, which is why sodium is a conductor. Each band contains 2N states per atomic level when spin is included.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "2B" }]
+  },
+  {
+    "id": "eph-semi-02",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Band gap - numerical",
+    "type": "DES",
+    "marks": 2,
+    "question": "The band gap energy for silicon at 300 K is 1.14 eV. Find the lowest-frequency photon that will promote an electron from the valence band to the conduction band.",
+    "solution": "The photon energy must equal the band gap: hf = Eg. Thus f = Eg/h = 1.14 × 1.6×10^-19/6.626×10^-34 = 2.75×10^14 Hz, corresponding to λ = c/f = 1.09×10^-6 m = 1090 nm.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "4C" }]
+  },
+  {
+    "id": "eph-semi-03",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Density of states - numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "Consider a cube of gold 1.00 mm on an edge. Calculate the approximate number of conduction electrons whose energies lie between 4.000 eV and 4.025 eV. The density of states is g(E) = (8π√2 m^(3/2)/h³)√E per unit volume per unit energy.",
+    "solution": "The coefficient 8π√2 m^(3/2)/h³ = 1.06×10^56 (SI). At E = 4.00 eV = 6.41×10^-19 J, sqrt(E) = 8.01×10^-10, so g(E) = 8.50×10^46 states per m³ per J. The energy interval is 0.025 eV = 4.01×10^-21 J and the volume is (10^-3)³ = 10^-9 m³. Hence N = g(E) ΔE V = 8.50×10^46 × 4.01×10^-21 × 10^-9 ≈ 3.4×10^17 electrons.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "5B" }]
+  },
+  {
+    "id": "eph-semi-04",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Density of states - derivation",
+    "type": "DES",
+    "marks": 5,
+    "question": "Assuming the expression for the allowed states of a particle in a three-dimensional box, derive the density-of-states function.",
+    "solution": "For a box of volume V, the allowed wave vectors are spaced by 2π/L in each direction, so the number of states in a shell between k and k + dk is (V/2π³)4πk²dk, with a factor 2 for spin. For a free electron E = ħ²k²/2m, so k = sqrt(2mE)/ħ and dk = m dE/(ħ²k). Substituting gives g(E)dE = (V/2π²)(2m/ħ²)^(3/2) sqrt(E) dE. Thus g(E) = (8π√2 m^(3/2)/h³)V sqrt(E), which increases as the square root of energy.",
+    "papers": [{ "id": "eph-2011-jul-new", "qno": "3B" }]
+  },
+  {
+    "id": "eph-semi-05",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Fermi-Dirac distribution - numerical",
+    "type": "DES",
+    "marks": 2,
+    "question": "Calculate the energy of a conduction electron in silver at 800 K, assuming the probability of finding an electron in that state is 0.950. The Fermi energy is 5.48 eV at this temperature.",
+    "solution": "The Fermi-Dirac function is f(E) = 1/[e^((E - EF)/kT) + 1]. Rearranging, E = EF + kT ln(1/f - 1). Here kT = 8.617×10^-5 × 800 = 0.0689 eV and ln(1/0.95 - 1) = ln(0.0526) = -2.944. Hence E = 5.48 - 0.203 = 5.28 eV.",
+    "papers": [
+      { "id": "eph-2011-jul-new", "qno": "6D" },
+      { "id": "eph-2013-jan", "qno": "5B" }
+    ]
+  },
+  {
+    "id": "eph-semi-06",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "LED",
+    "type": "DES",
+    "marks": 2,
+    "question": "Explain a light emitting diode with a band diagram.",
+    "solution": "An LED is a forward-biased p-n junction made from a direct-bandgap semiconductor. Electrons injected into the p-side recombine with holes near the junction, releasing energy as photons with hf ≈ Eg. The band diagram shows the conduction band above the valence band with the depletion region reduced under forward bias. The emission wavelength is λ ≈ 1240/Eg (nm, with Eg in eV), so the band gap determines the colour.",
+    "papers": [{ "id": "eph-2013-jan", "qno": "1C" }]
+  },
+  {
+    "id": "eph-semi-07",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Classification of solids",
+    "type": "DES",
+    "marks": 5,
+    "question": "Explain the classification of solids regarding their electrical properties, based on their energy band diagrams.",
+    "solution": "Conductors have a partially filled band or overlapping bands, so electrons can move freely with no band gap. Semiconductors have a small band gap (about 1 eV) and a filled valence band at 0 K; at ordinary temperatures thermal excitation promotes some electrons to the conduction band, giving a modest conductivity that increases with temperature. Insulators have a large band gap (several eV), so essentially no electrons reach the conduction band and conductivity is negligible. The band gap and the position of the Fermi level therefore determine the electrical behaviour.",
+    "papers": [{ "id": "eph-2013-jan", "qno": "3A" }]
+  },
+  {
+    "id": "eph-semi-08",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Fermi-Dirac function",
+    "type": "DES",
+    "marks": 2,
+    "question": "Write the expression for the Fermi-Dirac distribution function and sketch its plots for zero K and for T > 0 K.",
+    "solution": "f(E) = 1/[e^((E - EF)/kT) + 1]. At T = 0 K the function is a step: f = 1 for E < EF and f = 0 for E > EF, with a sharp drop at EF. For T > 0 K the step broadens over an energy range of order kT around EF: f = 1/2 at E = EF, and the curve tails into the conduction band and below the Fermi level.",
+    "papers": [{ "id": "eph-2013-dec", "qno": "3C" }]
+  },
+  {
+    "id": "eph-semi-09",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Fermi energy - numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "Sodium is a monovalent metal with density 971 kg/m³ and molar mass 0.023 kg/mol. Calculate (i) the density of charge carriers and (ii) the Fermi energy at zero K. Use EF = (ħ²/2m)(3π²n)^(2/3) and Avogadro's number 6.023 × 10^23 /mol.",
+    "solution": "(i) n = (density/molar mass) × N_A = (971/0.023) × 6.023×10^23 = 2.54×10^28 m^-3. (ii) 3π²n = 7.53×10^29 m^-3, so (3π²n)^(2/3) = 8.27×10^19 m^-2. With ħ²/2m = 6.11×10^-39 J m², EF = 6.11×10^-39 × 8.27×10^19 = 5.05×10^-19 J ≈ 3.15 eV.",
+    "papers": [{ "id": "eph-2013-dec", "qno": "5B" }]
+  },
+  {
+    "id": "eph-semi-10",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Average kinetic energy",
+    "type": "DES",
+    "marks": 3,
+    "question": "Show that the average kinetic energy of a conduction electron in a metal at zero K is (3/5)EF, using the density of conduction electrons n = (8π/3h³)(2mEF)^(3/2) and the density of states.",
+    "solution": "At T = 0 all states up to EF are filled. The average energy is <E> = (1/n)∫0^EF E g(E) dE with g(E) = C sqrt(E). Thus the integral is C ∫0^EF E^(3/2)dE = (2/5)C EF^(5/2). The electron density is n = ∫0^EF C sqrt(E)dE = (2/3)C EF^(3/2). Dividing gives <E> = [(2/5)/(2/3)]EF = (3/5)EF.",
+    "papers": [{ "id": "eph-2017-nov", "qno": "5B" }]
+  },
+  {
+    "id": "eph-semi-11",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Absorption in semiconductors",
+    "type": "DES",
+    "marks": 2,
+    "question": "Light from a hydrogen discharge tube is incident on a CdS crystal with band gap 2.42 eV. Which spectral lines from the Balmer series (656 nm, 486 nm, 434 nm, 410 nm) are absorbed and which are transmitted?",
+    "solution": "The threshold wavelength is λ = 1240/Eg = 1240/2.42 = 512 nm. Photons with wavelengths shorter than 512 nm have enough energy to excite electrons across the gap and are absorbed. Thus 486 nm, 434 nm and 410 nm are absorbed, while 656 nm (energy below the gap) is transmitted.",
+    "papers": [{ "id": "eph-2017-nov", "qno": "5C" }]
+  },
+  {
+    "id": "eph-semi-12",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Intrinsic carrier density",
+    "type": "DES",
+    "marks": 5,
+    "question": "Derive an expression for the density of conduction electrons in an intrinsic semiconductor. Given the energy density of states g(E) = (2^(7/2)π m_c^(3/2)/h³)(E - E_c)^(1/2), where m_c is the conduction electron mass and E_c is the conduction band edge.",
+    "solution": "n = ∫_(E_c)^∞ g(E) f(E) dE. For an intrinsic semiconductor the Fermi level lies well below E_c, so f(E) ≈ e^{-(E - EF)/kT}. Let x = E - E_c. Then n = (2^(7/2)π m_c^(3/2)/h³) e^{-(E_c - EF)/kT} ∫0^∞ sqrt(x) e^{-x/kT} dx. The integral is (sqrt(π)/2)(kT)^(3/2). Simplifying gives n = 2(2π m_c kT/h²)^(3/2) e^{-(E_c - EF)/kT}. Multiplying by the analogous expression for holes and using np = n_i² gives n_i = 2(2πkT/h²)^(3/2)(m_c m_v)^(3/4) e^{-Eg/2kT}.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "2A" }]
+  },
+  {
+    "id": "eph-semi-13",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Band diagrams",
+    "type": "DES",
+    "marks": 3,
+    "question": "Draw the energy band diagrams of (i) an n-type semiconductor, (ii) a p-type semiconductor and (iii) an unbiased p-n junction. Indicate the positions of the relevant energy levels and the Fermi level at 0 K.",
+    "solution": "(i) n-type: donor levels lie just below the conduction band; the Fermi level is close to the conduction band. (ii) p-type: acceptor levels lie just above the valence band; the Fermi level is close to the valence band. (iii) Unbiased p-n junction: the bands bend across the depletion region, creating a potential barrier; the Fermi level is constant across the junction at equilibrium, and the depletion region has no free carriers.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "2B" }]
+  },
+  {
+    "id": "eph-semi-14",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Hall effect - numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "The Hall coefficient of a p-type semiconductor is 1.00 × 10^-4 m³/C and its conductivity is 500.0 S/m. Calculate the resistivity, the number of holes per unit volume and the mobility of the holes.",
+    "solution": "Resistivity ρ = 1/σ = 1/500 = 2.00×10^-3 Ω m. For p-type material R_H = 1/(pe), so p = 1/(R_H e) = 1/(1.00×10^-4 × 1.6×10^-19) = 6.25×10^22 m^-3. Mobility μ = σ/(pe) = 500/(6.25×10^22 × 1.6×10^-19) = 0.05 m²/V s.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "5A" }]
+  },
+  {
+    "id": "eph-semi-15",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Conductivity - numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "Find the conductivity of silicon at 300 K (i) in the intrinsic condition, (ii) with a donor impurity of 1 in 10^8 and (iii) with an acceptor impurity of 1 in 5 × 10^7. The intrinsic carrier density is 1.5 × 10^16 m^-3, electron mobility 0.13 m²/V s, hole mobility 0.05 m²/V s and the density of silicon atoms is 5 × 10^28 m^-3.",
+    "solution": "(i) σ = n_i e(μ_e + μ_h) = 1.5×10^16 × 1.6×10^-19 × 0.18 = 4.3×10^-4 S/m. (ii) N_D = 5×10^28/10^8 = 5×10^20 m^-3, so σ ≈ N_D e μ_e = 5×10^20 × 1.6×10^-19 × 0.13 = 10.4 S/m. (iii) N_A = 5×10^28/(5×10^7) = 1×10^21 m^-3, so σ ≈ N_A e μ_h = 1×10^21 × 1.6×10^-19 × 0.05 = 8.0 S/m.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "5B" }]
+  },
+  {
+    "id": "eph-semi-16",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "p-n junction - numerical",
+    "type": "DES",
+    "marks": 2,
+    "question": "When a reverse bias is applied to a Ge p-n junction diode, the reverse saturation current at 300 K is 0.25 μA. Determine the current in the diode when a forward bias of 0.10 V is applied at 300 K.",
+    "solution": "I = I0(e^(V/VT) - 1) with VT = kT/e ≈ 0.0259 V. Here V/VT = 0.10/0.0259 = 3.86, so e^3.86 = 47.5. Hence I = 0.25 μA × (47.5 - 1) ≈ 11.6 μA.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "5C" }]
+  },
+  {
+    "id": "eph-semi-17",
+    "subject": "engineering-physics",
+    "chapter": "semiconductors",
+    "topic": "Solar cell",
+    "type": "DES",
+    "marks": 2,
+    "question": "Most solar radiation has a wavelength of about 1 μm. What energy gap should the material in a solar cell have in order to absorb this radiation?",
+    "solution": "Eg = hc/λ = 1.988×10^-25/1.0×10^-6 = 1.99×10^-19 J ≈ 1.24 eV. A band gap of about 1.2 eV is therefore needed.",
+    "papers": [
+      { "id": "eph-2011-jul-new", "qno": "6C" },
+      { "id": "eph-2011-jul-rcs", "qno": "6D" }
+    ]
+  },
+  {
+    "id": "eph-sup-01",
+    "subject": "engineering-physics",
+    "chapter": "superconductivity",
+    "topic": "Superconductivity",
+    "type": "DES",
+    "marks": 5,
+    "question": "Give a brief account of superconductivity.",
+    "solution": "Below a critical temperature Tc, certain materials lose all electrical resistance and become superconductors. They also expel magnetic flux (Meissner effect) and behave as perfect diamagnets. The transition is accompanied by a jump in specific heat and is explained by BCS theory: electrons pair through lattice vibrations into Cooper pairs, which condense into a ground state with an energy gap. Superconductors are destroyed by a sufficiently strong magnetic field (critical field) or by a large current density.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "3A" }]
+  },
+  {
+    "id": "eph-sup-02",
+    "subject": "engineering-physics",
+    "chapter": "superconductivity",
+    "topic": "Meissner effect",
+    "type": "DES",
+    "marks": 2,
+    "question": "Explain the Meissner effect in superconductors.",
+    "solution": "When a material becomes superconducting, it expels the magnetic field from its interior, so B = 0 inside. This perfect diamagnetism (magnetic susceptibility χ = -1) is the Meissner effect. It is not merely a consequence of zero resistance: the field is actively expelled during the transition, and a sufficiently strong applied field can destroy the superconducting state.",
+    "papers": [
+      { "id": "eph-2011-jul-new", "qno": "3C" },
+      { "id": "eph-2013-dec", "qno": "1C" }
+    ]
+  },
+  {
+    "id": "eph-sup-03",
+    "subject": "engineering-physics",
+    "chapter": "superconductivity",
+    "topic": "Superconducting ring - numerical",
+    "type": "DES",
+    "marks": 2,
+    "question": "Determine the current generated in a superconducting ring of niobium metal 2.00 cm in diameter when a 0.0200 T magnetic field directed perpendicular to the ring is suddenly decreased to zero. The inductance of the ring is 3.10 × 10^-8 H.",
+    "solution": "The flux through the ring is Φ = BA = 0.0200 × π(0.0100)² = 6.28×10^-6 Wb. A superconducting ring conserves flux, so the induced current satisfies LI = Φ. Thus I = 6.28×10^-6/3.10×10^-8 ≈ 203 A.",
+    "papers": [{ "id": "eph-2013-jan", "qno": "4C" }]
+  },
+  {
+    "id": "eph-sup-04",
+    "subject": "engineering-physics",
+    "chapter": "superconductivity",
+    "topic": "BCS theory",
+    "type": "DES",
+    "marks": 5,
+    "question": "Draw a representative graph of resistance versus temperature for a superconductor and explain briefly the BCS theory of superconductivity in metals.",
+    "solution": "The resistance falls gradually with temperature and then drops abruptly to zero at Tc. In BCS theory, an electron moving through the lattice attracts positive ions, creating a temporary region of positive charge that attracts a second electron. The resulting electron-phonon interaction binds electrons of opposite momentum and spin into Cooper pairs. These pairs behave as bosons, condense into a single quantum ground state and move without scattering, giving zero resistance below Tc. Breaking a pair requires energy 2Δ, which produces the observed energy gap.",
+    "papers": [{ "id": "eph-2017-nov", "qno": "5A" }]
+  }
+]

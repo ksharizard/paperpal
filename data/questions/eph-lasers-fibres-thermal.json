@@ -1,0 +1,95 @@
+[
+  {
+    "id": "eph-la-01",
+    "subject": "engineering-physics",
+    "chapter": "lasers",
+    "topic": "Emission processes",
+    "type": "DES",
+    "marks": 2,
+    "question": "Explain (i) spontaneous emission and (ii) stimulated emission with reference to lasers.",
+    "solution": "(i) Spontaneous emission: an excited atom decays to a lower level on its own, emitting a photon of energy hf = E2 - E1 in a random direction with a random phase. (ii) Stimulated emission: an incident photon of energy hf induces an excited atom to emit a second photon with the same frequency, phase, polarization and direction, producing coherent light. Laser action requires stimulated emission to dominate, which needs population inversion.",
+    "images": [
+      {"src": "assets/figures/spontaneous-emission.png", "alt": "Spontaneous emission: an excited atom drops to a lower level and emits a photon in a random direction.", "caption": "Spontaneous emission: an excited atom drops to a lower level and emits a photon in a random direction.", "placement": "solution"},
+      {"src": "assets/figures/stimulated-emission.png", "alt": "Stimulated emission: the incident photon triggers emission of an identical photon, giving two coherent photons.", "caption": "Stimulated emission: the incident photon triggers emission of an identical photon, giving two coherent photons.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "eph-2011-jul-new", "qno": "2D" }]
+  },
+  {
+    "id": "eph-la-02",
+    "subject": "engineering-physics",
+    "chapter": "lasers",
+    "topic": "Principle of laser",
+    "type": "DES",
+    "marks": 5,
+    "question": "Explain the principle of a laser.",
+    "solution": "A laser works by light amplification through stimulated emission. The active medium is pumped so that more atoms occupy the upper laser level than the lower level, producing population inversion. A photon then stimulates an excited atom to emit an identical photon, and the two photons stimulate further emission. An optical resonator with mirrors provides feedback, so the light is amplified over many passes; the partially transmitting mirror outputs a coherent, monochromatic, highly directional beam. The basic processes are absorption, spontaneous emission and stimulated emission.",
+    "images": [
+      {"src": "assets/figures/laser-components.png", "alt": "Essential laser components: pumping system, lasing medium and resonant cavity.", "caption": "Essential laser components: pumping system, lasing medium and resonant cavity.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "eph-2013-jan", "qno": "2A" }]
+  },
+  {
+    "id": "eph-la-03",
+    "subject": "engineering-physics",
+    "chapter": "lasers",
+    "topic": "Ruby laser",
+    "type": "DES",
+    "marks": 3,
+    "question": "Describe the construction and working of a ruby laser.",
+    "solution": "The active medium is a ruby rod (Al2O3 doped with Cr³⁺) with polished ends, one fully silvered and one partially silvered. A helical xenon flash lamp optically pumps the Cr³⁺ ions to a broad band of upper levels. The ions relax non-radiatively to the metastable level, creating population inversion relative to the ground state. Stimulated emission at 694.3 nm then builds up along the rod, and the beam emerges through the partially reflecting end. Ruby is a three-level laser and operates in pulsed mode.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "1C" }]
+  },
+  {
+    "id": "eph-of-01",
+    "subject": "engineering-physics",
+    "chapter": "optical-fibres",
+    "topic": "Numerical aperture",
+    "type": "DES",
+    "marks": 5,
+    "question": "Obtain an expression for the numerical aperture in terms of the refractive indices of the core and cladding, and hence arrive at the condition for ray propagation in an optical fibre.",
+    "solution": "For a ray entering from a medium n0 at angle θ0, Snell's law gives n0 sinθ0 = n1 sinθ1. At the core-cladding interface, total internal reflection requires the angle of incidence to exceed the critical angle: sin(90° - θ1) ≥ n2/n1, so cosθ1 ≥ n2/n1. Squaring and using sin²θ1 = 1 - cos²θ1 gives n1² sin²θ1 ≤ n1² - n2². Hence n0 sinθ0 ≤ sqrt(n1² - n2²). The numerical aperture is NA = sqrt(n1² - n2²), and the acceptance angle is θ0 = sin⁻¹(NA/n0). Light propagates by repeated total internal reflection as long as the launch angle satisfies this condition.",
+    "images": [
+      {"src": "assets/figures/fibre-acceptance-angle.png", "alt": "Acceptance cone and numerical aperture of a step-index fibre.", "caption": "Acceptance cone and numerical aperture of a step-index fibre.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "eph-2017-nov", "qno": "2A" }]
+  },
+  {
+    "id": "eph-of-02",
+    "subject": "engineering-physics",
+    "chapter": "optical-fibres",
+    "topic": "Light propagation",
+    "type": "DES",
+    "marks": 2,
+    "question": "With the help of a neat diagram, explain how transmission of light takes place in optical fibres.",
+    "solution": "Light entering the core at an angle within the acceptance cone refracts at the core end and then strikes the core-cladding boundary at an angle greater than the critical angle. It undergoes total internal reflection and travels along the fibre in a zigzag path, losing very little energy. This repeated total internal reflection guides the light over long distances. A core of higher refractive index surrounded by a cladding of lower refractive index is essential.",
+    "images": [
+      {"src": "assets/figures/fibre-acceptance-angle.png", "alt": "Acceptance cone and numerical aperture of a step-index fibre.", "caption": "Acceptance cone and numerical aperture of a step-index fibre.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "2C" }]
+  },
+  {
+    "id": "eph-tr-01",
+    "subject": "engineering-physics",
+    "chapter": "thermal-radiation",
+    "topic": "Blackbody laws",
+    "type": "DES",
+    "marks": 3,
+    "question": "Explain (i) Stefan's law, (ii) Wien's displacement law and (iii) the Rayleigh-Jeans law.",
+    "solution": "(i) Stefan's law: the total energy radiated per unit area per unit time by a blackbody is proportional to T⁴, P/A = σT⁴. (ii) Wien's displacement law: the wavelength of maximum emission is inversely proportional to temperature, λmT = 2.898×10^-3 m K. (iii) Rayleigh-Jeans law: the spectral radiance of a blackbody is I(λ,T) = 2πckBT/λ⁴, which agrees with experiment at long wavelengths but diverges as λ → 0, leading to the ultraviolet catastrophe.",
+    "images": [
+      {"src": "assets/figures/rayleigh-jeans.png", "alt": "Rayleigh-Jeans law compared with the experimental blackbody spectrum.", "caption": "Rayleigh-Jeans law compared with the experimental blackbody spectrum.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "eph-2012-dec", "qno": "1B" }]
+  },
+  {
+    "id": "eph-tr-02",
+    "subject": "engineering-physics",
+    "chapter": "thermal-radiation",
+    "topic": "Wien's law - numerical",
+    "type": "DES",
+    "marks": 2,
+    "question": "Find the peak wavelength of the blackbody radiation emitted by the tungsten filament of a light bulb operating at 2000 K. Sketch the intensity versus wavelength graph.",
+    "solution": "By Wien's law, λm = 2.898×10^-3/T = 2.898×10^-3/2000 = 1.45×10^-6 m = 1450 nm. The peak lies in the infrared, which is why an incandescent bulb emits relatively little visible light. The intensity-wavelength curve rises to a maximum at 1450 nm and then falls off at shorter wavelengths.",
+    "papers": [{ "id": "eph-2017-nov", "qno": "3C" }]
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "bme-ca-01",
+    "subject": "basic-mechanical",
+    "chapter": "casting",
+    "topic": "Pattern allowances",
+    "type": "DES",
+    "marks": 4,
+    "question": "Explain draft and shrinkage allowances used in the casting process with neat sketches.",
+    "solution": "Draft allowance is a small taper given to the vertical faces of a pattern so that it can be withdrawn from the mould without damaging the sand. It is usually 1-3° and depends on the pattern height and the moulding method. Shrinkage allowance makes the pattern slightly larger than the finished casting to compensate for the contraction of the metal as it solidifies and cools. It depends on the material (about 1% for cast iron, 1.5-2% for steel, 1.3% for aluminium) and is added to all dimensions.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q5A" }]
+  },
+  {
+    "id": "bme-ca-02",
+    "subject": "basic-mechanical",
+    "chapter": "casting",
+    "topic": "Moulding sand",
+    "type": "DES",
+    "marks": 4,
+    "question": "Explain the significance of the following moulding sand properties: (i) permeability, (ii) flowability, (iii) cohesiveness and (iv) refractoriness.",
+    "solution": "(i) Permeability is the ability of the sand to allow gases and steam to escape through the mould; low permeability causes blowholes and porosity. (ii) Flowability is the ability of the sand to flow around the pattern and fill the mould uniformly under ramming, giving a faithful impression. (iii) Cohesiveness is the ability of the sand grains to stick together so that the mould retains its shape and edges during handling and pouring. (iv) Refractoriness is the ability to withstand the high temperature of molten metal without fusing or burning, preventing sand fusion and defects.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q5A" }]
+  },
+  {
+    "id": "bme-ca-03",
+    "subject": "basic-mechanical",
+    "chapter": "casting",
+    "topic": "Casting defects",
+    "type": "DES",
+    "marks": 6,
+    "question": "Explain the defects in castings.",
+    "solution": "Common casting defects include: blowholes and porosity, caused by trapped gases; shrinkage cavities, caused by inadequate feeding during solidification; hot tears and cracks, caused by restrained contraction; misrun and cold shuts, caused by low pouring temperature or poor fluidity; sand inclusions and scabs, caused by loose or eroded mould sand; metal penetration, caused by coarse sand; warpage, caused by uneven cooling; and flash or mismatch, caused by poor pattern or mould alignment. Defects are controlled by good mould design, proper gating and risering, correct pouring temperature and sand quality.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "4A" }]
+  },
+  {
+    "id": "bme-ca-04",
+    "subject": "basic-mechanical",
+    "chapter": "casting",
+    "topic": "Green sand moulding",
+    "type": "DES",
+    "marks": 8,
+    "question": "Explain with a neat sketch the steps involved in preparing a green sand mould using the two-box method.",
+    "solution": "1. Place the drag (bottom flask) on a board and set the pattern on it. 2. Sprinkle parting sand, then fill the drag with green sand and ram it uniformly. 3. Turn the drag over, place the cope on it and locate the pattern's other half. 4. Insert the sprue pin and riser pin, fill the cope with sand and ram it. 5. Vent the sand with a wire to allow gases to escape. 6. Separate the cope and drag, remove the pattern, and repair any damage. 7. Cut the gate and runner channels connecting the sprue to the mould cavity. 8. Close the mould, clamp it and pour the molten metal.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "4B" }]
+  },
+  {
+    "id": "bme-ca-05",
+    "subject": "basic-mechanical",
+    "chapter": "casting",
+    "topic": "Patterns",
+    "type": "DES",
+    "marks": 8,
+    "question": "Explain single-piece and split patterns used in casting.",
+    "solution": "A single-piece (solid) pattern is made in one piece and is used for simple shapes that can be withdrawn from the mould in one direction. It is cheaper and easier to make but is limited to simple, shallow castings. A split pattern is made in two or more parts that fit together at the parting line. One half is moulded in the drag and the other in the cope, which allows more complex shapes to be withdrawn easily. The halves are located with dowel pins to maintain alignment. Split patterns are widely used for cylindrical and irregular castings.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "7C" }]
+  },
+  {
+    "id": "bme-ca-06",
+    "subject": "basic-mechanical",
+    "chapter": "casting",
+    "topic": "Pattern allowances",
+    "type": "DES",
+    "marks": 10,
+    "question": "Describe any five pattern-making allowances.",
+    "solution": "1. Shrinkage (contraction) allowance: the pattern is made larger to compensate for metal contraction during solidification and cooling. 2. Draft allowance: a small taper on vertical faces so the pattern can be withdrawn without damaging the mould. 3. Machining allowance: extra material left on surfaces that will be machined after casting. 4. Distortion allowance: an opposite deformation is built into the pattern to compensate for warping during cooling. 5. Shake or rapping allowance: a small negative allowance to compensate for the enlargement of the mould cavity when the pattern is rapped before withdrawal. Other allowances include core-print and finish allowances.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "8A" }]
+  },
+  {
+    "id": "bme-we-01",
+    "subject": "basic-mechanical",
+    "chapter": "welding",
+    "topic": "Resistance spot welding",
+    "type": "DES",
+    "marks": 3,
+    "question": "With a neat sketch, explain the working of resistance spot welding.",
+    "solution": "Two overlapping metal sheets are clamped between copper electrodes and a large current is passed for a short time. The highest resistance is at the interface between the sheets, so heat is concentrated there and a small molten nugget forms. The current is switched off and the pressure is maintained while the nugget solidifies, producing a spot weld. The heat generated is H = I²Rt. Spot welding is fast and is widely used in car bodies and sheet-metal assemblies.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q5B" }]
+  },
+  {
+    "id": "bme-we-02",
+    "subject": "basic-mechanical",
+    "chapter": "welding",
+    "topic": "TIG welding",
+    "type": "DES",
+    "marks": 3,
+    "question": "Suggest a suitable welding process that uses a non-consumable electrode and facilitates joining of dissimilar metals.",
+    "solution": "Tungsten inert gas (TIG) welding, also called gas tungsten arc welding, is suitable. A non-consumable tungsten electrode strikes an arc with the workpiece, and an inert gas such as argon or helium shields the weld pool from oxidation. Filler metal is added separately if required. Because the heat input and filler composition can be controlled independently, TIG is well suited to dissimilar metals, thin sheets and high-quality joints.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q5B" }]
+  },
+  {
+    "id": "bme-we-03",
+    "subject": "basic-mechanical",
+    "chapter": "welding",
+    "topic": "Arc welding",
+    "type": "DES",
+    "marks": 6,
+    "question": "Explain the electric arc welding process with a neat sketch.",
+    "solution": "An electric arc is struck between a consumable electrode and the workpiece, producing intense heat (about 3000-6000°C) that melts the base metal and the electrode tip. The molten metal from the electrode is deposited in the joint, while the electrode coating forms a slag and gas shield that protects the weld from oxidation. The power source may be AC or DC, and the electrode is moved along the joint to build the weld bead. Arc welding is versatile and widely used for structural steel work.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "4C" }]
+  },
+  {
+    "id": "bme-we-04",
+    "subject": "basic-mechanical",
+    "chapter": "welding",
+    "topic": "Soldering versus brazing",
+    "type": "DES",
+    "marks": 6,
+    "question": "Differentiate between soldering and brazing.",
+    "solution": "Soldering uses a filler metal with a melting point below 450°C (typically a tin-lead or tin-silver alloy). The base metal does not melt; the filler is drawn into the joint by capillary action. It gives a low-strength joint, used for electrical connections and sheet-metal work. Brazing uses a filler with a melting point above 450°C (such as a copper-zinc or silver alloy). It also relies on capillary action and does not melt the base metal, but produces a stronger, higher-temperature joint used for pipes, carbide tools and dissimilar metals. Both require a flux to prevent oxidation.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "7B" }]
+  },
+  {
+    "id": "bme-we-05",
+    "subject": "basic-mechanical",
+    "chapter": "welding",
+    "topic": "Arc and gas welding",
+    "type": "DES",
+    "marks": 10,
+    "question": "With neat sketches, explain arc welding and oxy-acetylene gas welding.",
+    "solution": "Arc welding: an electric arc between a consumable electrode and the workpiece melts the metal; the electrode coating provides a shielding gas and slag. The molten pool solidifies to form the weld. It is fast, produces high heat and is suitable for thick sections. Oxy-acetylene gas welding: acetylene and oxygen are mixed in a torch and burned at the tip, producing a flame with a temperature of about 3200°C. The inner cone of the flame melts the base metal and a filler rod is added. A reducing (carburizing), neutral or oxidizing flame can be selected depending on the metal. It is portable and suitable for thin sheets, pipes and repair work.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "8B" }]
+  },
+  {
+    "id": "bme-am-01",
+    "subject": "basic-mechanical",
+    "chapter": "advanced-manufacturing",
+    "topic": "Additive manufacturing",
+    "type": "DES",
+    "marks": 3,
+    "question": "Explain the characteristics of additive manufacturing.",
+    "solution": "Additive manufacturing builds parts layer by layer from a digital model, rather than removing material from a blank. It needs no dedicated mould or tooling, so complex internal features, lattice structures and customized parts can be made economically in small batches. Material waste is low because only the required material is deposited. However, build rates are low, surface finish often needs post-processing, and large parts may require support structures. Common processes include FDM, SLA, SLS and SLM.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q4C" }]
+  },
+  {
+    "id": "bme-am-02",
+    "subject": "basic-mechanical",
+    "chapter": "advanced-manufacturing",
+    "topic": "NC machines",
+    "type": "DES",
+    "marks": 3,
+    "question": "Explain the limitations of NC machines.",
+    "solution": "NC machines have high initial cost and require expensive maintenance and trained programmers. A part program must be prepared for every job, and changes require editing or rewriting the program. The machine cannot adapt automatically to tool wear, material variation or unexpected disturbances, so quality depends on the program and setup. Dedicated fixtures and careful planning are often needed, and the system may be uneconomical for very small or simple batches. Retrofit and software costs can also be significant.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q5C" }]
+  },
+  {
+    "id": "bme-am-03",
+    "subject": "basic-mechanical",
+    "chapter": "advanced-manufacturing",
+    "topic": "Additive manufacturing",
+    "type": "DES",
+    "marks": 3,
+    "question": "Why is additive manufacturing called so? List the steps involved in making parts using this technique.",
+    "solution": "It is called additive because the part is built by adding material layer upon layer, in contrast to subtractive manufacturing, which removes material from a larger block. Steps: (1) create a 3D CAD model; (2) convert it to STL or another mesh/ sliced format; (3) slice the model into thin layers and generate tool paths; (4) set up the machine with the correct material and supports; (5) build the part layer by layer; (6) remove supports and perform post-processing such as curing, machining or surface finishing.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q4C" }]
+  },
+  {
+    "id": "bme-am-04",
+    "subject": "basic-mechanical",
+    "chapter": "advanced-manufacturing",
+    "topic": "CNC machines",
+    "type": "DES",
+    "marks": 3,
+    "question": "What advantages do you see with the installation of CNC machines on a shop floor? List any six points.",
+    "solution": "1. High accuracy and repeatability, with consistent part quality. 2. Complex profiles and contours can be machined in one setup. 3. Reduced scrap and rework. 4. Quick changeover between jobs through stored programs, making small batches economical. 5. Less dependence on operator skill and reduced fatigue. 6. Lower direct labour cost and shorter lead times. Additional benefits include better tool-life monitoring, reduced inspection, and easy implementation of CAD/CAM and unattended machining.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q5C" }]
+  }
+]

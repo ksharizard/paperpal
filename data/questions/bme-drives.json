@@ -1,0 +1,118 @@
+[
+  {
+    "id": "bme-bd-01",
+    "subject": "basic-mechanical",
+    "chapter": "belt-drives",
+    "topic": "Flat belt drive - numerical",
+    "type": "DES",
+    "marks": 4,
+    "question": "A crusher in a mining setup uses a flat belt drive to transmit power between two parallel shafts running in opposite directions. The driver pulley has a diameter of 300 mm and the output shaft rotates at 250 rpm. The centre distance is 800 mm and the speed reduction ratio is 3/2. Given an initial tension of 1500 N in the belt, determine the tensions on the tight and slack sides, the power transmitted and the length of the belt. Take the coefficient of friction as 0.28.",
+    "solution": "Speed reduction 3/2 means N1/N2 = 3/2, so N1 = 375 rpm and D2 = 1.5 × 0.30 = 0.45 m. Belt speed v = πD1N1/60 = π × 0.30 × 375/60 = 5.89 m/s. For an open belt, sinα = (D2 - D1)/(2C) = 0.15/1.6 = 0.09375, so α = 5.38° = 0.0939 rad and the contact angle on the smaller pulley is θ = π - 2α = 2.954 rad. Then T1/T2 = e^(μθ) = e^(0.28 × 2.954) = 2.29. With T1 + T2 = 2 × 1500 = 3000 N, T1 = 2087 N and T2 = 913 N. Power = (T1 - T2)v = 1174 × 5.89 ≈ 6.9 kW. Belt length = 2C + π(D1 + D2)/2 + (D2 - D1)²/(4C) = 1.6 + 1.178 + 0.007 = 2.79 m.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q2A" }]
+  },
+  {
+    "id": "bme-bd-02",
+    "subject": "basic-mechanical",
+    "chapter": "belt-drives",
+    "topic": "Flat belt drive - numerical",
+    "type": "DES",
+    "marks": 4,
+    "question": "An electric bike uses a flat open belt drive between the motor shaft and the wheel shaft, with a centre distance of 500 mm. The velocity ratio is limited to 3. The maximum tension in the belt is 1740 N. The speed and diameter of the driver pulley are 300 rpm and 100 mm. What power is transmitted and what is the length of the belt? Take μ = 0.3.",
+    "solution": "Velocity ratio 3 gives D2 = 300 mm. sinα = (D2 - D1)/(2C) = 0.2/1.0 = 0.2, so α = 11.54° = 0.2014 rad and θ = π - 2α = 2.739 rad. T1/T2 = e^(0.3 × 2.739) = e^0.822 = 2.27. With T1 = 1740 N, T2 = 766 N. Belt speed v = π × 0.1 × 300/60 = 1.571 m/s. Power = (1740 - 766) × 1.571 ≈ 1.53 kW. Belt length = 2(0.5) + π(0.4)/2 + (0.2)²/(4 × 0.5) = 1.0 + 0.628 + 0.020 = 1.65 m.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q2A" }]
+  },
+  {
+    "id": "bme-bd-03",
+    "subject": "basic-mechanical",
+    "chapter": "belt-drives",
+    "topic": "Belt and chain drives",
+    "type": "DES",
+    "marks": 3,
+    "question": "List any three advantages of a belt drive system and any three advantages of a chain drive system.",
+    "solution": "Belt drive: (1) simple and cheap, with no lubrication needed; (2) absorbs shock and vibration and protects the machine from overload by slipping; (3) can transmit power over long centre distances and is quiet. Chain drive: (1) positive drive with no slip, giving an exact velocity ratio; (2) compact and capable of transmitting high torque; (3) suitable for high temperatures and dirty environments, with higher efficiency than a belt.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q2C" }]
+  },
+  {
+    "id": "bme-bd-04",
+    "subject": "basic-mechanical",
+    "chapter": "belt-drives",
+    "topic": "Fast and loose pulley",
+    "type": "DES",
+    "marks": 6,
+    "question": "Sketch and explain the arrangement of a fast and loose pulley.",
+    "solution": "Two pulleys of the same diameter are mounted side by side on the driven shaft: the fast pulley is keyed to the shaft and rotates with it, while the loose pulley turns freely on the shaft. An open belt runs over both. To drive the machine, the belt is shifted onto the fast pulley, usually by a fork; to stop it, the belt is shifted onto the loose pulley, which spins idly while the shaft remains stationary. This provides a simple clutch for starting and stopping without stopping the prime mover.",
+    "papers": [
+      { "id": "bme-2016-dec", "qno": "5C" },
+      { "id": "bme-2022-jul", "qno": "Q4A(ii)" }
+    ]
+  },
+  {
+    "id": "bme-bd-05",
+    "subject": "basic-mechanical",
+    "chapter": "belt-drives",
+    "topic": "Belt drive - numerical",
+    "type": "DES",
+    "marks": 10,
+    "question": "A belt drive transmitting power between two pulleys 2 m apart has a speed reduction ratio of 4 and an angle of contact of 3.91 rad. The diameter of the larger pulley is 120 cm and the driver pulley runs at 1600 rpm. The initial tension in the belt is 0.95 kN and the coefficient of friction is 0.28. Calculate the length of the belt, the power transmitted and the width of the belt if the permissible tension per metre width is 10 kN.",
+    "solution": "Reduction ratio 4 with the larger pulley driven gives D1 = 0.30 m and D2 = 1.20 m; N1 = 1600 rpm. Belt speed v = π × 0.30 × 1600/60 = 25.13 m/s. T1/T2 = e^(0.28 × 3.91) = e^1.095 = 2.99. With T1 + T2 = 2 × 950 = 1900 N, T1 = 1424 N and T2 = 476 N. Power = (T1 - T2)v = 948 × 25.13 ≈ 23.8 kW. Belt length = 2(2) + π(1.5)/2 + (0.9)²/(4 × 2) = 4 + 2.356 + 0.101 = 6.46 m. Width = T1/(10 kN/m) = 1424/10000 = 0.142 m ≈ 14.3 cm.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "7A" }]
+  },
+  {
+    "id": "bme-bd-06",
+    "subject": "basic-mechanical",
+    "chapter": "belt-drives",
+    "topic": "Speed control",
+    "type": "DES",
+    "marks": 3,
+    "question": "Explain with sketches: (i) speed cone and (ii) fast and loose pulley.",
+    "solution": "(i) A speed cone (stepped pulley) consists of a cone with several steps of different diameters, paired with an identical cone on the driven shaft and connected by a belt. Moving the belt from one step to another changes the diameter ratio and hence the output speed, giving a range of discrete speeds. (ii) The fast pulley is keyed to the shaft and drives it; the loose pulley rotates freely on the same shaft. Shifting the belt from the fast to the loose pulley stops the driven shaft while the prime mover keeps running.",
+    "papers": [{ "id": "bme-2022-jul", "qno": "Q4A(i)" }]
+  },
+  {
+    "id": "bme-gt-01",
+    "subject": "basic-mechanical",
+    "chapter": "gear-trains",
+    "topic": "Compound gear train - numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "A machine is driven by a motor at 1200 rpm through a belt drive with a speed reduction ratio of 4, followed by a compound gear train with six spur gears A, B, C, D, E and F. A meshes with B, C with D and E with F; B and C are on one shaft, and D and E on another. Gear A has 30 teeth with module 3 mm, gear D has module 2 mm and 126 teeth, and gear E has module 2 mm and 24 teeth. The speed reductions are A to B = 2, C to D = 3 and E to F = 5. Find the teeth numbers of B, C and F, the speed of gear F and the centre distances of the gear train. Show the arrangement.",
+    "solution": "B = 2 × 30 = 60 teeth. C to D reduction 3 means D = 3C, so C = 126/3 = 42 teeth. F = 5 × 24 = 120 teeth. The belt reduces the motor speed by 4, so gear A runs at 1200/4 = 300 rpm. The gear train reduction is 2 × 3 × 5 = 30, so N_F = 300/30 = 10 rpm. Centre distances: A-B = (30 + 60) × 3/2 = 135 mm; C-D = (42 + 126) × 2/2 = 168 mm; E-F = (24 + 120) × 2/2 = 144 mm. Arrangement: motor → belt → A on shaft 1, B and C on shaft 2, D and E on shaft 3, F on shaft 4.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q2B" }]
+  },
+  {
+    "id": "bme-gt-02",
+    "subject": "basic-mechanical",
+    "chapter": "gear-trains",
+    "topic": "Maximum velocity ratio",
+    "type": "DES",
+    "marks": 3,
+    "question": "A set of gear wheels is available to form a compound gear train. Sketch an arrangement using four shafts that gives the maximum velocity ratio, calculate the ratio if the largest-to-smallest tooth ratio at each stage is used, and state the conditions for achieving maximum velocity ratio.",
+    "solution": "Mount the smallest gear as the driver on the first shaft and the largest gear as the driven gear on the second shaft; on the second shaft mount the smallest remaining gear, driving the largest remaining gear on the third shaft, and repeat for the fourth shaft. The overall ratio is the product of the individual tooth ratios. To maximise it: (1) use a compound rather than a simple train, (2) at every stage use the largest possible driven gear with the smallest possible driver, (3) keep each pair on separate shafts and ensure meshing gears have the same module, and (4) avoid interference and keep the centre distances practical.",
+    "images": [
+      {"src": "assets/figures/gear-train-table.png", "alt": "Available gear wheels for the compound gear train.", "caption": "Available gear wheels for the compound gear train.", "placement": "question"}
+    ],
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q2B" }]
+  },
+  {
+    "id": "bme-gt-03",
+    "subject": "basic-mechanical",
+    "chapter": "gear-trains",
+    "topic": "Gear arrangement",
+    "type": "DES",
+    "marks": 8,
+    "question": "A gear train consists of four gears A, B, C and D with 20, 40, 80 and 100 teeth respectively. Show the arrangement of the gears for a maximum speed reduction of 2.5.",
+    "solution": "To use all four gears and obtain exactly 2.5, make a compound train in which the first stage reduces speed and the second stage increases it. Let gear A (20 teeth) drive gear D (100 teeth), giving a reduction of 100/20 = 5. Mount gear C (80 teeth) on the same shaft as D, and let C drive gear B (40 teeth), giving a speed increase of 40/80 = 0.5. The overall ratio is 5 × 0.5 = 2.5. Thus A meshes with D, while C meshes with B; B and C are not on the same shaft.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "2A" }]
+  },
+  {
+    "id": "bme-gt-04",
+    "subject": "basic-mechanical",
+    "chapter": "gear-trains",
+    "topic": "Compound gear train - numerical",
+    "type": "DES",
+    "marks": 10,
+    "question": "A compound gear train consists of four gear wheels A, B, C and D. A is the driver with 40 teeth and meshes with B. Gears B and C are mounted on the same shaft. C has 32 teeth and meshes with D. The speed is reduced from A to D by 93.75%. The speed reduction from A to B is the same as that from C to D. Determine the number of teeth on B and D and sketch the arrangement.",
+    "solution": "A reduction of 93.75% means N_D/N_A = 1 - 0.9375 = 0.0625 = 1/16. For a compound train, N_D/N_A = (T_A/T_B)(T_C/T_D) = r², where r is the common stage ratio. Thus r² = 1/16 and r = 1/4. Hence T_B = 4T_A = 160 teeth and T_D = 4T_C = 128 teeth. Arrangement: A (40) on the input shaft meshes with B (160); B and C (32) are keyed on the intermediate shaft; C meshes with D (128) on the output shaft.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "8B" }]
+  }
+]

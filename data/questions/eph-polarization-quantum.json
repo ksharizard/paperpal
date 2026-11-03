@@ -1,0 +1,257 @@
+[
+  {
+    "id": "eph-pol-01",
+    "subject": "engineering-physics",
+    "chapter": "polarization",
+    "topic": "Optical activity",
+    "type": "DES",
+    "marks": 3,
+    "question": "Explain optical activity with a diagram.",
+    "solution": "Certain materials (e.g. quartz, sugar solution) rotate the plane of polarization of plane-polarized light passing through them; they are optically active. The rotation φ is proportional to the path length l and concentration c: φ = [α] l c, where [α] is the specific rotation. The rotation is clockwise (dextrorotatory) for some substances and anticlockwise (laevorotatory) for others.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "3B" }]
+  },
+  {
+    "id": "eph-pol-02",
+    "subject": "engineering-physics",
+    "chapter": "polarization",
+    "topic": "Double refraction",
+    "type": "DES",
+    "marks": 3,
+    "question": "Explain the phenomenon of double refraction with a diagram indicating the directions of polarization for the two beams.",
+    "solution": "When unpolarized light enters an anisotropic crystal such as calcite, it splits into two refracted rays. The ordinary ray obeys Snell's law and is polarized perpendicular to the principal section; the extraordinary ray does not obey Snell's law and is polarized in the principal section. The two rays are therefore plane-polarized in mutually perpendicular directions and travel with different velocities.",
+    "papers": [{ "id": "eph-2013-jan", "qno": "3B" }]
+  },
+  {
+    "id": "eph-pol-03",
+    "subject": "engineering-physics",
+    "chapter": "polarization",
+    "topic": "Brewster's law",
+    "type": "DES",
+    "marks": 2,
+    "question": "When red light in vacuum is incident at the polarizing angle on a certain glass slab, the angle of refraction is 31.8°. What are (i) the refractive index of the glass and (ii) the polarizing angle?",
+    "solution": "At the polarizing angle θp, the reflected and refracted rays are perpendicular, so θp + r = 90°. Thus θp = 90° - 31.8° = 58.2°. By Brewster's law, n = tanθp = tan58.2° ≈ 1.61.",
+    "papers": [{ "id": "eph-2011-jul-new", "qno": "4D" }]
+  },
+  {
+    "id": "eph-pol-04",
+    "subject": "engineering-physics",
+    "chapter": "polarization",
+    "topic": "Polarization by reflection",
+    "type": "DES",
+    "marks": 2,
+    "question": "Explain the method of producing plane-polarized light by refraction in a stack of glass plates.",
+    "solution": "When unpolarized light strikes a glass plate at the Brewster angle, the reflected component is completely polarized in the plane of incidence. The transmitted light is partially polarized. In a stack of parallel plates, each plate removes more of the perpendicular component through reflection, so after passing through many plates the transmitted beam becomes almost completely plane-polarized in the plane of incidence.",
+    "papers": [{ "id": "eph-2013-dec", "qno": "2C" }]
+  },
+  {
+    "id": "eph-pol-05",
+    "subject": "engineering-physics",
+    "chapter": "polarization",
+    "topic": "Wave plates",
+    "type": "DES",
+    "marks": 3,
+    "question": "Derive an expression for the thickness of a half-wave plate.",
+    "solution": "A wave plate introduces a phase difference between the ordinary and extraordinary rays: Δφ = (2π/λ)(n_o - n_e)t. For a half-wave plate the path difference must be λ/2, so (n_o - n_e)t = λ/2 and t = λ/[2(n_o - n_e)]. Such a plate rotates the plane of polarization of linearly polarized light by 90° for the appropriate orientation.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "3C" }]
+  },
+  {
+    "id": "eph-pol-06",
+    "subject": "engineering-physics",
+    "chapter": "polarization",
+    "topic": "Wave plate - numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "A left circularly polarized beam (λ = 589 nm) is incident normally on a calcite crystal (optic axis parallel to the surface) of thickness 0.005141 mm. What is the state of polarization of the emergent beam? Given n_e = 1.48640 and n_o = 1.65835.",
+    "solution": "The path difference is (n_o - n_e)t = (1.65835 - 1.48640) × 5.141×10^-6 m = 8.841×10^-7 m. In wavelengths this is 8.841×10^-7/5.89×10^-7 = 1.50λ. A retardation of 1.5λ is equivalent to a half-wave plate (an odd multiple of λ/2), which reverses the handedness of circular polarization. The emergent beam is therefore right circularly polarized.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "4D" }]
+  },
+  {
+    "id": "eph-qm-01",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Wave packet",
+    "type": "DES",
+    "marks": 3,
+    "question": "Explain a wave packet and its (i) group speed and (ii) phase speed.",
+    "solution": "A wave packet is a localized wave disturbance formed by superposing many plane waves of slightly different frequencies and wavelengths. The phase speed vp = ω/k is the speed of a single monochromatic component. The group speed vg = dω/dk is the speed of the envelope (and of the particle). They are related by vg = vp + k dvp/dk = vp - λ dvp/dλ; in a non-dispersive medium the two are equal.",
+    "papers": [
+      { "id": "eph-2011-jul-new", "qno": "1A" },
+      { "id": "eph-2013-jan", "qno": "3C" }
+    ]
+  },
+  {
+    "id": "eph-qm-02",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Particle in a box - sketches",
+    "type": "DES",
+    "marks": 3,
+    "question": "Sketch the lowest three energy states, wave functions and probability densities for a particle in a one-dimensional infinite potential well.",
+    "solution": "For a well from 0 to L, ψ_n = sqrt(2/L) sin(nπx/L) and E_n = n²h²/(8mL²). n = 1: a single half-sine hump, with |ψ|² maximum at the centre and nodes at the walls. n = 2: two humps with a node at L/2. n = 3: three humps with nodes at L/3 and 2L/3. The number of nodes inside the well is n - 1, and the energy spacing increases with n.",
+    "papers": [
+      { "id": "eph-2011-jul-new", "qno": "2C" },
+      { "id": "eph-2017-nov", "qno": "4B" }
+    ]
+  },
+  {
+    "id": "eph-qm-03",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Finite potential well",
+    "type": "DES",
+    "marks": 3,
+    "question": "Sketch the wave functions and probability densities for the lowest three energy states of a particle in a potential well of finite height.",
+    "solution": "Inside the well the wave functions are sinusoidal; outside they decay exponentially as e^(-α|x|) because E < U0. Unlike the infinite well, ψ does not vanish at the walls, so the wave function leaks into the classically forbidden region. For the ground state there is no internal node; the first excited state has one node, and the second has two. The probability density extends slightly beyond the well edges, which allows tunnelling.",
+    "papers": [{ "id": "eph-2013-jan", "qno": "1B" }]
+  },
+  {
+    "id": "eph-qm-04",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Particle in a box - numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "An alpha particle in a nucleus can be modelled as a particle in a box of length 1.0 × 10^-14 m. Estimate the wavelength, momentum and energy of the alpha particle in its first excited state (n = 2).",
+    "solution": "For n = 2, λ = 2L/n = L = 1.0×10^-14 m. Momentum p = h/λ = 6.626×10^-34/1.0×10^-14 = 6.63×10^-20 kg m/s. Kinetic energy E = p²/2m = (6.63×10^-20)²/(2 × 6.64×10^-27) = 3.31×10^-13 J ≈ 2.1 MeV.",
+    "papers": [
+      { "id": "eph-2011-jul-new", "qno": "5B" },
+      { "id": "eph-2011-jul-rcs", "qno": "4A" }
+    ]
+  },
+  {
+    "id": "eph-qm-05",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Energy-time uncertainty",
+    "type": "DES",
+    "marks": 2,
+    "question": "The lifetime of an electron in the state n = 2 in hydrogen is 10 ns. What is the uncertainty in the electron energy in this state? Also estimate the resulting line width.",
+    "solution": "ΔE Δt ≥ ħ/2, so ΔE = ħ/(2Δt) = 1.055×10^-34/(2 × 10×10^-9) = 5.28×10^-27 J ≈ 3.3×10^-8 eV. The corresponding line width is Δf = ΔE/h ≈ 7.96×10^6 Hz. For a lifetime of 10^-8 s the width would be about 1.6×10^7 Hz.",
+    "papers": [
+      { "id": "eph-2011-jul-new", "qno": "5D" },
+      { "id": "eph-2011-jul-rcs", "qno": "4B" }
+    ]
+  },
+  {
+    "id": "eph-qm-06",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Probability in a box",
+    "type": "DES",
+    "marks": 3,
+    "question": "Calculate the probability of finding the electron in the ground state of an infinite potential well of length L between x = 0 and x = L/4.",
+    "solution": "P = ∫0^(L/4) |ψ1|² dx = (2/L) ∫0^(L/4) sin²(πx/L) dx. Using sin²u = (1 - cos2u)/2, P = (2/L)[x/2 - (L/4π)sin(2πx/L)] from 0 to L/4 = 1/4 - 1/(2π) = 0.0908. The probability is therefore about 9.1%.",
+    "papers": [{ "id": "eph-2011-jul-new", "qno": "6A" }]
+  },
+  {
+    "id": "eph-qm-07",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Particle in a box - transitions",
+    "type": "DES",
+    "marks": 5,
+    "question": "An electron is confined in a one-dimensional box of length 0.100 nm. Find the energy values in the lowest three energy states. Find the wavelengths of all photons that can be emitted in downward transitions that eventually carry the electron from n = 3 to n = 1.",
+    "solution": "E_n = n²h²/(8mL²) with L = 1.00×10^-10 m gives E1 = 6.02×10^-18 J = 37.6 eV, E2 = 2.41×10^-17 J = 150.4 eV and E3 = 5.42×10^-17 J = 338.4 eV. Transitions: 3→2 gives ΔE = 5E1 = 3.01×10^-17 J, λ = hc/ΔE = 6.60 nm; 2→1 gives ΔE = 3E1 = 1.81×10^-17 J, λ = 11.0 nm; 3→1 gives ΔE = 8E1 = 4.82×10^-17 J, λ = 4.12 nm.",
+    "papers": [{ "id": "eph-2013-jan", "qno": "5A" }]
+  },
+  {
+    "id": "eph-qm-08",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Schrodinger equation - box",
+    "type": "DES",
+    "marks": 5,
+    "question": "Apply the Schrodinger equation to a particle in a one-dimensional box of length L and obtain the energy values of the particle.",
+    "solution": "Inside the box U = 0, so -(ħ²/2m) d²ψ/dx² = Eψ, giving d²ψ/dx² + k²ψ = 0 with k² = 2mE/ħ². The solution is ψ = A sin kx + B cos kx. The boundary condition ψ(0) = 0 gives B = 0; ψ(L) = 0 gives sin kL = 0, so kL = nπ with n = 1, 2, 3, ... Hence k = nπ/L and E_n = n²π²ħ²/(2mL²) = n²h²/(8mL²). Normalization gives A = sqrt(2/L), so ψ_n = sqrt(2/L) sin(nπx/L).",
+    "papers": [{ "id": "eph-2013-dec", "qno": "1A" }]
+  },
+  {
+    "id": "eph-qm-09",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Wave function - expectation values",
+    "type": "DES",
+    "marks": 5,
+    "question": "An electron in a one-dimensional box has the wave function ψ(x) = sqrt(2/L) sin(2πx/L). Find (i) its de Broglie wavelength, (ii) its momentum, (iii) its kinetic energy, (iv) the uncertainty in its position and (v) the uncertainty in its momentum.",
+    "solution": "Comparing with ψ_n = sqrt(2/L) sin(nπx/L) gives n = 2. (i) λ_dB = 2L/n = L. (ii) p = h/λ = h/L. (iii) KE = p²/2m = h²/(2mL²). (iv) For n = 2, <x> = L/2 and <x²> = L²(1/3 - 1/(8π²)), so Δx = L sqrt(1/12 - 1/(8π²)) ≈ 0.266L. (v) <p> = 0 and <p²> = (2πħ/L)², so Δp = 2πħ/L = h/L. The product Δx Δp ≈ 0.266h is consistent with the uncertainty principle.",
+    "papers": [{ "id": "eph-2013-dec", "qno": "5A" }],
+    "note": "The paper does not state L numerically; the answer is therefore given in terms of the box length L."
+  },
+  {
+    "id": "eph-qm-10",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "de Broglie wavelength - neutrons",
+    "type": "DES",
+    "marks": 3,
+    "question": "Neutrons (mass 1.67 × 10^-27 kg) in thermal equilibrium at room temperature (300 K) have kinetic energy kT, where k is the Boltzmann constant. Find their momentum and de Broglie wavelength.",
+    "solution": "E = kT = 1.38×10^-23 × 300 = 4.14×10^-21 J. p = sqrt(2mE) = sqrt(2 × 1.67×10^-27 × 4.14×10^-21) = 3.72×10^-24 kg m/s. λ = h/p = 6.626×10^-34/3.72×10^-24 = 1.78×10^-10 m = 0.178 nm.",
+    "papers": [{ "id": "eph-2017-nov", "qno": "3B" }]
+  },
+  {
+    "id": "eph-qm-11",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Photon energy",
+    "type": "DES",
+    "marks": 2,
+    "question": "Calculate the energy of a photon whose frequency is 620 THz. Determine the wavelength of this photon.",
+    "solution": "E = hf = 6.626×10^-34 × 6.20×10^14 = 4.11×10^-19 J ≈ 2.56 eV. λ = c/f = 3.00×10^8/6.20×10^14 = 4.84×10^-7 m = 484 nm.",
+    "papers": [{ "id": "eph-2017-nov", "qno": "2C" }]
+  },
+  {
+    "id": "eph-qm-12",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Photon rate",
+    "type": "DES",
+    "marks": 2,
+    "question": "An FM radio transmitter has a power output of 150 kW and operates at 99.7 MHz. How many photons per second does the transmitter emit?",
+    "solution": "Photon energy E = hf = 6.626×10^-34 × 9.97×10^7 = 6.61×10^-26 J. Photon rate N = P/E = 1.50×10^5/6.61×10^-26 ≈ 2.27×10^30 photons per second.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "6C" }]
+  },
+  {
+    "id": "eph-qm-13",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Photon rate",
+    "type": "DES",
+    "marks": 2,
+    "question": "A sodium-vapour lamp has a power output of 10.0 W. Using 589.3 nm as the average wavelength, calculate the number of photons emitted per second.",
+    "solution": "E = hc/λ = 1.988×10^-25/5.893×10^-7 = 3.37×10^-19 J. N = P/E = 10.0/3.37×10^-19 ≈ 2.97×10^19 photons per second.",
+    "papers": [{ "id": "eph-2013-jan", "qno": "6C" }]
+  },
+  {
+    "id": "eph-qm-14",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Davisson-Germer experiment",
+    "type": "DES",
+    "marks": 5,
+    "question": "Describe the Davisson-Germer experiment and explain how it proved the wave nature of matter. The interatomic distance in the nickel crystal is 2.15 Å.",
+    "solution": "Electrons accelerated through a known potential were directed at a nickel crystal and the scattered intensity was measured as a function of angle. A strong maximum appeared at about 50° for 54 V electrons. Using Bragg's law, 2d sinθ = nλ with d = 2.15 Å, the diffracted wavelength was found to be about 1.65 Å. The de Broglie wavelength λ = h/sqrt(2meV) gives 1.67 Å for 54 V. The close agreement confirmed the de Broglie hypothesis and the wave nature of electrons.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "1A" }]
+  },
+  {
+    "id": "eph-qm-15",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Quantum harmonic oscillator",
+    "type": "DES",
+    "marks": 5,
+    "question": "Give a brief account of the quantum treatment of a simple harmonic oscillator.",
+    "solution": "The potential is U = 1/2 kx² = 1/2 mω²x². Solving the Schrodinger equation gives the quantized energies E_v = (v + 1/2)ħω with v = 0, 1, 2, ... The levels are equally spaced by ħω. The lowest state has zero-point energy 1/2 ħω, which the classical oscillator does not have. The wave functions are Hermite polynomials times a Gaussian; the probability density extends into the classically forbidden region, and the correspondence principle is recovered for large v.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "2A" }]
+  },
+  {
+    "id": "eph-qm-16",
+    "subject": "engineering-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Properties of wave functions",
+    "type": "DES",
+    "marks": 2,
+    "question": "What are the mathematical features of a wave function?",
+    "solution": "The wave function must be finite, single-valued and continuous everywhere; its first spatial derivative must be finite and continuous; it must be square-integrable so that it can be normalized; and it may be real or complex. These conditions ensure that the probability density is well defined and that the total probability can be set to one.",
+    "papers": [{ "id": "eph-2017-nov", "qno": "4C" }]
+  }
+]

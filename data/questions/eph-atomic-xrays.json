@@ -1,0 +1,239 @@
+[
+  {
+    "id": "eph-atm-01",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Interatomic potential",
+    "type": "DES",
+    "marks": 2,
+    "question": "Sketch schematically the plot of potential energy and its components as a function of internuclear separation for a system of two atoms.",
+    "solution": "The potential energy is the sum of a long-range attractive term (about -B/r^6) and a short-range repulsive term (about A/r^12). At large r the net energy is small and negative; as r decreases the attractive term dominates and the energy falls to a minimum at the equilibrium separation r0. For r < r0 the repulsive term rises steeply and the energy becomes positive. The depth of the minimum is the dissociation energy of the molecule.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "1C" }]
+  },
+  {
+    "id": "eph-atm-02",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Radial probability density",
+    "type": "DES",
+    "marks": 2,
+    "question": "Sketch schematically the radial probability density versus radial distance for the hydrogen atom in the 1s and 2s states.",
+    "solution": "For 1s, P(r) = (4r²/a0³)e^(-2r/a0), which rises from zero to a single maximum at r = a0 and then decays. For 2s, P(r) has a small inner peak, a node at r = 2a0 where the probability density vanishes, and a larger outer peak around r ≈ 5.2a0. The 2s cloud is therefore larger and has a shell structure.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "3C" }]
+  },
+  {
+    "id": "eph-atm-03",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Hydrogen atom - angular momentum",
+    "type": "DES",
+    "marks": 5,
+    "question": "If an electron in a hydrogen atom has orbital angular momentum equal to 4.714 × 10^-34 J s, what is the orbital quantum number for the state? What is the lowest principal quantum number in this state? What is the lowest energy of the hydrogen atom in this state?",
+    "solution": "L = sqrt(l(l+1))ħ. Thus sqrt(l(l+1)) = 4.714×10^-34/1.055×10^-34 = 4.47, so l(l+1) = 20 and l = 4. The lowest principal quantum number is n = l + 1 = 5. The lowest energy is E = -13.6/n² = -13.6/25 = -0.544 eV. The linear momentum of the electron is not a sharp observable; the minimum angular momentum magnitude is the given 4.714×10^-34 J s.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "5A" }]
+  },
+  {
+    "id": "eph-atm-04",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Lennard-Jones potential",
+    "type": "DES",
+    "marks": 5,
+    "question": "The potential energy of a diatomic molecule is given by the Lennard-Jones potential U(r) = A/r^12 - B/r^6, where A and B are constants. Find the value of r0 at which the energy is minimum, and the energy E required to break up the molecule. Evaluate r0 and E for H2 with A = 0.124 × 10^-120 eV m^12 and B = 1.488 × 10^-60 eV m^6.",
+    "solution": "Setting dU/dr = -12A/r^13 + 6B/r^7 = 0 gives r0^6 = 2A/B, so r0 = (2A/B)^(1/6). Substituting A and B: 2A/B = 2 × 0.124×10^-120/1.488×10^-60 = 1.667×10^-60 m^6, so r0 ≈ 1.09×10^-10 m = 0.109 nm. The minimum energy is U(r0) = -B²/(4A) = -(1.488×10^-60)²/(4 × 0.124×10^-120) ≈ -4.46 eV. The energy needed to break the molecule is therefore about 4.46 eV.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "6A" }]
+  },
+  {
+    "id": "eph-atm-05",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Rotational energy",
+    "type": "DES",
+    "marks": 3,
+    "question": "Obtain an expression for the quantized rotational energy of a diatomic molecule. From it, obtain expressions for the rotational transition photon energies and frequencies.",
+    "solution": "A diatomic molecule has moment of inertia I = μr². The rotational energy is E_J = J(J+1)ħ²/2I, J = 0, 1, 2, ... For a transition J → J + 1, ΔE = E_(J+1) - E_J = (J+1)ħ²/I. The emitted or absorbed photon therefore has energy hν = (J+1)ħ²/I and frequency ν = (J+1)ħ/(2πI). The spectrum consists of equally spaced lines.",
+    "papers": [
+      { "id": "eph-2011-jul-new", "qno": "2B" },
+      { "id": "eph-2013-dec", "qno": "2B" }
+    ]
+  },
+  {
+    "id": "eph-atm-06",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Spin quantum number",
+    "type": "DES",
+    "marks": 3,
+    "question": "Give the physical interpretation of the spin magnetic quantum number m_s.",
+    "solution": "The electron has an intrinsic angular momentum S = sqrt(s(s+1))ħ with s = 1/2. Its projection along a chosen z-axis is S_z = m_s ħ, where m_s = +1/2 (spin up) or -1/2 (spin down). The associated spin magnetic moment is μ_s = -g(e/2m)S with g ≈ 2. The two values correspond to the two possible orientations of the electron spin and explain phenomena such as the fine structure of spectral lines and the Pauli exclusion principle.",
+    "papers": [{ "id": "eph-2011-jul-new", "qno": "3A" }]
+  },
+  {
+    "id": "eph-atm-07",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Vibrational spectrum - numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "The frequency of the photon that causes the v = 0 to v = 1 transition in the CO molecule is 6.42 × 10^13 Hz. Ignoring changes in rotational energy, calculate (i) the force constant k and (ii) the maximum classical amplitude of vibration for the molecule in the v = 0 state.",
+    "solution": "The reduced mass of CO is μ = (12 × 16/28) × 1.66×10^-27 = 1.14×10^-26 kg. Angular frequency ω = 2πf = 4.03×10^14 rad/s, so k = μω² = 1.14×10^-26 × 1.63×10^29 ≈ 1.85×10^3 N/m. The zero-point energy is 1/2 ħω = 1/2 kA², giving A = sqrt(ħω/k) = sqrt(1.055×10^-34 × 4.03×10^14/1.85×10^3) ≈ 4.8×10^-12 m.",
+    "papers": [{ "id": "eph-2011-jul-new", "qno": "5C" }]
+  },
+  {
+    "id": "eph-atm-08",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Hydrogen atom - Bohr model",
+    "type": "DES",
+    "marks": 3,
+    "question": "A hydrogen atom is in the first excited state (n = 2). Using the Bohr theory, calculate (i) the radius of the orbit, (ii) the kinetic energy of the electron, (iii) the potential energy of the system and (iv) the total energy.",
+    "solution": "r_n = 0.529 n² Å, so r_2 = 4 × 0.529 = 2.12 Å. E_n = -13.6/n² eV, so E_2 = -3.4 eV. For a Coulomb-bound electron, KE = -E = +3.4 eV and PE = 2E = -6.8 eV.",
+    "papers": [{ "id": "eph-2011-jul-new", "qno": "6B" }]
+  },
+  {
+    "id": "eph-atm-09",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Hydrogen atom - space quantization",
+    "type": "DES",
+    "marks": 3,
+    "question": "Consider the hydrogen atom in the l = 1 state. Calculate the magnitude of the orbital angular momentum, the allowed values of Lz, and the corresponding angles θ that the angular momentum vector makes with the z-axis.",
+    "solution": "L = sqrt(l(l+1))ħ = sqrt(2)ħ = 1.49×10^-34 J s. For l = 1, m_l = -1, 0, +1, so Lz = -ħ, 0, +ħ. Since cosθ = m_l/sqrt(l(l+1)) = m_l/sqrt2, the angles are θ = 135°, 90° and 45° respectively.",
+    "papers": [{ "id": "eph-2013-jan", "qno": "4B" }]
+  },
+  {
+    "id": "eph-atm-10",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Rotational spectrum - numerical",
+    "type": "DES",
+    "marks": 5,
+    "question": "The J = 0 to J = 1 rotational transition of the CO molecule occurs at a frequency of 1.15 × 10^11 Hz. Calculate the moment of inertia of the molecule and its bond length. What happens if another photon of the same frequency is incident on the CO molecule while it is in the J = 1 state?",
+    "solution": "For J = 0 → 1, ΔE = ħ²/I = hf, so I = h/(4π²f) = 6.626×10^-34/(4π² × 1.15×10^11) = 1.46×10^-46 kg m². The reduced mass is μ = (12 × 16/28) × 1.66×10^-27 = 1.14×10^-26 kg, so r = sqrt(I/μ) = sqrt(1.46×10^-46/1.14×10^-26) = 1.13×10^-10 m = 0.113 nm. A photon of the same frequency can now drive the J = 1 → 2 transition, since that transition also has energy ħ²/I, so it can be absorbed.",
+    "papers": [{ "id": "eph-2013-jan", "qno": "6A" }]
+  },
+  {
+    "id": "eph-atm-11",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Atomic expressions",
+    "type": "DES",
+    "marks": 4,
+    "question": "Write mathematical expressions for: (i) potential energy of the H atom, (ii) time-independent 3D Schrodinger equation for the H atom, (iii) electron orbital angular momentum in terms of l, (iv) electron spin angular momentum in terms of s, (v) angle in space quantization in terms of m_l, (vi) magnetic moment of an orbital electron, (vii) Moseley's law, (viii) Boltzmann statistics for populations of states with energies E1 and E2.",
+    "solution": "(i) U = -e²/(4πε0 r). (ii) -(ħ²/2m)∇²ψ + U(r)ψ = Eψ. (iii) L = sqrt(l(l+1))ħ. (iv) S = sqrt(s(s+1))ħ. (v) cosθ = m_l/sqrt(l(l+1)). (vi) μ = -(e/2m)L. (vii) sqrt(ν) = a(Z - b) for the K series. (viii) N2/N1 = (g2/g1)e^{-(E2 - E1)/kT}.",
+    "papers": [{ "id": "eph-2013-dec", "qno": "3B" }]
+  },
+  {
+    "id": "eph-atm-12",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Ionic bonding energy",
+    "type": "DES",
+    "marks": 2,
+    "question": "A KI molecule contains K+ and I- ions, each with a charge of magnitude e. The ionization energy of K is 4.34 eV and the electron affinity of I is 3.06 eV. What energy is needed to form K+ and I- ions from neutral atoms? What energy is needed to break up a KI molecule into K+ and I- ions? The dissociation energy of KI is 3.37 eV.",
+    "solution": "Forming K+ requires 4.34 eV and attaching an electron to I releases 3.06 eV, so the net energy to form the ions from neutral atoms is 4.34 - 3.06 = 1.28 eV. Breaking the molecule into ions requires the dissociation energy plus the energy to form the ions: 3.37 + 1.28 = 4.65 eV.",
+    "papers": [{ "id": "eph-2013-dec", "qno": "4C" }]
+  },
+  {
+    "id": "eph-atm-13",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Hydrogen radial probability",
+    "type": "DES",
+    "marks": 5,
+    "question": "The wave function for the hydrogen atom in the ground state is ψ(r) = (1/sqrt(π a0³)) e^(-r/a0). Write the expression for the radial probability density and calculate the probability that the electron will be found outside the Bohr radius a0.",
+    "solution": "The radial probability density is P(r) = 4πr²|ψ|² = (4r²/a0³)e^(-2r/a0). The probability outside a0 is P = ∫_a0^∞ (4r²/a0³)e^(-2r/a0) dr. Substituting x = 2r/a0 gives P = (1/2)∫_2^∞ x²e^(-x)dx = e^-2(1 + 2 + 2) = 5e^-2 ≈ 0.677. Thus about 67.7% of the probability lies outside the Bohr radius.",
+    "papers": [
+      { "id": "eph-2013-dec", "qno": "6A" },
+      { "id": "eph-2017-nov", "qno": "4A" }
+    ]
+  },
+  {
+    "id": "eph-atm-14",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Vibrational spectrum - numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "Taking the effective force constant of a vibrating HCl molecule (masses 1 u and 35 u) as k = 480 N/m, find the energy difference between the ground state and the first excited vibrational level.",
+    "solution": "The reduced mass is μ = (1 × 35/36) × 1.66×10^-27 = 1.61×10^-27 kg. Angular frequency ω = sqrt(k/μ) = sqrt(480/1.61×10^-27) = 5.45×10^14 rad/s. For a harmonic oscillator, the level spacing is ΔE = ħω = 1.055×10^-34 × 5.45×10^14 = 5.75×10^-20 J ≈ 0.359 eV.",
+    "papers": [{ "id": "eph-2013-dec", "qno": "6B" }]
+  },
+  {
+    "id": "eph-atm-15",
+    "subject": "engineering-physics",
+    "chapter": "atomic-molecular",
+    "topic": "Vibrational energy",
+    "type": "DES",
+    "marks": 3,
+    "question": "Write an expression for the vibrational energy of a diatomic molecule. Sketch these vibrational energy levels and write an expression for the vibrational transition photon energies.",
+    "solution": "E_v = (v + 1/2)ħω, v = 0, 1, 2, ..., where ω = sqrt(k/μ). The levels are equally spaced, with a zero-point energy of 1/2 ħω. For the transition v → v + 1, the photon energy is ΔE = ħω and the frequency is ν = ω/2π = (1/2π)sqrt(k/μ).",
+    "papers": [{ "id": "eph-2013-jan", "qno": "2B" }]
+  },
+  {
+    "id": "eph-xr-01",
+    "subject": "engineering-physics",
+    "chapter": "xrays",
+    "topic": "Bragg diffraction",
+    "type": "DES",
+    "marks": 3,
+    "question": "The binding energies of K-shell and L-shell electrons in copper are 8.979 keV and 0.951 keV. A K-alpha X-ray from copper is incident on an NaCl crystal and gives a first-order Bragg reflection at a glancing angle of 15.9° from the alternating planes of sodium atoms. What is the spacing between these planes?",
+    "solution": "The K-alpha photon energy is 8.979 - 0.951 = 8.028 keV. Its wavelength is λ = hc/E = 1240/8028 = 0.1545 nm. For first-order Bragg reflection, 2d sinθ = λ, so d = 0.1545/(2 sin15.9°) = 0.1545/(2 × 0.2740) = 0.282 nm.",
+    "papers": [{ "id": "eph-2012-dec", "qno": "4B" }]
+  },
+  {
+    "id": "eph-xr-02",
+    "subject": "engineering-physics",
+    "chapter": "xrays",
+    "topic": "X-ray wavelengths",
+    "type": "DES",
+    "marks": 3,
+    "question": "Electrons bombard a molybdenum target, producing continuous and characteristic X-rays. If the accelerating potential is 50.0 kV, find (i) λmin, (ii) λKβ and (iii) λKα. The K, L and M shell energies in molybdenum are -20.0 keV, -2.6 keV and -0.4 keV respectively.",
+    "solution": "(i) λmin = hc/eV = 1240/50000 = 0.0248 nm = 24.8 pm. (ii) K-beta corresponds to a K → M transition: E = 20.0 - 0.4 = 19.6 keV, so λ = 1240/19600 = 0.0633 nm = 63.3 pm. (iii) K-alpha corresponds to K → L: E = 20.0 - 2.6 = 17.4 keV, so λ = 1240/17400 = 0.0713 nm = 71.3 pm.",
+    "papers": [{ "id": "eph-2011-jul-new", "qno": "4C" }]
+  },
+  {
+    "id": "eph-xr-03",
+    "subject": "engineering-physics",
+    "chapter": "xrays",
+    "topic": "X-ray spectra",
+    "type": "DES",
+    "marks": 5,
+    "question": "Draw a schematic graph of the continuous and characteristic X-ray spectra with labels for the relevant parameters. Obtain an expression for the cutoff wavelength in the continuous X-ray spectrum.",
+    "solution": "The spectrum has a continuous background that begins at a short-wavelength cutoff λmin and characteristic sharp peaks (K-alpha, K-beta, etc.) superimposed on it. The cutoff arises when an electron loses all its kinetic energy in one collision, producing a photon of maximum energy: eV = hc/λmin, so λmin = hc/eV = 1240/V (nm) with V in volts. Characteristic peaks occur when an electron knocks out an inner-shell electron and another electron fills the vacancy; their wavelengths are fixed by the target's energy levels and follow Moseley's law.",
+    "papers": [{ "id": "eph-2013-dec", "qno": "2A" }]
+  },
+  {
+    "id": "eph-xr-04",
+    "subject": "engineering-physics",
+    "chapter": "xrays",
+    "topic": "Compton scattering - numerical",
+    "type": "DES",
+    "marks": 5,
+    "question": "A 0.00160 nm photon scatters from a free electron. For what photon scattering angle does the recoiling electron have kinetic energy equal to the energy of the scattered photon? The Compton wavelength is 0.00243 nm.",
+    "solution": "Energy conservation gives hc/λ = hc/λ' + KE. Setting KE = hc/λ' gives hc/λ = 2hc/λ', so λ' = 2λ = 0.00320 nm. The Compton shift is Δλ = 0.00160 nm = 1.60 pm. Using Δλ = λc(1 - cosθ) with λc = 2.43 pm: 1 - cosθ = 1.60/2.43 = 0.658, so cosθ = 0.342 and θ ≈ 70°.",
+    "papers": [{ "id": "eph-2013-dec", "qno": "4A" }]
+  },
+  {
+    "id": "eph-xr-05",
+    "subject": "engineering-physics",
+    "chapter": "xrays",
+    "topic": "Compton shift derivation",
+    "type": "DES",
+    "marks": 5,
+    "question": "Derive the Compton shift equation.",
+    "solution": "Let a photon of wavelength λ scatter through angle θ from a stationary electron. Momentum conservation perpendicular and parallel to the incident direction gives p_e sinφ = (h/λ')sinθ and p_e cosφ = h/λ - (h/λ')cosθ. Energy conservation gives hc/λ + mc² = hc/λ' + sqrt(p_e²c² + m²c⁴). Eliminating p_e and φ and simplifying yields Δλ = λ' - λ = (h/mc)(1 - cosθ). The quantity h/mc = 2.43 pm is the Compton wavelength.",
+    "papers": [{ "id": "eph-2017-nov", "qno": "3A" }]
+  },
+  {
+    "id": "eph-xr-06",
+    "subject": "engineering-physics",
+    "chapter": "xrays",
+    "topic": "Continuous X-rays",
+    "type": "DES",
+    "marks": 2,
+    "question": "Explain the origin of continuous X-rays.",
+    "solution": "Continuous X-rays (bremsstrahlung) are produced when fast electrons are decelerated by the Coulomb field of target nuclei. The electron loses a variable amount of energy, which appears as a photon; since the energy loss can take any value up to the full kinetic energy, the emitted wavelengths form a continuous spectrum. The shortest wavelength corresponds to the electron losing all its energy in one collision, λmin = hc/eV.",
+    "papers": [{ "id": "eph-2011-jul-rcs", "qno": "1B" }]
+  }
+]

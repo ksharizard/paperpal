@@ -1,0 +1,195 @@
+[
+  {
+    "id": "bme-ic-01",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "Indicated thermal efficiency",
+    "type": "DES",
+    "marks": 4,
+    "question": "The following data refer to a twin-cylinder IC engine: cylinder diameter 200 mm, stroke 300 mm, total revolutions 18000 per hour, mean effective pressure 6 bar, fuel consumption 15 litres/hour, calorific value 45000 kJ/kg and specific gravity of fuel 0.8. Determine the indicated thermal efficiency.",
+    "solution": "For a two-stroke engine, N = 18000/60 = 300 rpm and the number of working strokes per minute equals the speed. Area = π(0.2)²/4 = 0.0314 m². IP = p_m L A N n/60 with n = 2 cylinders: IP = 6×10^5 × 0.3 × 0.0314 × 300 × 2/60 = 56.5 kW. Fuel mass flow = 15 × 0.8 = 12 kg/h, so fuel power = 12 × 45000/3600 = 150 kW. Indicated thermal efficiency = 56.5/150 = 37.7%. For a four-stroke engine the indicated power would be half this value, giving about 18.9%.",
+    "papers": [
+      { "id": "bme-2023-dec", "qno": "Q3A" },
+      { "id": "bme-2016-dec", "qno": "6A" }
+    ]
+  },
+  {
+    "id": "bme-ic-02",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "Carburettor and camshaft",
+    "type": "DES",
+    "marks": 3,
+    "question": "Sketch and explain the working principle of an IC engine fitted with a carburettor and a camshaft.",
+    "solution": "In a spark-ignition engine, air flows through the carburettor venturi; the reduced pressure draws petrol through a jet, and the air-fuel mixture enters the cylinder through the inlet valve. The camshaft carries cams that open the inlet and exhaust valves at the correct times and, in older engines, drives the ignition distributor. The piston moves down on the intake stroke, is compressed and ignited by the spark plug, and the burnt gases are pushed out on the exhaust stroke; the camshaft is driven at half the crankshaft speed in a four-stroke engine.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q3B" }]
+  },
+  {
+    "id": "bme-ic-03",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "IC engine comparisons",
+    "type": "DES",
+    "marks": 3,
+    "question": "Give reasons for the following: (i) Four-stroke engines are more fuel efficient than two-stroke engines. (ii) A petrol engine is lighter than a diesel engine. (iii) A high rate of wear and tear occurs in two-stroke engines.",
+    "solution": "(i) In a four-stroke engine the exhaust and intake strokes are separate, so scavenging losses are small and combustion is more complete; a two-stroke engine loses fresh charge through the exhaust ports. (ii) A petrol engine operates at a lower compression ratio and peak pressure, so its cylinder, piston and connecting rod can be lighter; a diesel engine needs heavier components to withstand high compression and pressure. (iii) A two-stroke engine fires every revolution, so it runs hotter and has twice as many power strokes; lubrication is often mixed with the fuel and port scavenging washes oil away, increasing wear.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q3C" }]
+  },
+  {
+    "id": "bme-ic-04",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "Brake thermal efficiency",
+    "type": "DES",
+    "marks": 4,
+    "question": "A twin-cylinder diesel engine admits charge into the cylinder indirectly and has a fuel consumption of 0.257 kg/kWh at 25 cycles per second. The calorific value of diesel is 43900 kJ/kg. The net brake load is 70 kg and the mean circumference of the brake drum is 4 m. Determine the brake thermal efficiency.",
+    "solution": "Brake torque T = W × R, where R = circumference/(2π) = 4/(2π) = 0.6366 m. Thus T = 70 × 9.81 × 0.6366 = 437.1 N m. With N = 25 rev/s = 1500 rpm, BP = 2πNT/60 = 2π × 1500 × 437.1/60 = 68.7 kW. Fuel consumption = 0.257 × 68.7 = 17.65 kg/h, so fuel power = 17.65 × 43900/3600 = 215.2 kW. Brake thermal efficiency = 68.7/215.2 = 31.9%.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q3A" }]
+  },
+  {
+    "id": "bme-ic-05",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "SI engine working",
+    "type": "DES",
+    "marks": 3,
+    "question": "Identify and explain the working of an IC engine that admits the charge indirectly and has a compression ratio of 9.",
+    "solution": "An engine with indirect charge admission (through a carburettor or port injection) and a compression ratio of about 9 is a four-stroke spark-ignition (petrol) engine. During the intake stroke the air-fuel mixture is drawn in; the mixture is compressed on the compression stroke and ignited by a spark near top dead centre. The hot gases expand on the power stroke, doing work on the piston, and are expelled on the exhaust stroke. A compression ratio of 9 is typical for petrol engines, limited by knock.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q3B" }]
+  },
+  {
+    "id": "bme-ic-06",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "Engine fundamentals",
+    "type": "DES",
+    "marks": 3,
+    "question": "Justify the following statements: (i) Brake power cannot be equal to or greater than indicated power. (ii) Two-stroke engines do not need a camshaft. (iii) A heavier flywheel is used in four-stroke engines.",
+    "solution": "(i) Brake power is the power available at the shaft after friction and pumping losses, so BP = IP - FP; friction power is always positive, hence BP < IP. (ii) In a two-stroke engine the piston itself uncovers the inlet, transfer and exhaust ports as it moves, so valve actuation by a camshaft is unnecessary. (iii) A four-stroke engine produces one power stroke every two revolutions, so the torque pulses are more widely spaced; a heavier flywheel is needed to store energy and keep the speed uniform. A two-stroke engine fires every revolution and needs less flywheel mass.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q3C" }]
+  },
+  {
+    "id": "bme-ic-07",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "Two-stroke versus four-stroke",
+    "type": "DES",
+    "marks": 10,
+    "question": "Mention any four differences between a four-stroke engine and a two-stroke engine, and with a neat diagram explain the working of a simple carburettor.",
+    "solution": "Differences: (1) A four-stroke engine has four piston strokes per power stroke; a two-stroke has two. (2) The four-stroke uses valves; the two-stroke usually uses ports uncovered by the piston. (3) A four-stroke fires once every two revolutions; a two-stroke fires every revolution. (4) A four-stroke has separate intake and exhaust strokes and better scavenging, while a two-stroke loses some fresh charge through the exhaust. Carburettor: air enters through a venturi; the pressure drop draws fuel through a jet, atomizing it into the air stream. A throttle valve controls the mixture flow, and a float chamber maintains a constant fuel level. The resulting air-fuel mixture enters the engine cylinder.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "3A" }]
+  },
+  {
+    "id": "bme-ic-08",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "Lubrication",
+    "type": "DES",
+    "marks": 6,
+    "question": "Explain the splash lubrication system used in IC engines with a neat sketch.",
+    "solution": "In splash lubrication, the crankcase contains an oil sump. A scoop or dipper on the big end of the connecting rod dips into the oil as the crankshaft rotates and splashes oil onto the cylinder walls, piston pin, bearings and camshaft. Oil holes and grooves distribute the oil to moving parts, and it drains back to the sump. The system is simple and cheap but less reliable at high speeds and for engines with many cylinders; a splash guard prevents excessive oil throwing.",
+    "papers": [
+      { "id": "bme-2016-dec", "qno": "7A" },
+      { "id": "bme-2022-jul", "qno": "Q3A" }
+    ]
+  },
+  {
+    "id": "bme-ic-09",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "Simple carburettor",
+    "type": "DES",
+    "marks": 10,
+    "question": "Describe the working of a simple carburettor with a neat labelled sketch.",
+    "solution": "A simple carburettor consists of a float chamber, a fuel jet, a venturi, a throttle valve and a choke. Air enters through the venturi, where its velocity increases and pressure falls. The pressure difference between the float chamber and the venturi draws fuel through the jet, where it is atomized and mixed with the air. The float and needle valve maintain a constant fuel level. The throttle controls the quantity of mixture entering the engine, and the choke enriches the mixture during cold starting.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "5B" }]
+  },
+  {
+    "id": "bme-ic-10",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "Two-stroke versus four-stroke",
+    "type": "DES",
+    "marks": 10,
+    "question": "List any ten comparisons between two-stroke and four-stroke engines.",
+    "solution": "1. Strokes per cycle: two versus four. 2. Power strokes: every revolution versus every two revolutions. 3. Valves: ports versus inlet/exhaust valves. 4. Camshaft: not required versus required. 5. Flywheel: lighter versus heavier. 6. Scavenging: less efficient, some charge loss versus more efficient. 7. Fuel efficiency: lower versus higher. 8. Cooling: hotter running and harder to cool versus cooler. 9. Lubrication: often oil mixed with fuel versus separate lubricating system. 10. Applications: small two-wheelers, chainsaws and marine outboards versus cars, trucks and generators. Also, two-stroke engines have fewer moving parts and lower cost but higher emissions.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "6A" }]
+  },
+  {
+    "id": "bme-ic-11",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "Diesel cycle",
+    "type": "DES",
+    "marks": 10,
+    "question": "Discuss the working of a four-stroke diesel engine with the help of the theoretical Diesel cycle.",
+    "solution": "A four-stroke diesel engine has intake, compression, power and exhaust strokes. On intake, only air is drawn in. The air is compressed to a high ratio (typically 16-22), raising its temperature above the fuel's ignition point. Fuel is injected near the end of compression and burns at approximately constant pressure, pushing the piston down on the power stroke. The exhaust valve then releases the burnt gases. On a p-V diagram the Diesel cycle consists of isentropic compression, constant-pressure heat addition, isentropic expansion and constant-volume heat rejection. Its efficiency is η = 1 - (1/r^(γ-1))[(ρ^γ - 1)/(γ(ρ - 1))], where r is the compression ratio and ρ the cut-off ratio.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "6B" }]
+  },
+  {
+    "id": "bme-ic-12",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "Engine performance - numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "From a test on a four-stroke petrol engine: speed 1000 rpm, net brake torque 70 N m, indicated mean effective pressure 10 bar, stroke 150 mm, bore 100 mm, fuel consumption 2.57 kg/h and calorific value of petrol 41000 kJ/kg. Calculate the indicated thermal efficiency, brake thermal efficiency, mechanical efficiency and friction power.",
+    "solution": "Area = π(0.1)²/4 = 7.854×10^-3 m². For a four-stroke engine, IP = p_m L A N/(2 × 60) = 10×10^5 × 0.15 × 7.854×10^-3 × 1000/120 = 9.82 kW. BP = 2πNT/60 = 2π × 1000 × 70/60 = 7.33 kW. Mechanical efficiency = 7.33/9.82 = 74.6%, and friction power = 9.82 - 7.33 = 2.49 kW. Fuel power = 2.57 × 41000/3600 = 29.27 kW. Indicated thermal efficiency = 9.82/29.27 = 33.5%; brake thermal efficiency = 7.33/29.27 = 25.0%.",
+    "papers": [{ "id": "bme-2022-jul", "qno": "Q3B" }]
+  },
+  {
+    "id": "bme-ic-13",
+    "subject": "basic-mechanical",
+    "chapter": "ic-engines",
+    "topic": "CI engine working",
+    "type": "DES",
+    "marks": 4,
+    "question": "Explain the working principle of a CI engine.",
+    "solution": "A compression-ignition (diesel) engine draws only air into the cylinder on the intake stroke. The air is compressed to a high ratio, so its temperature rises above the fuel's auto-ignition temperature. Diesel is injected directly into the hot, high-pressure air near the end of compression, where it ignites spontaneously. The burning gases expand and drive the piston on the power stroke, and the exhaust stroke removes the burnt gases. A fuel pump and injector replace the spark plug, and the engine operates on the Diesel cycle with constant-pressure heat addition.",
+    "papers": [{ "id": "bme-2022-jul", "qno": "Q3C" }]
+  },
+  {
+    "id": "bme-rf-01",
+    "subject": "basic-mechanical",
+    "chapter": "refrigeration",
+    "topic": "VCR components",
+    "type": "DES",
+    "marks": 5,
+    "question": "Explain the functions of an evaporator and a compressor in a vapour compression refrigeration system.",
+    "solution": "The evaporator is the low-pressure heat exchanger where the refrigerant boils at a low temperature, absorbing heat from the space to be cooled; this produces the refrigerating effect. The compressor draws low-pressure vapour from the evaporator, compresses it to a higher pressure and temperature, and delivers it to the condenser. The compressor is the heart of the system: it maintains the pressure difference between the evaporator and condenser and circulates the refrigerant.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "1B" }]
+  },
+  {
+    "id": "bme-rf-02",
+    "subject": "basic-mechanical",
+    "chapter": "refrigeration",
+    "topic": "Refrigerant properties",
+    "type": "DES",
+    "marks": 6,
+    "question": "Explain the essential properties required for a good refrigerant.",
+    "solution": "A good refrigerant should have a high latent heat of vaporization and a high critical temperature, so a small mass can produce a large refrigerating effect. It should have a low boiling point, be non-toxic, non-flammable, non-corrosive, chemically stable and miscible with lubricating oil. It should be easily detectable if it leaks, have a low cost, and operate with evaporator and condenser pressures that are modest and preferably above atmospheric to prevent air ingress. It should also have a low specific volume to keep the compressor size small.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "2B" }]
+  },
+  {
+    "id": "bme-rf-03",
+    "subject": "basic-mechanical",
+    "chapter": "refrigeration",
+    "topic": "Refrigerant selection",
+    "type": "DES",
+    "marks": 2,
+    "question": "Justify the statement: an ideal refrigerant should have a high latent heat of evaporation, and the evaporator and condenser pressures should be above atmospheric pressure.",
+    "solution": "A high latent heat means a smaller mass flow of refrigerant is needed for a given refrigerating effect, so the compressor and piping can be smaller and the power consumption is lower. Pressures above atmospheric prevent air and moisture from leaking into the system, which would reduce performance and cause corrosion or freezing at the expansion valve. The pressures should still be moderate to avoid excessively strong components.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "5A(i)" }]
+  },
+  {
+    "id": "bme-rf-04",
+    "subject": "basic-mechanical",
+    "chapter": "refrigeration",
+    "topic": "Vapour compression cycle",
+    "type": "DES",
+    "marks": 10,
+    "question": "Describe the function of (i) the evaporator, (ii) the compressor or circulating system, (iii) the condenser and (iv) the expansion valve in a vapour compression refrigeration system.",
+    "solution": "(i) Evaporator: low-pressure refrigerant liquid evaporates by absorbing heat from the refrigerated space, producing the cooling effect. (ii) Compressor: draws low-pressure vapour, compresses it to condenser pressure and temperature, and circulates the refrigerant through the circuit. (iii) Condenser: rejects heat from the high-pressure vapour to the surroundings, condensing it back to liquid. (iv) Expansion valve: throttles the high-pressure liquid to the low evaporator pressure, causing partial flashing and a temperature drop before the refrigerant enters the evaporator. The cycle then repeats.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "5A" }]
+  }
+]

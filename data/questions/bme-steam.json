@@ -1,0 +1,179 @@
+[
+  {
+    "id": "bme-st-01",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Boiler efficiency - fuel consumption",
+    "type": "DES",
+    "marks": 4,
+    "question": "A chemical processing industry uses a water-tube boiler that generates 22% wet steam at 900 kPa. The hourly steam requirement is 780 kg and the feed water is at 28°C. The boiler is fired with wood pellets and coconut shell in a 6:4 mass ratio, with gross calorific values 19600 kJ/kg and 20800 kJ/kg respectively. The boiler efficiency is 60%. Calculate the hourly consumption of wood pellets and coconut shells. To improve efficiency, two options are considered, both reducing fuel consumption by 12%: (i) an economizer that raises the feed water temperature by 50°C, and (ii) an air preheater that improves combustion. Compare the resulting boiler efficiencies and recommend an option.",
+    "solution": "At 0.9 MPa, hf = 742.6 kJ/kg and hfg = 2030.5 kJ/kg, so h = 742.6 + 0.78 × 2030.5 = 2326.4 kJ/kg. Feed enthalpy = 4.186 × 28 = 117.2 kJ/kg. Heat required = 780 × (2326.4 - 117.2) = 1.723×10^6 kJ/h. Fuel energy input = 1.723×10^6/0.60 = 2.872×10^6 kJ/h. Mixture GCV = 0.6 × 19600 + 0.4 × 20800 = 20080 kJ/kg, so fuel rate = 2.872×10^6/20080 = 143 kg/h: wood = 85.8 kg/h, coconut shell = 57.2 kg/h. (i) Economizer: heat required becomes 780 × (2326.4 - 117.2 - 209.3) = 1.560×10^6 kJ/h; fuel input falls 12% to 2.527×10^6 kJ/h, giving η = 1.560/2.527 = 61.7%. (ii) Air preheater: heat required stays 1.723×10^6 kJ/h; fuel input is again 2.527×10^6 kJ/h, giving η = 68.2%. The air preheater gives the higher efficiency, so it should be selected.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q1A" }],
+    "note": "Steam-table values at 0.9 MPa are used; small differences in table data change the last digit only."
+  },
+  {
+    "id": "bme-st-02",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Superheater and heat exchanger",
+    "type": "DES",
+    "marks": 3,
+    "question": "1310 kg of steam that is 15.75% wet is produced in a boiler at 2.5 N/mm². The steam enters a superheater where its temperature is raised until the degree of superheat is 160°C. From the superheater the steam passes through a heat exchanger for process heating, where it loses 27.2% of its enthalpy. If the feed water temperature is 32°C, determine (i) the total heat added to the feed water in the boiler, (ii) the total heat supplied in the superheater and (iii) the condition and related parameter of the steam at the exit of the heat exchanger.",
+    "solution": "At 2.5 MPa: hf = 962.1 kJ/kg, hfg = 1839.4 kJ/kg, hg = 2801.5 kJ/kg, Tsat = 223.9°C. Wet steam: h1 = 962.1 + 0.8425 × 1839.4 = 2511.8 kJ/kg. Feed enthalpy = 4.186 × 32 = 134.0 kJ/kg. (i) Boiler heat = 1310 × (2511.8 - 134.0) = 3.115×10^6 kJ. (ii) Superheated steam: h2 = 2801.5 + 2.25 × 160 = 3161.5 kJ/kg. Superheater heat = 1310 × (3161.5 - 2511.8) = 8.51×10^5 kJ. (iii) After losing 27.2% of enthalpy, h3 = 0.728 × 3161.5 = 2301.6 kJ/kg. Since hf < h3 < hg, the steam is wet: x = (2301.6 - 962.1)/1839.4 = 0.728. The exit steam is 27.2% wet (dryness fraction 0.728).",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q1B" }]
+  },
+  {
+    "id": "bme-st-03",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Boiler mountings and accessories",
+    "type": "DES",
+    "marks": 3,
+    "question": "Give reasons for the following: (i) Boiler mountings are an integral part of a boiler. (ii) Saturated steam cannot be produced in the boiler drum. (iii) Water-tube boilers generally operate at higher pressures.",
+    "solution": "(i) Mountings such as safety valves, pressure gauges, water-level indicators and feed-water valves are essential for safe operation and are mounted directly on the boiler shell. (ii) Steam generated in the drum is in contact with water and carries moisture; it becomes dry saturated only after passing through a separator/superheater, so the drum produces wet steam rather than strictly dry saturated steam. (iii) In a water-tube boiler the water circulates inside small-diameter tubes, which can be made strong enough to withstand high pressure, while the surrounding shell is not subjected to the full pressure.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q1C" }]
+  },
+  {
+    "id": "bme-st-04",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Boiler efficiency - numerical",
+    "type": "DES",
+    "marks": 4,
+    "question": "A boiler supplies steam at 3 N/mm² and 300°C at 5000 kg/hr. Feed water is supplied at 30°C and fuel at 800 kg/hr with calorific value 22 MJ/kg. (i) Find the boiler efficiency. (ii) If the efficiency is to be increased by 5% in absolute terms, what should be the ratio of steam generation rate to fuel consumption rate, assuming the heat gained by water remains the same? (iii) If an economizer preheats the feed water by 5°C and reduces fuel consumption by 5%, what is the new efficiency? Take cp(water) = 4.18 kJ/kg K and cp(superheated steam) = 2.25 kJ/kg K.",
+    "solution": "At 3 MPa, hg = 2803.9 kJ/kg and Tsat = 233.9°C. h_steam = 2803.9 + 2.25 × (300 - 233.9) = 2952.7 kJ/kg. Feed enthalpy = 4.18 × 30 = 125.4 kJ/kg. Heat gained = 5000 × (2952.7 - 125.4) = 1.414×10^7 kJ/h. Fuel energy = 800 × 22000 = 1.760×10^7 kJ/h. (i) η = 1.414/1.760 = 80.3%. (ii) New η = 85.3%, so steam/fuel ratio = η × CV/(h - hf) = 0.853 × 22000/2827.3 = 6.64 kg steam per kg fuel. (iii) New feed enthalpy = 4.18 × 35 = 146.3 kJ/kg; heat gained = 5000 × (2952.7 - 146.3) = 1.403×10^7 kJ/h. Fuel input = 0.95 × 1.760×10^7 = 1.672×10^7 kJ/h. New η = 1.403/1.672 = 83.9%.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q1A" }]
+  },
+  {
+    "id": "bme-st-05",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Steam pipeline and superheat",
+    "type": "DES",
+    "marks": 3,
+    "question": "5 kg of steam at 2 bar is supplied to a pipeline at 200°C. Due to poor insulation, the steam loses 2000 kJ of heat in the pipeline at constant pressure. The steam leaving the pipeline is supplied to a turbine, where it must be superheated with a degree of superheat of 100°C. What quantity of heat must be supplied at the pipeline exit to reach the required turbine-inlet condition? Take cp(superheated steam) = 2.25 kJ/kg K.",
+    "solution": "At 2 bar, Tsat = 120.2°C and hg = 2706.3 kJ/kg. Initial h = 2706.3 + 2.25 × (200 - 120.2) = 2885.9 kJ/kg. After losing 2000 kJ for 5 kg, h = 2885.9 - 400 = 2485.9 kJ/kg. Since hf = 504.7 and hfg = 2201.9 kJ/kg, the steam is wet with x = (2485.9 - 504.7)/2201.9 = 0.900. The required turbine-inlet state has 100°C superheat: h_req = 2706.3 + 2.25 × 100 = 2931.3 kJ/kg. Heat to be supplied = 5 × (2931.3 - 2485.9) = 2227 kJ.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q1B" }]
+  },
+  {
+    "id": "bme-st-06",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Mountings versus accessories",
+    "type": "DES",
+    "marks": 3,
+    "question": "Explain any three differences between a boiler mounting and a boiler accessory.",
+    "solution": "1. Mountings are essential for the safe operation of the boiler, whereas accessories are used to improve efficiency or performance and are not essential for safety. 2. Mountings are mounted directly on the boiler shell (safety valve, pressure gauge, water-level indicator), while accessories are separate auxiliary equipment (economizer, air preheater, superheater). 3. Failure of a mounting can be dangerous and may stop the boiler, whereas failure of an accessory usually reduces efficiency but does not directly endanger the boiler.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q1C" }]
+  },
+  {
+    "id": "bme-st-07",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Mixing chamber",
+    "type": "DES",
+    "marks": 10,
+    "question": "Equal quantities of steam are supplied to a mixing chamber from two boilers. One supplies steam that is 9% wet and the other supplies superheated steam at 308°C. The pressure in both boilers and in the mixing chamber is 15 bar. Determine the quality and temperature of the steam in the mixing chamber. Take cp(superheated steam) = 2.25 kJ/kg K.",
+    "solution": "At 15 bar: hf = 844.7 kJ/kg, hfg = 1945.3 kJ/kg, hg = 2790.0 kJ/kg, Tsat = 198.3°C. Wet steam: h1 = 844.7 + 0.91 × 1945.3 = 2614.9 kJ/kg. Superheated steam: h2 = 2790.0 + 2.25 × (308 - 198.3) = 3036.8 kJ/kg. For equal masses, h_mix = (h1 + h2)/2 = 2825.9 kJ/kg. This is above hg, so the mixture is superheated. Its temperature is T = 198.3 + (2825.9 - 2790.0)/2.25 = 214.3°C, i.e. about 16°C of superheat.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "Q1A" }]
+  },
+  {
+    "id": "bme-st-08",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Water-tube boiler",
+    "type": "DES",
+    "marks": 10,
+    "question": "Draw a neat sketch of a water-tube boiler, indicate the path of the flue gases and name the parts.",
+    "solution": "A typical water-tube boiler has a mud drum at the bottom and a steam drum at the top, connected by inclined water tubes that form the furnace walls. Fuel burns in the furnace and hot flue gases rise around the tubes, transferring heat to the water inside, then pass through the superheater, economizer and air preheater before leaving through the chimney. Water circulates from the mud drum through the tubes to the steam drum, where steam separates. Key parts: furnace, water tubes, steam drum, mud drum, superheater, economizer, air preheater, grate and chimney.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "3B" }]
+  },
+  {
+    "id": "bme-st-09",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Steam definitions",
+    "type": "DES",
+    "marks": 4,
+    "question": "Define: (a) dry saturated steam, (b) superheated steam, (c) critical point and (d) latent heat of evaporation.",
+    "solution": "(a) Dry saturated steam is steam at the saturation temperature for its pressure, containing no suspended moisture (dryness fraction x = 1). (b) Superheated steam is steam heated above its saturation temperature at the same pressure; the difference between its temperature and the saturation temperature is the degree of superheat. (c) The critical point is the state at which the liquid and vapour phases are indistinguishable, for water at about 374°C and 221.2 bar. (d) Latent heat of evaporation is the heat required to convert 1 kg of saturated liquid into dry saturated vapour at constant pressure and temperature.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "8C" }]
+  },
+  {
+    "id": "bme-st-10",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Formation of steam",
+    "type": "DES",
+    "marks": 10,
+    "question": "Explain the formation of steam at constant pressure with a temperature-enthalpy diagram.",
+    "solution": "At constant pressure, water is heated from its initial temperature to the saturation temperature (sensible heating), absorbing hf. Further heat at constant temperature evaporates the water into wet steam, absorbing the latent heat xhfg; at x = 1 the steam is dry saturated. Additional heating produces superheated steam, whose temperature rises above saturation and whose enthalpy is hg + cp(T - Tsat). On a T-h diagram this appears as a rising liquid line, a horizontal evaporation line inside the dome, and a rising superheat line outside the dome. The saturation curve ends at the critical point.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "1A" }]
+  },
+  {
+    "id": "bme-st-11",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Steam enthalpy",
+    "type": "DES",
+    "marks": 10,
+    "question": "Define and write expressions for (i) enthalpy of dry saturated steam, (ii) enthalpy of wet steam and (iii) enthalpy of superheated steam.",
+    "solution": "(i) Dry saturated steam: hg = hf + hfg, where hf is the sensible heat of saturated liquid and hfg is the latent heat at the given pressure. (ii) Wet steam with dryness fraction x: h = hf + xhfg. (iii) Superheated steam: h = hg + cp(T_sup - Tsat) = hf + hfg + cp(T_sup - Tsat), where cp is the specific heat of superheated steam.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "1B" }]
+  },
+  {
+    "id": "bme-st-12",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Steam condition",
+    "type": "DES",
+    "marks": 10,
+    "question": "Determine the condition of steam in the following cases: (i) at 10 bar and 200°C, (ii) at 8 bar with enthalpy 2500 kJ/kg, (iii) steam at 20 bar and 300°C is cooled at constant pressure while losing 400 kJ/kg.",
+    "solution": "(i) At 10 bar, Tsat = 179.9°C. Since 200°C > Tsat, the steam is superheated by 20.1°C. (ii) At 8 bar, hf = 721.1, hfg = 2048.0 and hg = 2769.1 kJ/kg. Since 2500 < hg, the steam is wet: x = (2500 - 721.1)/2048.0 = 0.868, i.e. 13.2% wet. (iii) At 20 bar, Tsat = 212.4°C and hg = 2799.5 kJ/kg; initially h = 2799.5 + 2.25 × (300 - 212.4) = 2996.6 kJ/kg. After losing 400 kJ/kg, h = 2596.6 kJ/kg. With hf = 908.8 and hfg = 1890.7 kJ/kg, x = (2596.6 - 908.8)/1890.7 = 0.893, so the steam is 10.7% wet.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "2A" }]
+  },
+  {
+    "id": "bme-st-13",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Babcock and Wilcox boiler",
+    "type": "DES",
+    "marks": 10,
+    "question": "With respect to the Babcock and Wilcox boiler, give a brief description of (i) the function of the chain-grate stoker, (ii) the water circuit in the boiler and (iii) superheating of the steam.",
+    "solution": "(i) The chain-grate stoker is an endless moving grate that carries coal slowly through the furnace, so fresh coal is heated, ignited and burned progressively; it gives uniform combustion and automatic ash removal. (ii) Feed water enters the steam drum, flows down the rear header through the inclined water tubes to the front header, and returns to the drum. Heating in the tubes sets up natural circulation, and steam separates in the drum. (iii) Saturated steam from the drum passes through a superheater placed in the flue-gas path, where it is heated above saturation temperature; this raises the steam temperature and improves cycle efficiency while reducing condensation in the turbine.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "2B" }]
+  },
+  {
+    "id": "bme-st-14",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Locomotive boiler",
+    "type": "DES",
+    "marks": 3,
+    "question": "Draw a neat sketch of a locomotive boiler and explain it briefly.",
+    "solution": "A locomotive boiler is a horizontal fire-tube boiler with a cylindrical shell, a firebox at the rear and a smoke box at the front. Hot gases from the firebox pass through fire tubes to the smoke box and out through the chimney, heating the surrounding water. A steam dome collects steam, and a superheater in the tubes raises its temperature. The boiler is compact and has a large grate area, making it suitable for locomotives; it is externally fired and uses a brick arch to improve combustion.",
+    "papers": [{ "id": "bme-2022-jul", "qno": "Q1A" }]
+  },
+  {
+    "id": "bme-st-15",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Superheater - numerical",
+    "type": "DES",
+    "marks": 4,
+    "question": "Steam enters a superheater with an initial condition of 12 bar and 13% wet. Its temperature is raised in the superheater until the degree of superheat is 205°C. If the feed water temperature is 24°C, determine (i) the total heat added to the feed water in the boiler and (ii) the amount of superheat. Give the answer per kg of steam.",
+    "solution": "At 12 bar: hf = 798.6, hfg = 1986.2, hg = 2784.8 kJ/kg, Tsat = 188.0°C. Wet steam: h1 = 798.6 + 0.87 × 1986.2 = 2526.6 kJ/kg. Feed enthalpy = 4.186 × 24 = 100.5 kJ/kg. (i) Boiler heat = h1 - h_feed = 2526.6 - 100.5 = 2426.1 kJ/kg. (ii) Superheated steam: h2 = 2784.8 + 2.25 × 205 = 3246.1 kJ/kg. Superheat added = h2 - h1 = 719.5 kJ/kg.",
+    "papers": [{ "id": "bme-2022-jul", "qno": "Q1B" }]
+  },
+  {
+    "id": "bme-st-16",
+    "subject": "basic-mechanical",
+    "chapter": "steam-boilers",
+    "topic": "Steam definitions",
+    "type": "DES",
+    "marks": 3,
+    "question": "Define the following and write expressions where applicable: (i) sensible heat, (ii) degree of superheat and (iii) latent heat of evaporation.",
+    "solution": "(i) Sensible heat is the heat added to raise the temperature of 1 kg of water from a reference temperature (usually 0°C) to its saturation temperature: hf = cp(Tsat - 0). (ii) Degree of superheat is the difference between the temperature of superheated steam and the saturation temperature at the same pressure: ΔT = T_sup - Tsat. (iii) Latent heat of evaporation hfg is the heat required to convert 1 kg of saturated liquid into dry saturated vapour at constant pressure and temperature.",
+    "papers": [{ "id": "bme-2022-jul", "qno": "Q1C" }]
+  }
+]

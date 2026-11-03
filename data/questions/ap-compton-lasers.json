@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ap-cx-01",
+    "subject": "applied-physics",
+    "chapter": "compton-xrays",
+    "topic": "Compton shift",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "What is the maximum change in the wavelength of Compton scattered radiation?",
+    "options": ["4.85 pm", "2.43 pm", "1.22 pm", "9.70 pm"],
+    "answer": 0,
+    "solution": "Δλ = (h/mc)(1 - cosθ). The maximum occurs at θ = 180°, giving Δλmax = 2h/mc = 2 × 2.43 pm = 4.85 pm.",
+    "papers": [{ "id": "ap-2024-midsem", "qno": "Q2" }]
+  },
+  {
+    "id": "ap-cx-02",
+    "subject": "applied-physics",
+    "chapter": "compton-xrays",
+    "topic": "Compton scattering angle",
+    "type": "DES",
+    "marks": 3,
+    "question": "X-rays with a wavelength of 0.150 nm are Compton scattered. At what scattering angle will the X-rays have a wavelength of 0.1506 nm?",
+    "solution": "Δλ = 0.1506 - 0.1500 = 0.0006 nm = 0.60 pm. Using Δλ = λc(1 - cosθ) with λc = 2.43 pm: 1 - cosθ = 0.60/2.43 = 0.247. Thus cosθ = 0.753 and θ ≈ 41°.",
+    "papers": [{ "id": "ap-2025-sep-midsem", "qno": "Q12" }]
+  },
+  {
+    "id": "ap-cx-03",
+    "subject": "applied-physics",
+    "chapter": "compton-xrays",
+    "topic": "Recoil electron direction",
+    "type": "DES",
+    "marks": 3,
+    "question": "A photon of wavelength 3.56 pm undergoes Compton scattering from a free electron initially at rest. The wavelength of the scattered photon is 6.57 pm. Calculate the angle at which the recoil electron moves with respect to the direction of the incident photon.",
+    "solution": "First find the photon scattering angle: Δλ = 3.01 pm = 2.43(1 - cosθ), so cosθ = -0.239 and θ ≈ 104°. Momentum conservation gives p_ex = h/λi - (h/λf)cosθ and p_ey = -(h/λf)sinθ. Using h/pm units: p_ex = 0.281 + 0.152(0.239) = 0.317 and p_ey = -0.152(0.971) = -0.148. The recoil angle is tan⁻¹(-0.148/0.317) ≈ -25°, i.e. about 25° on the opposite side of the incident beam from the scattered photon.",
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q7" }]
+  },
+  {
+    "id": "ap-la-01",
+    "subject": "applied-physics",
+    "chapter": "lasers",
+    "topic": "Laser components",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "Which part of a laser system is responsible for the directionality of the laser beam?",
+    "options": ["Lasing medium", "Pumping system", "Cavity resonator", "Electrical power supply"],
+    "answer": 2,
+    "solution": "The cavity resonator (optical cavity) allows only waves travelling along its axis to build up through repeated reflection, producing a highly directional beam.",
+    "papers": [{ "id": "ap-2024-midsem", "qno": "Q5" }]
+  },
+  {
+    "id": "ap-la-02",
+    "subject": "applied-physics",
+    "chapter": "lasers",
+    "topic": "Population inversion",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "Which of the following is NOT a method to achieve population inversion?",
+    "options": ["Optical pumping", "Electrical discharge", "Thermal equilibrium", "Electrical injection of carriers"],
+    "answer": 2,
+    "solution": "Thermal equilibrium follows Boltzmann statistics and gives a lower population in the upper level, so it cannot produce inversion. Pumping, discharge and carrier injection are active methods.",
+    "papers": [{ "id": "ap-2025-mar-midsem", "qno": "Q5" }]
+  },
+  {
+    "id": "ap-la-03",
+    "subject": "applied-physics",
+    "chapter": "lasers",
+    "topic": "Laser fundamentals",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "With reference to lasers, choose the wrong statement from the following.",
+    "options": [
+      "The role of mirrors is to provide optical feedback for amplification.",
+      "Population inversion is a necessary condition for sustained stimulated emission.",
+      "Optical pumping is the only way to achieve population inversion.",
+      "In a semiconductor laser, a heavily doped p-n junction diode is used."
+    ],
+    "answer": 2,
+    "solution": "Population inversion can also be achieved by electrical discharge, carrier injection, chemical pumping or other methods, so optical pumping is not the only way.",
+    "papers": [{ "id": "ap-2025-sep-midsem", "qno": "Q4" }]
+  },
+  {
+    "id": "ap-la-04",
+    "subject": "applied-physics",
+    "chapter": "lasers",
+    "topic": "Laser applications",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "In a laser printer, the laser is primarily used to",
+    "options": ["discharge the photoconductor drum selectively", "cut paper", "fuse toner", "heat toner directly"],
+    "answer": 0,
+    "solution": "The laser scans the charged photoconductor drum and discharges selected points, creating the electrostatic latent image that attracts toner. Fusing is done by heated rollers, not the laser.",
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q1" }]
+  },
+  {
+    "id": "ap-la-05",
+    "subject": "applied-physics",
+    "chapter": "lasers",
+    "topic": "Emission processes",
+    "type": "DES",
+    "marks": 3,
+    "question": "Explain the following terms with reference to lasers: (a) spontaneous emission (b) stimulated emission. Give an example each.",
+    "solution": "(a) Spontaneous emission: an excited atom returns to a lower state on its own after its natural lifetime, emitting a photon of energy hf = E2 - E1 in a random direction and phase. Example: light emission from an LED. (b) Stimulated emission: an incident photon of suitable energy induces an excited atom to emit a second photon in phase, with the same frequency, polarization and direction. Example: the ruby laser. This is the process that produces coherent laser light.",
+    "images": [
+      {"src": "assets/figures/spontaneous-emission.png", "alt": "Spontaneous emission: an excited atom drops to a lower level and emits a photon in a random direction.", "caption": "Spontaneous emission: an excited atom drops to a lower level and emits a photon in a random direction.", "placement": "solution"},
+      {"src": "assets/figures/stimulated-emission.png", "alt": "Stimulated emission: the incident photon triggers emission of an identical photon, giving two coherent photons.", "caption": "Stimulated emission: the incident photon triggers emission of an identical photon, giving two coherent photons.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "ap-2024-midsem", "qno": "Q6" }]
+  },
+  {
+    "id": "ap-la-06",
+    "subject": "applied-physics",
+    "chapter": "lasers",
+    "topic": "Ruby laser numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "A ruby laser delivers a 10 ns pulse of 1 MW average power. If the photons have a wavelength of 694.3 nm, how many photons are contained in the pulse? What is the spatial length of the pulse?",
+    "solution": "Pulse energy = P t = 1×10^6 × 10×10^-9 = 1.0×10^-2 J. Photon energy = hc/λ = 1.988×10^-25/6.943×10^-7 = 2.86×10^-19 J. Number of photons = 1.0×10^-2/2.86×10^-19 ≈ 3.5×10^16. Pulse length = c t = 3×10^8 × 10×10^-9 = 3 m.",
+    "papers": [{ "id": "ap-2025-mar-midsem", "qno": "Q10" }]
+  },
+  {
+    "id": "ap-la-07",
+    "subject": "applied-physics",
+    "chapter": "lasers",
+    "topic": "Laser components",
+    "type": "DES",
+    "marks": 3,
+    "question": "What are the essential components of a laser? Explain the role of each component in the production of laser light.",
+    "solution": "1. Pumping system: supplies external energy (optical, electrical, chemical) to excite the active medium and create population inversion. 2. Active/lasing medium: provides the atoms, ions or molecules that undergo stimulated emission and determine the laser wavelength. 3. Resonant/optical cavity: two mirrors (one partially transmitting) provide optical feedback so emitted photons make repeated passes, amplifying stimulated emission and selecting the axial direction and wavelength.",
+    "images": [
+      {"src": "assets/figures/laser-components.png", "alt": "Essential laser components: pumping system, lasing medium and resonant cavity.", "caption": "Essential laser components: pumping system, lasing medium and resonant cavity.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "ap-2025-sep-midsem", "qno": "Q14" }]
+  },
+  {
+    "id": "ap-la-08",
+    "subject": "applied-physics",
+    "chapter": "lasers",
+    "topic": "Einstein coefficients",
+    "type": "DES",
+    "marks": 3,
+    "question": "Derive the relations between the Einstein coefficients A21, B21 and B12 for a two-level atomic system in thermal equilibrium.",
+    "solution": "At equilibrium, the rate of absorption equals the total rate of spontaneous and stimulated emission: N1B12ρ(ν) = N2A21 + N2B21ρ(ν). Hence ρ(ν) = A21/[B12(N1/N2) - B21]. Using the Boltzmann population ratio N2/N1 = (g2/g1)e^{-hν/kT}, ρ(ν) = (A21/B21)/[(g1B12/g2B21)e^{hν/kT} - 1]. Comparing with Planck's law ρ(ν) = (8πhν³/c³)/(e^{hν/kT} - 1) gives B12 = (g2/g1)B21 and A21/B21 = 8πhν³/c³.",
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q10" }],
+    "note": "The official answer uses equal degeneracies (g1 = g2), which gives B12 = B21 and A21/B21 = 8πhν³/c³."
+  }
+]

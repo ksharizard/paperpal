@@ -1,0 +1,56 @@
+[
+  {
+    "id": "applied-physics",
+    "name": "Applied Physics for Engineers",
+    "shortName": "Applied Physics",
+    "codes": ["PHY 1072", "PHY 1003", "SMS 1002"],
+    "description": "Current first-year physics syllabus (2024-2026 papers): quantum mechanics, photoelectric effect, thermal radiation, Compton effect, lasers and optical fibres.",
+    "chapters": [
+      { "id": "quantum-mechanics", "name": "Quantum Mechanics", "description": "de Broglie waves, uncertainty principle, wave functions, Schrodinger equation, particle in a box, harmonic oscillator and tunnelling." },
+      { "id": "photoelectric-effect", "name": "Photoelectric Effect", "description": "Photon theory, Einstein's photoelectric equation, stopping potential, work function and quantum efficiency." },
+      { "id": "thermal-radiation", "name": "Thermal Radiation", "description": "Blackbody radiation, Stefan-Boltzmann law, Wien's law, Rayleigh-Jeans law and the ultraviolet catastrophe." },
+      { "id": "compton-xrays", "name": "Compton Effect & X-rays", "description": "Compton scattering, Compton shift, recoil electron and X-ray spectra." },
+      { "id": "lasers", "name": "Lasers", "description": "Spontaneous and stimulated emission, population inversion, Einstein coefficients, laser components and the ruby laser." },
+      { "id": "optical-fibres", "name": "Optical Fibres", "description": "Total internal reflection, numerical aperture, acceptance angle, modes, dispersion and skip distance." }
+    ]
+  },
+  {
+    "id": "engineering-physics",
+    "name": "Engineering Physics",
+    "shortName": "Engineering Physics",
+    "codes": ["PHY 101", "PHY 102", "PHY 1001"],
+    "description": "Older first-year engineering physics papers (2011-2017). Broader syllabus covering wave optics, modern physics and solid state physics.",
+    "chapters": [
+      { "id": "interference", "name": "Interference", "description": "Double-slit interference, thin films, Newton's rings, wedge films and the Michelson interferometer." },
+      { "id": "diffraction", "name": "Diffraction & Gratings", "description": "Single-slit diffraction, circular apertures, resolving power, diffraction gratings and zone plates." },
+      { "id": "polarization", "name": "Polarization", "description": "Brewster's law, double refraction, optical activity and wave plates." },
+      { "id": "quantum-mechanics", "name": "Quantum Mechanics", "description": "Wave packets, de Broglie hypothesis, uncertainty principle, wave functions and particle-in-a-box problems." },
+      { "id": "atomic-molecular", "name": "Atomic & Molecular Physics", "description": "Hydrogen atom, angular momentum, rotational and vibrational spectra of diatomic molecules." },
+      { "id": "xrays", "name": "X-rays & Compton Effect", "description": "Continuous and characteristic X-ray spectra, Moseley's law, Bragg diffraction and Compton scattering." },
+      { "id": "lasers", "name": "Lasers", "description": "Principle of laser action, emission processes and the ruby laser." },
+      { "id": "optical-fibres", "name": "Optical Fibres", "description": "Light propagation, numerical aperture and acceptance angle." },
+      { "id": "semiconductors", "name": "Semiconductors & Solid State", "description": "Band theory, Fermi-Dirac statistics, density of states, carrier concentration and p-n junctions." },
+      { "id": "superconductivity", "name": "Superconductivity", "description": "Zero resistance, Meissner effect, BCS theory and superconducting rings." },
+      { "id": "thermal-radiation", "name": "Thermal Radiation", "description": "Blackbody laws and Wien's displacement law." }
+    ]
+  },
+  {
+    "id": "basic-mechanical",
+    "name": "Basic Mechanical Engineering",
+    "shortName": "Basic Mechanical",
+    "codes": ["MIE 1071", "IME 122", "ME 123"],
+    "description": "First-year mechanical engineering fundamentals: steam and boilers, drives, IC engines, machine tools, manufacturing processes and power plants.",
+    "chapters": [
+      { "id": "steam-boilers", "name": "Steam & Boilers", "description": "Steam formation, enthalpy, quality, superheat, boiler types, mountings, accessories and efficiency." },
+      { "id": "belt-drives", "name": "Belt Drives", "description": "Flat belt drives, tension ratio, power transmission, belt length and fast/loose pulleys." },
+      { "id": "gear-trains", "name": "Gear Trains", "description": "Simple and compound gear trains, velocity ratio, module and centre distance." },
+      { "id": "ic-engines", "name": "IC Engines", "description": "Two- and four-stroke engines, carburettors, lubrication, indicated and brake thermal efficiency." },
+      { "id": "machine-tools", "name": "Machine Tools", "description": "Lathe operations and parts, drilling machines, reaming, boring and speed control." },
+      { "id": "casting", "name": "Casting & Foundry", "description": "Patterns, moulding sand, allowances, green sand moulding and casting defects." },
+      { "id": "welding", "name": "Welding & Joining", "description": "Arc welding, gas welding, TIG, resistance spot welding, soldering and brazing." },
+      { "id": "advanced-manufacturing", "name": "Additive Mfg. & CNC", "description": "Additive manufacturing steps, NC/CNC machines and their advantages and limitations." },
+      { "id": "power-plants", "name": "Power Plants & Turbines", "description": "Thermal, nuclear and gas power plants, impulse and reaction turbines, water turbines." },
+      { "id": "refrigeration", "name": "Refrigeration", "description": "Vapour compression refrigeration cycle, refrigerants and component functions." }
+    ]
+  }
+]

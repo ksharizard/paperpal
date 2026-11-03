@@ -1,0 +1,112 @@
+[
+  {
+    "id": "bme-mt-01",
+    "subject": "basic-mechanical",
+    "chapter": "machine-tools",
+    "topic": "Lathe operations",
+    "type": "DES",
+    "marks": 4,
+    "question": "With neat sketches, explain any four lathe operations.",
+    "solution": "1. Turning: removes metal from the outside diameter of a rotating workpiece with a single-point tool fed along the axis. 2. Facing: feeds the tool radially across the end of the workpiece to produce a flat surface. 3. Chamfering: cuts an angled edge at the end of a shaft to remove sharp corners. 4. Knurling: presses a knurling tool into the rotating surface to form a serrated grip. Other common operations are drilling, boring, threading, grooving, parting and taper turning.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q4A" }]
+  },
+  {
+    "id": "bme-mt-02",
+    "subject": "basic-mechanical",
+    "chapter": "machine-tools",
+    "topic": "Radial drilling machine",
+    "type": "DES",
+    "marks": 3,
+    "question": "With a neat sketch and labelling, explain the features of a radial drilling machine.",
+    "solution": "A radial drilling machine has a heavy base, a vertical column, a radial arm that can rotate and slide up or down on the column, and a drill head that slides along the arm. The spindle is mounted in the drill head and can be positioned anywhere over the workpiece by combining arm rotation, arm height and head travel. This makes it suitable for drilling large or heavy workpieces that cannot be moved easily. The spindle speed and feed are selected through the gearbox.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q4B" }]
+  },
+  {
+    "id": "bme-mt-03",
+    "subject": "basic-mechanical",
+    "chapter": "machine-tools",
+    "topic": "Lathe operations",
+    "type": "DES",
+    "marks": 4,
+    "question": "Identify and explain the lathe operations used for (i) removal of sharp corners on shaft ends and (ii) producing a serrated surface that helps in effective gripping.",
+    "solution": "(i) Removal of sharp corners on shaft ends is done by chamfering. The compound rest or tool post is set at an angle (usually 45°) and the tool is fed to cut a conical edge, which also helps guide mating parts and prevents injury. (ii) A serrated gripping surface is produced by knurling. A knurling tool holding hardened rollers with a diamond or straight pattern is pressed against the rotating workpiece, plastically deforming the surface into the required pattern. Knurling is used on handles, gauges and tool grips.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q4A" }]
+  },
+  {
+    "id": "bme-mt-04",
+    "subject": "basic-mechanical",
+    "chapter": "machine-tools",
+    "topic": "Reaming versus boring",
+    "type": "DES",
+    "marks": 3,
+    "question": "Compare reaming and boring with the help of neat sketches.",
+    "solution": "Boring enlarges an existing hole with a single-point boring tool on a lathe or boring machine. It can correct the hole's diameter, straightness and location, but removes more material and may leave tool marks. Reaming is a finishing operation that slightly enlarges a drilled hole and improves its dimensional accuracy and surface finish using a multi-edge reamer. Reaming removes very little material and cannot correct the position of a badly located hole. Boring is used before reaming when a large size change is needed.",
+    "papers": [{ "id": "bme-2024-jan", "qno": "Q4B" }]
+  },
+  {
+    "id": "bme-mt-05",
+    "subject": "basic-mechanical",
+    "chapter": "machine-tools",
+    "topic": "Taper turning",
+    "type": "DES",
+    "marks": 6,
+    "question": "Sketch and explain taper turning by the swivelling compound tool rest method.",
+    "solution": "The workpiece is held in the chuck and the compound rest is swivelled to half the included angle of the taper, α, where tanα = (D - d)/(2L). The tool is set at the required depth and fed manually along the swivelled slide while the workpiece rotates. The method is simple and suitable for short, steep tapers, but the feed is hand-controlled so the finish and accuracy depend on the operator, and the length of taper is limited by the compound rest travel.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "2C" }]
+  },
+  {
+    "id": "bme-mt-06",
+    "subject": "basic-mechanical",
+    "chapter": "machine-tools",
+    "topic": "Counterboring versus countersinking",
+    "type": "DES",
+    "marks": 8,
+    "question": "Differentiate counter-sinking and counter-boring with neat sketches.",
+    "solution": "Counterboring produces a cylindrical, flat-bottomed recess at the top of a hole using a counterbore tool. It accommodates the cylindrical head of a socket-head cap screw so that the head sits flush or below the surface, and it can also true the end of a hole. Countersinking produces a conical recess with a countersink tool, usually at 82° or 90°, to accept the conical head of a flat-head screw or rivet. Counterboring gives a straight-walled seat; countersinking gives an angled seat.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "5B" }]
+  },
+  {
+    "id": "bme-mt-07",
+    "subject": "basic-mechanical",
+    "chapter": "machine-tools",
+    "topic": "Lathe specification",
+    "type": "DES",
+    "marks": 6,
+    "question": "Explain the specification of a lathe with a neat sketch.",
+    "solution": "A lathe is specified by: the swing over the bed (largest workpiece diameter that can rotate without hitting the bed), the swing over the cross-slide, the distance between centres (maximum workpiece length), the bed length and width, the spindle bore and spindle nose type, the spindle speed range (rpm), the feed range and lead-screw pitch, the tailstock taper, the motor power and the overall dimensions and mass. These parameters determine the largest workpiece the lathe can hold and the range of cutting conditions available.",
+    "papers": [{ "id": "bme-2016-dec", "qno": "8A" }]
+  },
+  {
+    "id": "bme-mt-08",
+    "subject": "basic-mechanical",
+    "chapter": "machine-tools",
+    "topic": "Drilling and lathe operations",
+    "type": "DES",
+    "marks": 10,
+    "question": "Explain boring, counterboring, countersinking, spot facing and tapping operations.",
+    "solution": "Boring enlarges and trues an existing hole with a single-point tool. Counterboring cuts a flat-bottomed cylindrical recess so a socket-head screw can sit below the surface. Countersinking cuts a conical recess for a flat-head screw or rivet. Spot facing produces a flat, smooth seating surface around a hole, usually for a washer or bolt head, without enlarging the hole. Tapping cuts internal threads in a drilled hole using a tap, usually after drilling a tapping-size hole. These operations are often performed on a drilling machine, lathe or machining centre.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "3A" }]
+  },
+  {
+    "id": "bme-mt-09",
+    "subject": "basic-mechanical",
+    "chapter": "machine-tools",
+    "topic": "Lathe parts",
+    "type": "DES",
+    "marks": 10,
+    "question": "Describe the function of any five major parts of a lathe.",
+    "solution": "1. Bed: rigid base with guideways on which the carriage and tailstock slide. 2. Headstock: houses the spindle and gearing; holds and rotates the workpiece and provides speed selection. 3. Tailstock: supports the free end of long work with a centre, and holds drills or reamers. 4. Carriage: carries the tool post and moves the cutting tool longitudinally and transversely; it includes the saddle, cross-slide, compound rest and apron. 5. Feed mechanism: lead screw, feed rod and apron gears that move the carriage or cross-slide at the selected feed for turning, threading and facing.",
+    "papers": [{ "id": "bme-2019-apr", "qno": "9A" }]
+  },
+  {
+    "id": "bme-mt-10",
+    "subject": "basic-mechanical",
+    "chapter": "machine-tools",
+    "topic": "Speed control",
+    "type": "DES",
+    "marks": 3,
+    "question": "A machine is being designed in which four different speeds are required. Suggest a suitable system and explain its construction and working with a neat sketch.",
+    "solution": "A stepped-cone pulley (speed cone) system is suitable. Each of the two shafts carries a cone with four steps of different diameters, connected by a belt. Because the belt can be moved from one pair of steps to another, four different speed ratios are obtained: N2/N1 = D1/D2. The cones are arranged in opposite directions so that the belt length remains approximately constant. The drive is simple and inexpensive, but the speeds are discrete and the belt may slip under heavy load; a geared speed box is an alternative for positive drive.",
+    "papers": [{ "id": "bme-2023-dec", "qno": "Q2C" }]
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "ap-pe-01",
+    "subject": "applied-physics",
+    "chapter": "photoelectric-effect",
+    "topic": "Stopping potential",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "A metal surface is illuminated with monochromatic light of wavelength λ, causing the emission of photoelectrons. The stopping potential required to halt the most energetic photoelectrons is V1. If the wavelength of the incident light is halved, which statement is correct regarding the new stopping potential V2?",
+    "options": ["V2 > 2V1", "V2 < 2V1", "V2 = 2V1", "V2 = V1/2"],
+    "answer": 0,
+    "solution": "eV = hc/λ - φ. At λ/2: eV2 = 2hc/λ - φ = 2(hc/λ - φ) + φ = 2eV1 + φ. Therefore V2 = 2V1 + φ/e > 2V1.",
+    "papers": [{ "id": "ap-2025-mar-midsem", "qno": "Q2" }]
+  },
+  {
+    "id": "ap-pe-02",
+    "subject": "applied-physics",
+    "chapter": "photoelectric-effect",
+    "topic": "Photoelectric graphs",
+    "type": "DES",
+    "marks": 4,
+    "question": "(a) Sketch a schematic graph of photoelectric current versus applied voltage for the photoelectric effect. Explain the significance of the point where the graph intersects the x-axis. (b) Sketch a schematic graph of the maximum kinetic energy of emitted electrons versus the frequency of incident light. Explain the significance of the slope and y-intercept of the graph.",
+    "solution": "(a) The current rises with positive voltage and saturates; for negative voltage it falls to zero at -Vs. The x-intercept (-Vs) is the stopping potential, the minimum retarding potential that stops even the most energetic photoelectrons. It is independent of light intensity. (b) Kmax versus frequency is a straight line. The slope equals Planck's constant h; the y-intercept equals -φ, where φ is the work function, so no emission occurs below the threshold frequency f0 = φ/h.",
+    "images": [
+      {"src": "assets/figures/photoelectric-current-voltage.png", "alt": "Photoelectric current versus applied voltage at two intensities.", "caption": "Photoelectric current versus applied voltage at two intensities.", "placement": "solution"},
+      {"src": "assets/figures/photoelectric-kmax-frequency.png", "alt": "Maximum photoelectron kinetic energy versus frequency for three metals.", "caption": "Maximum photoelectron kinetic energy versus frequency for three metals.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "ap-2025-mar-midsem", "qno": "Q14" }]
+  },
+  {
+    "id": "ap-pe-03",
+    "subject": "applied-physics",
+    "chapter": "photoelectric-effect",
+    "topic": "Work function and threshold",
+    "type": "DES",
+    "marks": 3,
+    "question": "When a photosensitive metal is illuminated by light of a certain wavelength, the stopping potential required to stop the ejected photoelectrons is 1.1 V. If the incident wavelength is half the threshold wavelength of the metal, find (a) the threshold frequency, (b) the work function of the metal and (c) the maximum velocity of the ejected electrons.",
+    "solution": "With λ = λ0/2, f = 2f0. Einstein's equation gives eV = h(2f0) - hf0 = hf0, so f0 = eV/h = (1.6×10^-19 × 1.1)/(6.626×10^-34) = 2.66×10^14 Hz. Work function φ = hf0 = 1.76×10^-19 J = 1.1 eV. Maximum speed v = sqrt(2eV/m) = sqrt(2 × 1.6×10^-19 × 1.1 / 9.11×10^-31) ≈ 6.2×10^5 m/s.",
+    "papers": [{ "id": "ap-2024-midsem", "qno": "Q11" }]
+  },
+  {
+    "id": "ap-pe-04",
+    "subject": "applied-physics",
+    "chapter": "photoelectric-effect",
+    "topic": "Work function and photocurrent",
+    "type": "DES",
+    "marks": 3,
+    "question": "Monochromatic light of wavelength 430 nm and intensity 5 mW/m² falls on a metal surface of area 2 cm². The stopping potential for the most energetic photoelectrons is 0.80 V. Estimate the work function of the metal. If 20% of the incident photons eject electrons (quantum efficiency), estimate the photocurrent.",
+    "solution": "Photon energy E = hc/λ = 1.988×10^-25/4.30×10^-7 = 4.62×10^-19 J = 2.89 eV. Work function φ = E - eVs = 2.89 - 0.80 = 2.09 eV = 3.35×10^-19 J. Incident power on the area = 5×10^-3 × 2×10^-4 = 1.0×10^-6 W. Photons per second = 1.0×10^-6/4.62×10^-19 = 2.16×10^12. Electrons per second = 0.20 × 2.16×10^12 = 4.33×10^11. Photocurrent = 4.33×10^11 × 1.6×10^-19 ≈ 6.9×10^-8 A ≈ 69 nA.",
+    "papers": [{ "id": "ap-2025-sep-midsem", "qno": "Q11" }]
+  },
+  {
+    "id": "ap-pe-05",
+    "subject": "applied-physics",
+    "chapter": "photoelectric-effect",
+    "topic": "Classical versus quantum predictions",
+    "type": "DES",
+    "marks": 4,
+    "question": "State and compare four predictions of classical wave theory for the photoelectric effect with the corresponding experimental observations.",
+    "solution": "1. Classical: emission should occur at any frequency if intensity is large enough. Observed: no emission below a threshold frequency, however intense the light. 2. Classical: maximum kinetic energy should increase with intensity. Observed: Kmax is independent of intensity. 3. Classical: there should be a measurable time lag before emission. Observed: emission is practically instantaneous. 4. Classical: Kmax should not depend on frequency. Observed: Kmax increases linearly with frequency, Kmax = hf - φ.",
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q6" }]
+  },
+  {
+    "id": "ap-tr-01",
+    "subject": "applied-physics",
+    "chapter": "thermal-radiation",
+    "topic": "Stefan-Boltzmann law",
+    "type": "DES",
+    "marks": 2,
+    "question": "The radius of the Sun is 6.96 × 10^8 m and its total power output is 3.85 × 10^26 W. Assuming the Sun's surface emits as a black body, calculate its surface temperature.",
+    "solution": "P = σAT^4 with A = 4πR^2 = 4π(6.96×10^8)^2 = 6.09×10^18 m². T^4 = 3.85×10^26/(5.67×10^-8 × 6.09×10^18) = 1.115×10^15. Hence T ≈ 5.78×10^3 K (about 5780 K).",
+    "papers": [{ "id": "ap-2024-midsem", "qno": "Q12" }]
+  },
+  {
+    "id": "ap-tr-02",
+    "subject": "applied-physics",
+    "chapter": "thermal-radiation",
+    "topic": "Planck's law and Wien's law",
+    "type": "DES",
+    "marks": 3,
+    "question": "A radiometer measures thermal radiation from an object at 1278 K. It is set to detect peak emission and records radiation in a wavelength interval of 12.6 nm. What is the radiation intensity within this range?",
+    "solution": "Wien's law gives the peak wavelength: λm = b/T = 2.898×10^-3/1278 = 2.268×10^-6 m. Using Planck's spectral exitance Mλ = (2πhc²/λ^5)/(e^{hc/λkT} - 1): hc/λkT = 4.97, so the denominator is 143.5. Mλ ≈ 4.39×10^10 W/m³. The intensity in Δλ = 12.6 nm = 1.26×10^-8 m is Mλ Δλ ≈ 5.5×10^2 W/m².",
+    "papers": [{ "id": "ap-2025-mar-midsem", "qno": "Q11" }],
+    "note": "Assumes the radiometer measures spectral exitance per unit area; the accepted key awards full marks for using Planck's law with the peak wavelength."
+  },
+  {
+    "id": "ap-tr-03",
+    "subject": "applied-physics",
+    "chapter": "thermal-radiation",
+    "topic": "Ultraviolet catastrophe",
+    "type": "DES",
+    "marks": 2,
+    "question": "What is the ultraviolet catastrophe? Explain with the help of the necessary equation and a diagram.",
+    "solution": "The Rayleigh-Jeans law, I(λ,T)dλ = (2πckBT/λ^4)dλ, agrees with experiment only at long wavelengths. It predicts that the emitted intensity rises without limit as λ → 0, so the total radiated energy would be infinite. This divergence at short wavelengths is the ultraviolet catastrophe. Planck resolved it by assuming quantized oscillators, which gives the Planck distribution that falls to zero at short wavelengths.",
+    "images": [
+      {"src": "assets/figures/rayleigh-jeans.png", "alt": "Rayleigh-Jeans law compared with the experimental blackbody spectrum.", "caption": "Rayleigh-Jeans law compared with the experimental blackbody spectrum.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "ap-2025-sep-midsem", "qno": "Q13" }]
+  },
+  {
+    "id": "ap-tr-04",
+    "subject": "applied-physics",
+    "chapter": "thermal-radiation",
+    "topic": "Stefan-Boltzmann and Wien laws",
+    "type": "DES",
+    "marks": 2,
+    "question": "A blackbody is heated from 300 K to 600 K. How will its total emitted power and peak wavelength change? Explain with the help of the necessary equations.",
+    "solution": "By Stefan-Boltzmann, P = σAT^4, so doubling T multiplies the power by 2^4 = 16. By Wien's law, λmT = constant, so doubling T halves the peak wavelength (λm becomes 1/2 of its original value).",
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q12" }]
+  }
+]

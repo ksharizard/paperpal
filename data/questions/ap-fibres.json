@@ -1,0 +1,149 @@
+[
+  {
+    "id": "ap-of-01",
+    "subject": "applied-physics",
+    "chapter": "optical-fibres",
+    "topic": "Fibre types and dispersion",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "Choose the wrong statement from the following.",
+    "options": [
+      "A single-mode step-index optical fibre consists of a core having a uniform refractive index.",
+      "A multimode step-index optical fibre consists of a core having a uniform refractive index.",
+      "The core diameter is larger for a single-mode step-index fibre than for a multimode step-index fibre.",
+      "Material dispersion in an optical fibre is due to the wavelength dependence of the core refractive index."
+    ],
+    "answer": 2,
+    "solution": "Single-mode fibres have a much smaller core (a few micrometres) than multimode fibres (typically 50-100 micrometres). The other three statements are correct.",
+    "papers": [
+      { "id": "ap-2024-midsem", "qno": "Q4" },
+      { "id": "ap-2025-mar-midsem", "qno": "Q4" }
+    ]
+  },
+  {
+    "id": "ap-of-02",
+    "subject": "applied-physics",
+    "chapter": "optical-fibres",
+    "topic": "Material dispersion",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "Material dispersion in optical fibre communication can be reduced by",
+    "options": ["increasing the length of the fibre", "employing narrow spectral-width laser sources", "employing wider spectral-width laser sources", "bending the optical fibre"],
+    "answer": 1,
+    "solution": "Material dispersion arises because different wavelengths travel at different speeds. A source with a narrow spectral width contains fewer wavelengths, so pulse broadening is reduced.",
+    "papers": [{ "id": "ap-2025-sep-midsem", "qno": "Q3" }]
+  },
+  {
+    "id": "ap-of-03",
+    "subject": "applied-physics",
+    "chapter": "optical-fibres",
+    "topic": "Dispersion mechanisms",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "Which dispersion mechanism is present in both single-mode and multimode fibres but depends strongly on the source spectral width?",
+    "options": ["material dispersion", "intermodal and material dispersion", "intermodal dispersion", "intermodal and waveguide dispersion"],
+    "answer": 0,
+    "solution": "Material dispersion depends on the wavelength dependence of the refractive index and therefore on the source linewidth. Intermodal dispersion requires multiple modes and is absent in single-mode fibre.",
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q2" }]
+  },
+  {
+    "id": "ap-of-04",
+    "subject": "applied-physics",
+    "chapter": "optical-fibres",
+    "topic": "Numerical aperture - numerical",
+    "type": "DES",
+    "marks": 3,
+    "question": "A step-index optical fibre has core refractive index 1.48 and cladding refractive index 1.46. The core radius is 4 μm and the operating wavelength is 1550 nm. Calculate (a) the critical angle for total internal reflection at the core-cladding interface, (b) the numerical aperture, and (c) the maximum acceptance angle in air.",
+    "solution": "(a) θc = sin⁻¹(n2/n1) = sin⁻¹(1.46/1.48) = sin⁻¹(0.9865) ≈ 80.6°. (b) NA = sqrt(n1² - n2²) = sqrt(1.48² - 1.46²) = sqrt(0.0588) ≈ 0.242. (c) sinθ0 = NA/n0 = 0.242, so θ0 ≈ 14.0°.",
+    "papers": [{ "id": "ap-2024-midsem", "qno": "Q8" }]
+  },
+  {
+    "id": "ap-of-05",
+    "subject": "applied-physics",
+    "chapter": "optical-fibres",
+    "topic": "Skip distance",
+    "type": "DES",
+    "marks": 3,
+    "question": "Define skip distance and derive an expression for it with a neat diagram.",
+    "solution": "Skip distance Ls is the axial distance between two successive reflections of a ray propagating through an optical fibre. Let d be the core diameter and θ1 the angle the ray makes with the fibre axis. Then Ls = d cotθ1. At the entrance, n0 sinθ0 = n1 sinθ1, so sinθ1 = (n0/n1) sinθ0. Therefore Ls = d sqrt(1 - sin²θ1)/sinθ1 = d sqrt(n1² - n0² sin²θ0)/(n0 sinθ0). For air (n0 = 1), Ls = d sqrt(n1² - sin²θ0)/sinθ0.",
+    "images": [
+      {"src": "assets/figures/fibre-skip-distance.png", "alt": "Skip distance L_s for a ray travelling in a step-index fibre.", "caption": "Skip distance L_s for a ray travelling in a step-index fibre.", "placement": "solution"}
+    ],
+    "papers": [
+      { "id": "ap-2024-midsem", "qno": "Q7" },
+      { "id": "ap-2025-sep-midsem", "qno": "Q8" }
+    ]
+  },
+  {
+    "id": "ap-of-06",
+    "subject": "applied-physics",
+    "chapter": "optical-fibres",
+    "topic": "Acceptance angle and NA",
+    "type": "DES",
+    "marks": 3,
+    "question": "With a necessary diagram, derive an expression for the angle of acceptance and numerical aperture.",
+    "solution": "A ray enters the core (index n1) from a medium n0 at angle θ0 to the axis, refracts at angle θ1, and strikes the core-cladding interface at the critical angle. Snell's law at entry gives n0 sinθ0 = n1 sinθ1. At the interface, sin(90° - θ1) = n2/n1, so cosθ1 = n2/n1 and sinθ1 = sqrt(n1² - n2²)/n1. Substituting gives n0 sinθ0 = sqrt(n1² - n2²). The acceptance angle is θ0 = sin⁻¹(sqrt(n1² - n2²)/n0), and NA = n0 sinθ0 = sqrt(n1² - n2²).",
+    "images": [
+      {"src": "assets/figures/fibre-acceptance-angle.png", "alt": "Acceptance cone and numerical aperture of a step-index fibre.", "caption": "Acceptance cone and numerical aperture of a step-index fibre.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "ap-2025-mar-midsem", "qno": "Q13" }]
+  },
+  {
+    "id": "ap-of-07",
+    "subject": "applied-physics",
+    "chapter": "optical-fibres",
+    "topic": "Material dispersion",
+    "type": "DES",
+    "marks": 2,
+    "question": "With reference to optical fibre communication, what is material dispersion? Briefly explain.",
+    "solution": "Material dispersion is pulse broadening caused by the wavelength dependence of the refractive index of the core. An LED or other source emits a range of wavelengths; each wavelength travels at a slightly different group velocity, so the different components of a pulse arrive at different times and the pulse spreads. It is reduced by using a narrow-linewidth laser source.",
+    "papers": [{ "id": "ap-2025-mar-midsem", "qno": "Q9" }]
+  },
+  {
+    "id": "ap-of-08",
+    "subject": "applied-physics",
+    "chapter": "optical-fibres",
+    "topic": "Numerical aperture - numerical",
+    "type": "DES",
+    "marks": 2,
+    "question": "An optical fibre has a numerical aperture of 0.3. The refractive index of the cladding is 2% smaller than that of the core. Estimate the refractive indices of the core and the cladding.",
+    "solution": "Let n2 = 0.98n1. Then NA² = n1² - n2² = n1²(1 - 0.98²) = 0.0396n1². Hence n1 = 0.3/sqrt(0.0396) ≈ 1.508 and n2 = 0.98 × 1.508 ≈ 1.478.",
+    "papers": [{ "id": "ap-2025-sep-midsem", "qno": "Q6" }]
+  },
+  {
+    "id": "ap-of-09",
+    "subject": "applied-physics",
+    "chapter": "optical-fibres",
+    "topic": "Group and phase velocity",
+    "type": "DES",
+    "marks": 2,
+    "question": "Obtain the relation between group velocity (vg) and phase velocity (vp) in a dispersive medium.",
+    "solution": "By definition vp = ω/k and vg = dω/dk. Since ω = k vp, vg = d(k vp)/dk = vp + k dvp/dk. Replacing k by 2π/λ and dk by -(2π/λ²)dλ gives vg = vp - λ dvp/dλ. Both forms show that group and phase velocities differ when vp depends on wavelength (a dispersive medium).",
+    "papers": [{ "id": "ap-2025-sep-midsem", "qno": "Q7" }]
+  },
+  {
+    "id": "ap-of-10",
+    "subject": "applied-physics",
+    "chapter": "optical-fibres",
+    "topic": "Acceptance angle in a medium and modes",
+    "type": "DES",
+    "marks": 3,
+    "question": "A step-index optical fibre has a core diameter of 63.5 μm. When placed in air, the fibre's acceptance angle is 30°. (a) Calculate the acceptance angle of the fibre when it is immersed in a medium with refractive index 1.33. (b) Given an operating wavelength of 1300 nm, determine the approximate number of modes the fibre can support.",
+    "solution": "(a) NA = n0 sinθ0 = 1 × sin30° = 0.5. In the medium, sinθ0' = NA/n = 0.5/1.33 = 0.376, so θ0' ≈ 22.1°. (b) V = πd NA/λ = π × 63.5×10^-6 × 0.5/(1.30×10^-6) ≈ 76.7. The number of modes is approximately V²/2 ≈ 76.7²/2 ≈ 2.9×10^3 modes.",
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q11" }]
+  },
+  {
+    "id": "ap-of-11",
+    "subject": "applied-physics",
+    "chapter": "optical-fibres",
+    "topic": "Intermodal dispersion",
+    "type": "DES",
+    "marks": 2,
+    "question": "With reference to optical fibre communication, what is intermodal dispersion?",
+    "solution": "In a multimode fibre, different modes follow different zigzag paths and therefore travel with different effective velocities along the axis. They reach the output at different times, broadening the pulse. This is intermodal dispersion. It is independent of the source spectral width and is absent in a single-mode fibre, where only one mode propagates.",
+    "images": [
+      {"src": "assets/figures/intermodal-dispersion.png", "alt": "Intermodal dispersion: different ray paths travel different distances, so pulses spread.", "caption": "Intermodal dispersion: different ray paths travel different distances, so pulses spread.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q14" }]
+  }
+]

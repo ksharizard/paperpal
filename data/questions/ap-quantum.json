@@ -1,0 +1,253 @@
+[
+  {
+    "id": "ap-qm-01",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Particle in a one-dimensional box",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "What is the quantum number n of a particle of mass m confined to a one-dimensional box of length L when its energy is 2h^2/mL^2?",
+    "options": ["4", "1", "8", "2"],
+    "answer": 0,
+    "solution": "E_n = n^2h^2/(8mL^2). Equating gives n^2/8 = 2, so n^2 = 16 and n = 4.",
+    "papers": [{ "id": "ap-2024-midsem", "qno": "Q1" }]
+  },
+  {
+    "id": "ap-qm-02",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Particle in a one-dimensional box",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "A particle of mass m is confined in a one-dimensional infinite potential well of width L. What happens to the energy levels if the width of the well is doubled?",
+    "options": [
+      "The energy levels decrease by a factor of 4.",
+      "The energy levels remain unchanged.",
+      "The energy levels increase by a factor of 4.",
+      "The energy levels decrease by a factor of 2."
+    ],
+    "answer": 0,
+    "solution": "E_n = n^2h^2/(8mL^2), so E ∝ 1/L^2. Doubling L divides every level by 4.",
+    "papers": [{ "id": "ap-2025-mar-midsem", "qno": "Q1" }]
+  },
+  {
+    "id": "ap-qm-03",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Particle in a one-dimensional box",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "A particle is confined in a one-dimensional infinite potential well of width L. If the width of the well is doubled while the quantum number remains unchanged, its energy becomes",
+    "options": ["2 times", "4 times", "0.25 times", "0.5 times"],
+    "answer": 2,
+    "solution": "E_n ∝ 1/L^2. Doubling L multiplies the energy by (1/2)^2 = 0.25.",
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q4" }]
+  },
+  {
+    "id": "ap-qm-04",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Heisenberg uncertainty principle",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "What is the minimum uncertainty in the velocity of an electron if the uncertainty in its position is 50 pm?",
+    "options": ["Zero", "1.16 × 10^6 m/s", "1.05 × 10^-24 m/s", "5.27 × 10^-35 m/s"],
+    "answer": 1,
+    "solution": "Δp ≥ ħ/(2Δx) = 1.055×10^-34/(2×50×10^-12) = 1.055×10^-24 kg m/s. Then Δv = Δp/m = 1.055×10^-24/9.11×10^-31 ≈ 1.16×10^6 m/s.",
+    "papers": [
+      { "id": "ap-2024-midsem", "qno": "Q3" },
+      { "id": "ap-2025-mar-midsem", "qno": "Q3" }
+    ]
+  },
+  {
+    "id": "ap-qm-05",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "de Broglie wavelength",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "An electron and a proton are accelerated through the same potential. The ratio of their de Broglie wavelengths λe/λp is",
+    "options": ["(mp/me)^1/2", "1", "me/mp", "(me/mp)^1/2"],
+    "answer": 0,
+    "solution": "Both acquire the same kinetic energy qV. Since λ = h/sqrt(2mE), λ ∝ 1/sqrt(m). Hence λe/λp = sqrt(mp/me).",
+    "papers": [{ "id": "ap-2025-sep-midsem", "qno": "Q1" }]
+  },
+  {
+    "id": "ap-qm-06",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Acceptable wave functions",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "Which of the following is not acceptable as a physical wave function?",
+    "options": [
+      "A single-valued, finite and continuous function that is square-integrable",
+      "A continuous function whose first derivative is finite everywhere",
+      "A function that diverges at x = 0 and is discontinuous there",
+      "A complex-valued function that is normalizable"
+    ],
+    "answer": 2,
+    "solution": "A physically acceptable wave function must be finite, single-valued, continuous and normalizable. A function that diverges and is discontinuous at x = 0 cannot be normalized and is therefore not acceptable.",
+    "papers": [{ "id": "ap-2025-sep-midsem", "qno": "Q5" }],
+    "note": "The original options were images; the choices here restate the criteria tested, with the answer taken from the official key."
+  },
+  {
+    "id": "ap-qm-07",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Davisson-Germer experiment",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "The principal significance of the Davisson-Germer experiment is that it provided direct experimental evidence for",
+    "options": ["quantization of electron charge", "wave-particle duality of matter", "nuclear structure of atoms", "electron spin"],
+    "answer": 1,
+    "solution": "The experiment diffracted electrons from a nickel crystal and matched the measured wavelengths with the de Broglie relation, confirming the wave nature of matter.",
+    "images": [
+      {"src": "assets/figures/davisson-germer.png", "alt": "Davisson-Germer apparatus and the measured diffraction polar plot.", "caption": "Davisson-Germer apparatus and the measured diffraction polar plot.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q3" }]
+  },
+  {
+    "id": "ap-qm-08",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Quantum harmonic oscillator",
+    "type": "MCQ",
+    "marks": 1,
+    "question": "For a one-dimensional quantum harmonic oscillator, the ratio of the energy of the third excited state to that of the first excited state is",
+    "options": ["1/9", "9/1", "3/1", "7/3"],
+    "answer": 3,
+    "solution": "E_v = (v + 1/2)ħω. Third excited state (v = 3): 7/2 ħω. First excited state (v = 1): 3/2 ħω. Ratio = 7/3.",
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q5" }]
+  },
+  {
+    "id": "ap-qm-09",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Particle in a box - numerical",
+    "type": "DES",
+    "marks": 2,
+    "question": "An electron is confined in an infinite potential well of width 0.2 nm. Find the speed of the electron in the n = 1 state.",
+    "solution": "E1 = h^2/(8mL^2) = (6.626×10^-34)^2 / (8 × 9.11×10^-31 × (0.2×10^-9)^2) = 1.507×10^-18 J = 9.42 eV. Using E = 1/2 mv^2, v = sqrt(2E/m) = sqrt(2 × 1.507×10^-18 / 9.11×10^-31) ≈ 1.82×10^6 m/s.",
+    "papers": [{ "id": "ap-2024-midsem", "qno": "Q14(a)" }]
+  },
+  {
+    "id": "ap-qm-10",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Quantum harmonic oscillator",
+    "type": "DES",
+    "marks": 2,
+    "question": "A quantum simple harmonic oscillator consists of an electron bound by a restoring force proportional to its displacement, with force constant k = 8.99 N/m. What is the longest wavelength of light that can excite the oscillator?",
+    "solution": "The longest wavelength corresponds to the smallest energy gap, ΔE = ħω with ω = sqrt(k/m). ω = sqrt(8.99/9.11×10^-31) = 3.14×10^15 rad/s, so ΔE = 1.055×10^-34 × 3.14×10^15 = 3.31×10^-19 J. Then λ = hc/ΔE = (6.626×10^-34 × 3×10^8)/3.31×10^-19 ≈ 6.0×10^-7 m = 600 nm.",
+    "papers": [{ "id": "ap-2024-midsem", "qno": "Q14(b)" }]
+  },
+  {
+    "id": "ap-qm-11",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Properties of wave functions",
+    "type": "DES",
+    "marks": 3,
+    "question": "(a) What are the mathematical features of a wave function? (b) Write the mathematical expression that ensures the total probability of finding the particle in all space is 1.",
+    "solution": "(a) ψ may be real or complex; it must be finite, single-valued and continuous everywhere; its first spatial derivative must be finite and continuous; and it must be square-integrable (normalizable). (b) Normalization condition: ∫ over all space |ψ(x)|^2 dx = 1.",
+    "papers": [
+      { "id": "ap-2025-mar-midsem", "qno": "Q8" },
+      { "id": "ap-2025-sep-midsem", "qno": "Q9" }
+    ]
+  },
+  {
+    "id": "ap-qm-12",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Normalization",
+    "type": "DES",
+    "marks": 2,
+    "question": "A wave function is given by ψ(x) = A for 0 ≤ x ≤ L and zero elsewhere. Find the normalization constant A.",
+    "solution": "Normalization requires ∫0^L |A|^2 dx = 1, so |A|^2 L = 1 and A = 1/sqrt(L) (taking A real and positive).",
+    "papers": [{ "id": "ap-2025-mar-midsem", "qno": "Q6" }]
+  },
+  {
+    "id": "ap-qm-13",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Particle in a box - numerical",
+    "type": "DES",
+    "marks": 2,
+    "question": "A 0.50 kg baseball is confined between two rigid walls of a stadium that can be modelled as a box of length 100 m. Calculate the minimum speed of the baseball.",
+    "solution": "E1 = h^2/(8mL^2) = (6.626×10^-34)^2/(8 × 0.5 × 100^2) = 1.10×10^-71 J. Then v = sqrt(2E1/m) = sqrt(2 × 1.10×10^-71/0.5) ≈ 6.6×10^-36 m/s. The result is immeasurably small, showing why quantum effects are invisible for macroscopic objects.",
+    "papers": [{ "id": "ap-2025-mar-midsem", "qno": "Q7" }]
+  },
+  {
+    "id": "ap-qm-14",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Probability from a wave function",
+    "type": "DES",
+    "marks": 3,
+    "question": "The probability of finding a certain quantum particle on the x-axis between x = 4 nm and x = 7 nm is 48%. The particle's wave function ψ(x) is constant over this range. What numerical value can be attributed to ψ(x), in units of nm^-1/2?",
+    "solution": "P = |ψ|^2 Δx, so |ψ|^2 × 3 nm = 0.48. Hence |ψ|^2 = 0.16 nm^-1 and ψ = 0.4 nm^-1/2 (up to an arbitrary phase).",
+    "papers": [{ "id": "ap-2025-sep-midsem", "qno": "Q10" }]
+  },
+  {
+    "id": "ap-qm-15",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Particle in a box - energy levels",
+    "type": "DES",
+    "marks": 2,
+    "question": "An electron is confined between two impenetrable walls that are 0.20 nm apart. Determine the energy levels for the states n = 1 and n = 2.",
+    "solution": "E_n = n^2h^2/(8mL^2). With L = 0.20 nm, E1 = 1.507×10^-18 J = 9.42 eV. Therefore E2 = 4E1 = 6.03×10^-18 J = 37.7 eV.",
+    "papers": [{ "id": "ap-2025-sep-midsem", "qno": "Q15" }]
+  },
+  {
+    "id": "ap-qm-16",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Quantum tunnelling",
+    "type": "DES",
+    "marks": 3,
+    "question": "Obtain an expression for the change in barrier width required to double the tunnelling probability, assuming all other parameters remain the same. Hint: T = exp(-2CL). Express the final result in terms of C.",
+    "solution": "Let T1 = e^(-2CL1). For double the probability, T2 = 2T1 = e^(-2CL2). Taking logarithms: -2CL2 = ln 2 - 2CL1, so L2 - L1 = -ln 2/(2C). The barrier must be reduced by ΔL = ln2/(2C) ≈ 0.347/C to double the tunnelling probability.",
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q8" }]
+  },
+  {
+    "id": "ap-qm-17",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Schrodinger equation",
+    "type": "DES",
+    "marks": 3,
+    "question": "Using the expression for a wave packet corresponding to a free particle, arrive at the free-particle Schrodinger equation.",
+    "solution": "Superpose plane waves ψ(x,t) = ∫ A(k) e^{i(kx-ωt)} dk. For a free particle E = p^2/2m with p = ħk and E = ħω, so ω = ħk^2/2m. Differentiating with respect to x gives ∂ψ/∂x = ∫ ikA e^{i(kx-ωt)}dk and ∂²ψ/∂x² = -∫ k²A e^{i(kx-ωt)}dk; differentiating with respect to t gives ∂ψ/∂t = -i∫ ωA e^{i(kx-ωt)}dk. Using ħω = ħ²k²/2m, iħ ∂ψ/∂t = -(ħ²/2m) ∂²ψ/∂x², which is the free-particle Schrodinger equation.",
+    "papers": [{ "id": "ap-2026-sep-midsem", "qno": "Q9" }]
+  },
+  {
+    "id": "ap-qm-18",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Davisson-Germer experiment",
+    "type": "DES",
+    "marks": 3,
+    "question": "How did the Davisson-Germer experiment validate the de Broglie hypothesis? Explain.",
+    "solution": "Electrons accelerated through a known potential were scattered from a nickel crystal and showed a pronounced diffraction maximum at a particular angle. Bragg's law gave the wavelength responsible for the diffraction, and it agreed with λ = h/sqrt(2meV) from de Broglie. This agreement established the wave nature of electrons and confirmed wave-particle duality.",
+    "images": [
+      {"src": "assets/figures/davisson-germer.png", "alt": "Davisson-Germer apparatus and the measured diffraction polar plot.", "caption": "Davisson-Germer apparatus and the measured diffraction polar plot.", "placement": "solution"}
+    ],
+    "papers": [{ "id": "ap-2024-midsem", "qno": "Q10" }]
+  },
+  {
+    "id": "ap-qm-19",
+    "subject": "applied-physics",
+    "chapter": "quantum-mechanics",
+    "topic": "Finite potential well",
+    "type": "DES",
+    "marks": 3,
+    "question": "Show that the wave function of a particle trapped in a finite potential well decays exponentially with distance outside the well.",
+    "solution": "Outside the well, U = U0 > E. The time-independent Schrodinger equation becomes d²ψ/dx² = (2m(U0 - E)/ħ²)ψ = α²ψ with α = sqrt(2m(U0 - E))/ħ. The solutions are ψ = A e^{αx} + B e^{-αx}. In the left region B = 0 to keep ψ finite as x → -∞, and in the right region A = 0 as x → +∞. Hence ψ ∝ e^{-α|x|}, an exponential decay into the classically forbidden region.",
+    "images": [
+      {"src": "assets/figures/finite-potential-well.png", "alt": "Finite potential well of height U and width L, with a bound state at energy E.", "caption": "Finite potential well of height U and width L, with a bound state at energy E.", "placement": "question"}
+    ],
+    "papers": [{ "id": "ap-2024-midsem", "qno": "Q13" }]
+  }
+]
