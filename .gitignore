@@ -11,5 +11,4 @@ wheels/
 
 # Large local or generated files that are not published
 data/auto-questions.json
-papers/*
-!papers/index.html
+papers/

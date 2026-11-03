@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="web/">
   <title>PaperPal · Manipal PYQ Practice</title>
-  <meta name="description" content="Chapter-wise Manipal previous year questions, solutions and exam papers.">
+  <meta name="description" content="Chapter-wise Manipal previous year questions, solutions and practice.">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="vendor/katex/katex.min.css">
 </head>
@@ -16,7 +16,6 @@
     <nav class="tabs" id="main-navigation" aria-label="Main navigation">
       <a class="tab" href="../bank/" data-view="bank">Question bank</a>
       <a class="tab" href="../practice/" data-view="practice">Practice</a>
-      <a class="tab" href="../papers/" data-view="papers">Previous papers</a>
     </nav>
     <div class="topbar-actions">
       <button class="icon-btn" id="theme-toggle" title="Toggle theme" aria-label="Toggle theme">◐</button>
@@ -30,23 +29,8 @@
         <div class="home-intro">
           <div>
             <h2 class="home-title">Find your next<br><em>paper to solve.</em></h2>
-            <p class="home-copy">A quiet place for Manipal question papers, chapter-wise revision and practice before the exam.</p>
+            <p class="home-copy">A quiet place for Manipal previous year questions, chapter-wise revision and practice before the exam.</p>
           </div>
-        </div>
-
-        <div class="semester-heading">
-          <span>Choose a semester</span>
-          <span class="home-rule"></span>
-        </div>
-        <div class="semester-grid" aria-label="Semesters">
-          <button class="semester-card" type="button" data-home-view="papers"><span class="semester-name">1st sem</span><span class="semester-arrow">↗</span></button>
-          <button class="semester-card" type="button" data-home-view="papers"><span class="semester-name">2nd sem</span><span class="semester-arrow">↗</span></button>
-          <button class="semester-card" type="button" data-home-view="papers"><span class="semester-name">3rd sem</span><span class="semester-arrow">↗</span></button>
-          <button class="semester-card" type="button" data-home-view="papers"><span class="semester-name">4th sem</span><span class="semester-arrow">↗</span></button>
-          <button class="semester-card" type="button" data-home-view="papers"><span class="semester-name">5th sem</span><span class="semester-arrow">↗</span></button>
-          <button class="semester-card" type="button" data-home-view="papers"><span class="semester-name">6th sem</span><span class="semester-arrow">↗</span></button>
-          <button class="semester-card" type="button" data-home-view="papers"><span class="semester-name">7th sem</span><span class="semester-arrow">↗</span></button>
-          <button class="semester-card" type="button" data-home-view="papers"><span class="semester-name">8th sem</span><span class="semester-arrow">↗</span></button>
         </div>
 
         <div class="home-bottom">
@@ -122,6 +106,11 @@
           <h2 class="pane-title">Build a chapter test</h2>
           <p class="pane-sub">Answer one question at a time, reveal the solution, then review your score. MCQs are scored automatically.</p>
 
+          <label class="practice-subject-search">
+            <span aria-hidden="true">⌕</span>
+            <input id="practice-subject-search" type="search" placeholder="Search subjects…" aria-label="Search practice subjects" autocomplete="off">
+          </label>
+
           <div class="setup-grid">
             <label>Subject
               <select id="practice-subject"></select>
@@ -162,35 +151,10 @@
         <div class="quiz-card is-hidden" id="practice-summary"></div>
       </div>
     </section>
-
-    <!-- ============ PAPERS ============ -->
-    <section class="view" id="view-papers">
-      <div class="pane-head">
-        <div>
-          <p class="eyebrow">Archive</p>
-          <h2 class="pane-title">Previous year papers</h2>
-          <p class="pane-sub">Every paper in the archive, with direct links to the PDF and its solutions where available.</p>
-        </div>
-        <span class="pill" id="paper-total"></span>
-      </div>
-      <div class="paper-filters" id="paper-filters">
-        <label class="search paper-subject-search">
-          <span aria-hidden="true">⌕</span>
-          <input id="paper-subject-search" type="search" placeholder="Find a subject…" autocomplete="off">
-        </label>
-        <select id="paper-subject" aria-label="Filter papers by subject"></select>
-        <label class="search paper-search">
-          <span aria-hidden="true">⌕</span>
-          <input id="paper-search" type="search" placeholder="Search papers…" autocomplete="off">
-        </label>
-      </div>
-      <div class="paper-grid" id="paper-grid"></div>
-      <div class="paper-pagination" id="paper-pagination"></div>
-    </section>
   </main>
 
   <footer class="footer">
-    <p class="footer-meta" id="footer-meta">PaperPal · loading archive details…</p>
+    <p class="footer-meta" id="footer-meta">PaperPal · previous year questions and practice</p>
     <p>Questions extracted from Manipal previous year papers · built for practice, not affiliated with MAHE.</p>
   </footer>
 

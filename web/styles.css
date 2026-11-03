@@ -497,6 +497,27 @@ body.is-lightbox-open { overflow: hidden; }
   padding: 24px;
 }
 .setup-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 22px 0; }
+.practice-subject-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 20px 0 0;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+}
+.practice-subject-search span { color: var(--ink-3); font-size: 20px; line-height: 1; }
+.practice-subject-search input {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  padding: 10px 0;
+  outline: none;
+  font-size: 13.5px;
+}
+.practice-subject-search input::placeholder { color: var(--ink-3); }
+.practice-subject-search + .setup-grid { margin-top: 14px; }
 .setup-grid label { display: grid; gap: 5px; font-size: 12px; color: var(--ink-3); font-weight: 600; letter-spacing: .02em; }
 .setup-grid select { width: 100%; border-radius: var(--radius-sm); background: var(--surface-2); font-size: 13.5px; padding: 9px 12px; }
 .setup-actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
@@ -588,6 +609,8 @@ body.is-lightbox-open { overflow: hidden; }
 .home-shell {
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
   min-height: min(720px, calc(100vh - 150px));
   padding: clamp(28px, 5vw, 64px);
   border: 1px solid var(--line-strong);
@@ -631,7 +654,7 @@ body.is-lightbox-open { overflow: hidden; }
 .semester-card:hover { transform: translateY(-5px) rotate(-1deg); background: var(--accent-soft); border-color: var(--accent); }
 .semester-name { font-family: var(--sans); font-size: 20px; font-weight: 650; }
 .semester-arrow { align-self: flex-end; color: var(--accent); font-size: 17px; line-height: 1; }
-.home-bottom { display: flex; align-items: flex-end; gap: 30px; margin-top: clamp(38px, 6vw, 67px); padding-top: 20px; border-top: 1px dashed var(--line-strong); }
+.home-bottom { display: flex; align-items: flex-end; gap: 30px; margin-top: auto; padding-top: 20px; border-top: 1px dashed var(--line-strong); }
 .home-stat { display: grid; gap: 1px; min-width: 126px; }
 .home-actions { display: flex; flex-wrap: wrap; gap: 12px 19px; margin-left: auto; }
 .home-link { border: 0; padding: 0; background: transparent; color: var(--accent); font-size: 12.5px; font-weight: 650; }

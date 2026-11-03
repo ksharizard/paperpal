@@ -9,24 +9,19 @@ function readBookmarks() {
 
 const state = {
   bank: null,
-  archive: null,
   subjectId: null,
   chapterId: "all",
   type: "all",
   year: "all",
   search: "",
   bookmarkedOnly: false,
-  paperId: null,
   shuffleOrder: null,
   bookmarks: readBookmarks(),
   answered: new Map(),
   revealed: new Set(),
-  paperSubject: "all",
-  paperSubjectSearch: "",
-  paperSearch: "",
-  paperPage: 1,
   subjectSearch: "",
   practice: null,
+  practiceSubjectSearch: "",
   questionCache: new Map(),
   paperCache: new Map(),
   questionPromises: new Map(),
@@ -384,39 +379,13 @@ function saveBookmarks() {
 // index/chunk after `paperpal build` regenerates the data.
 const DATA_CACHE_BUST = Date.now();
 
-let archivePromise = null;
 let bankPromise = null;
 
 function updateFooter() {
-  const meta = state.archive?.meta || state.bank?.meta;
+  const meta = state.bank?.meta;
   if (!meta) return;
-  const questionText = state.bank ? `${state.bank.meta.questionCount} questions · ` : "";
   $("#footer-meta").textContent =
-    `${questionText}${meta.paperCount} local papers · ${meta.subjectCount} subjects`;
-}
-
-async function loadArchive() {
-  if (state.archive) return state.archive;
-  if (!archivePromise) {
-    archivePromise = (async () => {
-      const response = await fetch(`../data/archive.json?v=${DATA_CACHE_BUST}`);
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      state.archive = await response.json();
-      updateFooter();
-      buildPaperFilters();
-      if (currentView() === "papers") renderPapers();
-      return state.archive;
-    })();
-  }
-  try {
-    return await archivePromise;
-  } catch (error) {
-    archivePromise = null;
-    $("#paper-grid").innerHTML = `<div class="empty"><strong>Could not load the paper archive</strong>
-      Run <code>uv run paperpal build</code>, then start the app with <code>uv run paperpal serve</code>.
-      <br><br>${esc(error.message)}</div>`;
-    throw error;
-  }
+    `${meta.questionCount} questions · ${meta.paperCount} papers · ${meta.subjectCount} subjects`;
 }
 
 function initializeBank() {
@@ -504,9 +473,7 @@ async function init() {
   const view = currentView();
   canonicalizeRoute(view);
   switchView(view, false);
-  if (view === "papers") {
-    try { await loadArchive(); } catch { return; }
-  } else if (view === "bank" || view === "practice") {
+  if (view === "bank" || view === "practice") {
     try { await loadBank(); } catch { return; }
   }
 }
@@ -569,40 +536,13 @@ function bindChrome() {
   $("#reset-filters").addEventListener("click", resetFilters);
 
   $("#question-list").addEventListener("click", handleBankClick);
-  $("#paper-grid").addEventListener("click", handlePaperClick);
-  $("#paper-subject").addEventListener("change", (event) => {
-    state.paperSubject = event.target.value;
-    state.paperPage = 1;
-    renderPapers();
-  });
-  $("#paper-subject-search").addEventListener("input", (event) => {
-    state.paperSubjectSearch = event.target.value.trim().toLowerCase();
-    state.paperPage = 1;
-    buildPaperFilters();
-    renderPapers();
-  });
-  $("#paper-search").addEventListener("input", (event) => {
-    state.paperSearch = event.target.value.trim().toLowerCase();
-    state.paperPage = 1;
-    renderPapers();
-  });
-  $("#paper-pagination").addEventListener("click", (event) => {
-    const button = event.target.closest("[data-paper-page]");
-    if (!button || button.disabled) return;
-    state.paperPage = Number(button.dataset.paperPage);
-    renderPapers();
-    $("#view-papers").scrollIntoView({ behavior: "smooth", block: "start" });
-  });
 
-  $("#practice-subject").addEventListener("change", async (event) => {
-    state.practiceSubjectId = event.target.value;
-    $("#practice-hint").textContent = "Loading questions…";
-    try {
-      await loadSubjectQuestions(state.practiceSubjectId);
-      buildPracticeChapters();
-    } catch (error) {
-      $("#practice-hint").textContent = `Could not load questions (${error.message})`;
-    }
+  $("#practice-subject-search").addEventListener("input", (event) => {
+    state.practiceSubjectSearch = event.target.value.trim().toLowerCase();
+    applyPracticeSubjectSearch();
+  });
+  $("#practice-subject").addEventListener("change", (event) => {
+    loadPracticeSubject(event.target.value);
   });
   ["#practice-chapter", "#practice-count"].forEach((selector) => {
     $(selector).addEventListener("change", updatePracticeHint);
@@ -657,7 +597,7 @@ function applyTheme(theme) {
   document.documentElement.dataset.theme = theme;
 }
 
-const ROUTES = ["home", "bank", "practice", "papers"];
+const ROUTES = ["home", "bank", "practice"];
 
 function routePath(view) {
   // The app shell is shared by the generated clean-URL entry pages. The site
@@ -681,16 +621,16 @@ function currentView() {
   const hash = window.location.hash.replace(/^#\/?/, "").replace(/\/+$/, "");
   if (ROUTES.includes(hash)) return hash;
 
-  // Clean routes are real directories (/bank/, /practice/, /papers/). Resolve
-  // the path against the app's base so the project-site prefix and the legacy
-  // /web/ shell do not affect the route.
+  // Clean routes are real directories (/bank/, /practice/). Resolve the path
+  // against the app's base so the project-site prefix and the legacy /web/
+  // shell do not affect the route.
   const appRoot = new URL("../", document.baseURI).pathname;
   let path = window.location.pathname;
   if (path.startsWith(appRoot)) path = path.slice(appRoot.length);
   const segments = path.split("/").filter(Boolean);
   if (segments[segments.length - 1] === "index.html") segments.pop();
   const route = segments.pop();
-  if (["bank", "practice", "papers"].includes(route)) return route;
+  if (["bank", "practice"].includes(route)) return route;
 
   const view = new URLSearchParams(window.location.search).get("view");
   return ROUTES.includes(view) ? view : "home";
@@ -703,10 +643,6 @@ function switchView(view, navigate = true) {
   }
   $$(".view").forEach((section) => section.classList.toggle("is-active", section.id === `view-${view}`));
   $$(".tab").forEach((tab) => tab.classList.toggle("is-active", tab.dataset.view === view));
-  if (view === "papers") {
-    if (state.archive) renderPapers();
-    else loadArchive().catch(() => {});
-  }
   if (view === "bank" || view === "practice") {
     if (state.bank) {
       const subjectId = view === "practice"
@@ -748,7 +684,6 @@ function buildSubjectList() {
   $$("#subject-list .subject-btn").forEach((button) => button.addEventListener("click", async () => {
     state.subjectId = button.dataset.subject;
     state.chapterId = "all";
-    state.paperId = null;
     state.search = "";
     $("#search").value = "";
     buildSubjectList();
@@ -794,7 +729,6 @@ function resetFilters() {
   state.search = "";
   state.subjectSearch = "";
   state.bookmarkedOnly = false;
-  state.paperId = null;
   state.shuffleOrder = null;
   $("#search").value = "";
   $("#subject-search").value = "";
@@ -812,7 +746,6 @@ function filteredQuestions() {
     if (state.chapterId !== "all" && question.chapter !== state.chapterId) return false;
     if (state.type !== "all" && question.type !== state.type) return false;
     if (state.year !== "all" && !question.papers.some((ref) => papers[ref.id]?.year === Number(state.year))) return false;
-    if (state.paperId && !question.papers.some((ref) => ref.id === state.paperId)) return false;
     if (state.bookmarkedOnly && !state.bookmarks.has(question.id)) return false;
     if (state.search) {
       const haystack = [
@@ -835,22 +768,16 @@ function renderBank() {
   const chapter = subject?.chapters.find((item) => item.id === state.chapterId);
   const questions = filteredQuestions();
 
-  $("#bank-eyebrow").textContent = state.paperId ? "Paper practice" : chapter ? "Chapter" : "Subject";
+  $("#bank-eyebrow").textContent = chapter ? "Chapter" : "Subject";
   $("#bank-title").textContent = chapter?.name || subject?.name || "Question bank";
   const description = chapter?.description || subject?.description || "";
   $("#bank-subtitle").textContent = description;
 
   const pills = [];
-  if (state.paperId) {
-    const paper = paperMap()[state.paperId];
-    pills.push(`<span class="filter-pill">${esc(paper.title)} · ${paper.year}
-      <button data-clear-paper aria-label="Clear paper filter">×</button></span>`);
-  }
   if (state.bookmarkedOnly) pills.push(`<span class="filter-pill">Bookmarked <button data-clear-bookmarks aria-label="Clear bookmark filter">×</button></span>`);
   if (state.search) pills.push(`<span class="filter-pill">Search: ${esc(state.search)} <button data-clear-search aria-label="Clear search">×</button></span>`);
   $("#active-filters").innerHTML = pills.join("");
   $("#active-filters").onclick = (event) => {
-    if (event.target.closest("[data-clear-paper]")) { state.paperId = null; renderBank(); }
     if (event.target.closest("[data-clear-bookmarks]")) { state.bookmarkedOnly = false; $("#bookmark-filter").setAttribute("aria-pressed", "false"); renderBank(); }
     if (event.target.closest("[data-clear-search]")) { state.search = ""; $("#search").value = ""; renderBank(); }
   };
@@ -954,23 +881,80 @@ function refreshCard(id) {
 
 /* ---------------------------------------------------------------- practice */
 
+function practiceSubjectHaystack(subject) {
+  return [subject.name, subject.shortName, subject.id, semesterLabel(subject)]
+    .filter(Boolean).join(" ").toLowerCase();
+}
+
+function buildPracticeSubjects() {
+  if (!state.bank) return [];
+  const subjects = state.bank.subjects.filter((subject) =>
+    !state.practiceSubjectSearch || practiceSubjectHaystack(subject).includes(state.practiceSubjectSearch)
+  );
+  const select = $("#practice-subject");
+  const current = state.practiceSubjectId || select.value;
+  select.innerHTML = subjects.length
+    ? subjects.map((subject) => `<option value="${subject.id}">${esc(subject.name)}</option>`).join("")
+    : '<option value="">No matching subjects</option>';
+  state.practiceSubjectId = subjects.some((subject) => subject.id === current)
+    ? current
+    : (subjects[0]?.id || null);
+  if (state.practiceSubjectId) select.value = state.practiceSubjectId;
+  return subjects;
+}
+
 function buildPracticeSelectors() {
-  $("#practice-subject").innerHTML = state.bank.subjects
-    .map((subject) => `<option value="${subject.id}">${esc(subject.name)}</option>`)
-    .join("");
-  state.practiceSubjectId = state.bank.subjects[0]?.id;
+  state.practiceSubjectId = state.bank.subjects.find((subject) => subject.id === state.practiceSubjectId)?.id
+    || state.bank.subjects[0]?.id
+    || null;
+  buildPracticeSubjects();
   buildPracticeChapters();
 }
 
 function buildPracticeChapters() {
   const subject = state.bank.subjects.find((item) => item.id === state.practiceSubjectId);
+  if (!subject) {
+    $("#practice-chapter").innerHTML = '<option value="all">No chapters available</option>';
+    updatePracticeHint();
+    return;
+  }
   $("#practice-chapter").innerHTML = `<option value="all">All chapters (${subject.questionCount})</option>` +
     subject.chapters.map((chapter) => `<option value="${chapter.id}">${esc(chapter.name)} (${chapter.questionCount})</option>`).join("");
   updatePracticeHint();
 }
 
+async function loadPracticeSubject(subjectId) {
+  if (!subjectId) {
+    buildPracticeChapters();
+    return;
+  }
+  state.practiceSubjectId = subjectId;
+  $("#practice-hint").textContent = "Loading questions…";
+  try {
+    await loadSubjectQuestions(subjectId);
+  } catch (error) {
+    $("#practice-hint").textContent = `Could not load questions (${error.message})`;
+    return;
+  }
+  buildPracticeChapters();
+}
+
+function applyPracticeSubjectSearch() {
+  if (!state.bank) return;
+  const previous = state.practiceSubjectId;
+  const subjects = buildPracticeSubjects();
+  if (!subjects.length) {
+    buildPracticeChapters();
+  } else if (state.practiceSubjectId !== previous) {
+    loadPracticeSubject(state.practiceSubjectId);
+  } else {
+    buildPracticeChapters();
+  }
+}
+
 function practiceMatches() {
-  const subjectId = $("#practice-subject").value;
+  const subjectId = $("#practice-subject").value || state.practiceSubjectId;
+  if (!subjectId) return [];
   const chapterId = $("#practice-chapter").value;
   const questions = state.questionCache.get(subjectId) || [];
   return questions.filter((question) =>
@@ -980,6 +964,12 @@ function practiceMatches() {
 
 function updatePracticeHint() {
   if (!state.bank) return;
+  if (!state.practiceSubjectId) {
+    $("#practice-hint").textContent = state.practiceSubjectSearch
+      ? "No subjects match your search"
+      : "No subjects available";
+    return;
+  }
   const matches = practiceMatches();
   $("#practice-hint").textContent = `${matches.length} question${matches.length === 1 ? "" : "s"} available`;
 }
@@ -1117,99 +1107,6 @@ function endPractice() {
   $("#practice-summary").classList.add("is-hidden");
   $("#practice-setup").classList.remove("is-hidden");
   updatePracticeHint();
-}
-
-/* ---------------------------------------------------------------- papers */
-
-function buildPaperFilters() {
-  if (!state.archive) return;
-  const subjects = state.archive.subjects.filter((subject) =>
-    !state.paperSubjectSearch || subject.name.toLowerCase().includes(state.paperSubjectSearch)
-  );
-  const selected = state.archive.subjects.find((subject) => subject.id === state.paperSubject);
-  if (state.paperSubject !== "all" && (!selected || !subjects.includes(selected))) state.paperSubject = "all";
-  $("#paper-subject").innerHTML = [
-    `<option value="all">All subjects (${state.archive.meta.subjectCount})</option>`,
-    ...subjects.map((subject) => `<option value="${esc(subject.id)}">${esc(subject.name)}${semesterLabel(subject) ? ` · ${esc(semesterLabel(subject))}` : ""} (${subject.paperCount})</option>`),
-  ].join("");
-  $("#paper-subject").value = state.paperSubject;
-}
-
-function renderPapers() {
-  if (!state.archive) return;
-  const query = state.paperSearch;
-  const papers = state.archive.papers
-    .filter((paper) => state.paperSubject === "all" || paper.subject === state.paperSubject)
-    .filter((paper) => {
-      if (!query) return true;
-      const haystack = [paper.title, paper.code, paper.subjectName, semesterLabel(paper), paper.year, paper.month, paper.exam]
-        .join(" ").toLowerCase();
-      return haystack.includes(query);
-    })
-    .sort((a, b) => (b.year || 0) - (a.year || 0) || a.title.localeCompare(b.title));
-
-  const pageSize = 48;
-  const pageCount = Math.max(1, Math.ceil(papers.length / pageSize));
-  state.paperPage = Math.min(Math.max(state.paperPage, 1), pageCount);
-  const pageStart = (state.paperPage - 1) * pageSize;
-  const visiblePapers = papers.slice(pageStart, pageStart + pageSize);
-  $("#paper-total").textContent = `${papers.length} papers · ${state.archive.meta.subjectCount} subjects`;
-
-  $("#paper-grid").innerHTML = visiblePapers.map((paper) => `
-    <article class="paper-card">
-      <div class="paper-top">
-        <div>
-          <p class="paper-code">${esc(paper.subjectName)}${paper.code ? ` · ${esc(paper.code)}` : ""}</p>
-          <h3>${esc(paper.title)}</h3>
-        </div>
-        <span class="paper-year">${paper.year || "—"}</span>
-      </div>
-      <div class="paper-meta">
-        ${paper.exam ? `<span>${esc(paper.exam)}</span>` : ""}
-        ${paper.semester ? `<span>Sem ${paper.semester}</span>` : ""}
-        ${paper.month ? `<span>${esc(paper.month)}</span>` : ""}
-        ${paper.maxMarks ? `<span>${paper.maxMarks} marks</span>` : ""}
-        ${paper.duration ? `<span>${esc(paper.duration)}</span>` : ""}
-        ${paper.questionCount ? `<span>${paper.questionCount} in bank</span>` : ""}
-      </div>
-      <div class="paper-chapters">
-        ${paper.chapterIds.map((chapterId) => `<span class="chapter-tag">${esc(chapterName(paper.subject, chapterId))}</span>`).join("")}
-      </div>
-      ${paper.notes ? `<p class="q-source">${esc(paper.notes)}</p>` : ""}
-      <div class="paper-actions">
-        <a class="primary-link" href="${encodeURI("../" + paper.file)}" target="_blank" rel="noopener">Open paper PDF</a>
-        ${paper.solutionFile && paper.solutionFile !== paper.file ? `<a href="${encodeURI("../" + paper.solutionFile)}" target="_blank" rel="noopener">Solutions</a>` : ""}
-        ${paper.solutionFile === paper.file ? `<span class="chapter-tag">Solutions included</span>` : ""}
-        ${paper.answerScript ? `<a href="${encodeURI("../" + paper.answerScript)}" target="_blank" rel="noopener">Answer script</a>` : ""}
-        ${paper.questionCount ? `<button data-practice-paper="${paper.id}">Practice this paper</button>` : ""}
-      </div>
-    </article>`).join("") || `<div class="empty"><strong>No papers</strong>Try another subject.</div>`;
-
-  $("#paper-pagination").innerHTML = pageCount > 1 ? `
-    <button class="ghost-btn" data-paper-page="${Math.max(1, state.paperPage - 1)}" ${state.paperPage === 1 ? "disabled" : ""}>← Previous</button>
-    <span>Page ${state.paperPage} of ${pageCount}</span>
-    <button class="ghost-btn" data-paper-page="${Math.min(pageCount, state.paperPage + 1)}" ${state.paperPage === pageCount ? "disabled" : ""}>Next →</button>` : "";
-}
-
-function handlePaperClick(event) {
-  const button = event.target.closest("[data-practice-paper]");
-  if (!button) return;
-  const paper = state.archive.papers.find((item) => item.id === button.dataset.practicePaper);
-  if (!paper || !paper.questionCount) return;
-  state.subjectId = paper.subject;
-  state.chapterId = "all";
-  state.paperId = paper.id;
-  state.type = "all";
-  state.year = "all";
-  state.search = "";
-  state.bookmarkedOnly = false;
-  $("#search").value = "";
-  $("#filter-type").value = "all";
-  $("#filter-year").value = "all";
-  $("#bookmark-filter").setAttribute("aria-pressed", "false");
-  if (state.bank) buildSubjectList();
-  switchView("bank");
-  toast(`Practising ${paper.code} · ${paper.year}`);
 }
 
 init();

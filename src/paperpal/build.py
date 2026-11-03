@@ -37,13 +37,12 @@ IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".svg", ".gif"}
 IMAGE_PLACEMENTS = {"question", "solution"}
 
 # The app shell is shared by the clean-URL entry pages. GitHub Pages is
-# static, so /bank/, /practice/ and /papers/ each need a real directory with an
+# static, so /bank/ and /practice/ each need a real directory with an
 # index.html; only the <base> differs so assets and data resolve identically.
 SITE_PAGES = {
     "index.html": "web/",
     "bank/index.html": "../web/",
     "practice/index.html": "../web/",
-    "papers/index.html": "../web/",
 }
 
 
