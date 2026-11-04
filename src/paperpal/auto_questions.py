@@ -14,16 +14,19 @@ from collections import Counter
 from pathlib import Path
 
 from .extract import extract_pdf_text
+from .mathtext import latexify
 
 ROOT = Path(__file__).resolve().parents[2]
 PAPERS_DIR = ROOT / "papers"
 EXTRACTED_INDEX = ROOT / "build" / "extracted" / "index.json"
 AUTO_FILE = ROOT / "data" / "auto-questions.json"
-AUTO_VERSION = 4
+AUTO_VERSION = 9
 
 QUESTION_MARKER = re.compile(
     r"^\s*(?:Q(?:uestion)?\s*\.?\s*)?(?P<number>\d{1,2})"
-    r"\s*(?P<letter>[A-Za-z])?\s*[.)\]:-]\s*(?P<text>.*)$",
+    r"(?:(?P<letter>[A-Za-z])(?:\s+|(?P<separator1>[.)\]:-])\s*)"
+    r"|(?P<separator2>[.)\]:-]|\s{2,})\s*)"
+    r"(?P<text>.*)$",
     re.IGNORECASE,
 )
 MARKS = re.compile(r"(?:\(|\[)?\s*(\d{1,2})\s*marks?\s*(?:\)|\])?", re.IGNORECASE)
@@ -56,6 +59,13 @@ SYMBOL_GLYPHS = str.maketrans(
 
 def _source_signature(papers: list[dict]) -> str:
     digest = hashlib.sha1()
+    # Re-extracting the PDFs rewrites the extracted index; fold that stamp in so
+    # a fresh ``extract`` invalidates the cached automatic questions.
+    try:
+        stat = EXTRACTED_INDEX.stat()
+        digest.update(f"extracted:{stat.st_size}:{stat.st_mtime_ns}".encode("utf-8"))
+    except OSError:
+        digest.update(b"extracted:missing")
     for paper in papers:
         path = ROOT / paper["file"]
         try:
@@ -117,8 +127,9 @@ def _clean_question(value: str) -> str:
     )
     value = re.sub(r"(?<=\d)\s*[xX]\s*(?=\d)", " × ", value)
     value = value.replace("−", "-").replace("–", "-")
+    value = latexify(value[:6000].rstrip())
     value = re.sub(r"\s+", " ", value).strip()
-    return value[:6000].rstrip()
+    return value[:8000]
 
 
 def _parse_questions(text: str) -> list[tuple[str, str, int]]:

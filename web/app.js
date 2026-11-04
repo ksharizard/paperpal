@@ -65,7 +65,7 @@ function renderMath(tex, displayMode) {
   try {
     return window.katex.renderToString(tex, {
       displayMode,
-      throwOnError: false,
+      throwOnError: true,
       strict: false,
       trust: false,
     });

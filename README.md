@@ -148,6 +148,23 @@ also handled: `x^2`, `a_1`, `sqrt(2)`, `10^-3` and `->` are shown as typographic
 superscripts, subscripts, radicals and arrows. For full LaTeX quality, use the
 delimited form.
 
+Automatic extraction goes through `src/paperpal/mathtext.py`. It reads Poppler's
+XML text fragments, rebuilds superscripts/subscripts from their bounding boxes,
+folds simple stacked fractions into `\frac`, detects small matrices, maps Adobe
+Symbol glyphs, and wraps the resulting maths in `$...$` before the question bank
+is built. Re-run `paperpal extract` and `paperpal build` to refresh existing text
+dumps after changing those heuristics.
+
+Matrix detection trusts bracket-delimited blocks and only converts bracket-less
+blocks near a strong matrix word. A known limitation is a matrix whose entries
+are stacked fractions (common in Markov transition matrices): the PDF text layer
+splits numerators and denominators onto separate lines, so a few of those blocks
+can come through truncated or merged. Those are text-layer limitations rather
+than rendering errors; the extracted value can be corrected by hand if needed.
+
+Scanned/image-only PDFs have no text layer; they still need OCR or manual
+curation before their questions can be imported.
+
 ### Diagrams from the PDFs
 
 Extract the embedded images for review:

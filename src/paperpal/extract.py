@@ -12,6 +12,8 @@ from pathlib import Path
 
 from pypdf import PdfReader
 
+from .mathtext import extract_rich_text
+
 ROOT = Path(__file__).resolve().parents[2]
 PAPERS_DIR = ROOT / "papers"
 BUILD_DIR = ROOT / "build" / "extracted"
@@ -30,12 +32,17 @@ def safe_name(path: Path) -> str:
 
 
 def extract_pdf_text(path: Path) -> str:
-    """Extract text with Poppler's layout-aware engine when available.
+    """Extract text, keeping superscripts and subscripts where possible.
 
-    Poppler generally preserves superscripts, Greek symbols, fractions and the
-    visual order of equation fragments better than pypdf's default visitor.
-    pypdf remains the fallback for environments without the command-line tool.
+    Poppler's XML mode preserves the position of every text fragment, so
+    ``R^4``, ``10^-24``, simple fractions and matrices can be rebuilt instead of
+    flattened.  Papers without meaningful math fall back to ``pdftotext``
+    layout mode, which handles columns and tables more cleanly.
     """
+    rich = extract_rich_text(path)
+    if rich:
+        return rich
+
     pdftotext = shutil.which("pdftotext")
     if pdftotext:
         try:
