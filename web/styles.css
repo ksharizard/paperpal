@@ -656,11 +656,30 @@ body.is-lightbox-open { overflow: hidden; }
 .semester-arrow { align-self: flex-end; color: var(--accent); font-size: 17px; line-height: 1; }
 .home-bottom { display: flex; align-items: flex-end; gap: 30px; margin-top: auto; padding-top: 20px; border-top: 1px dashed var(--line-strong); }
 .home-stat { display: grid; gap: 1px; min-width: 126px; }
-.home-actions { display: flex; flex-wrap: wrap; gap: 12px 19px; margin-left: auto; }
-.home-link { border: 0; padding: 0; background: transparent; color: var(--accent); font-size: 12.5px; font-weight: 650; }
-.home-link span { display: inline-block; margin-left: 4px; transition: transform .15s ease; }
-.home-link:hover span { transform: translateX(4px); }
-.home-link-muted { color: var(--ink-2); }
+.home-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-left: 0; }
+.home-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 52px;
+  padding: 0 22px;
+  border: 1px solid var(--line-strong);
+  border-radius: 15px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 650;
+  letter-spacing: -.01em;
+  box-shadow: var(--shadow);
+  transition: transform .18s ease, background .18s ease, border-color .18s ease, color .18s ease;
+}
+.home-cta:hover { transform: translateY(-2px); border-color: var(--accent); color: var(--accent-ink); }
+.home-cta-primary { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.home-cta-primary:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
+.home-cta:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.home-cta-label { white-space: nowrap; }
+.home-cta-arrow { display: inline-block; font-size: 17px; line-height: 1; transition: transform .18s ease; }
+.home-cta:hover .home-cta-arrow { transform: translateX(4px); }
 
 .toast {
   position: fixed;
@@ -727,5 +746,6 @@ body.is-lightbox-open { overflow: hidden; }
   .semester-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .semester-card { min-height: 96px; }
   .home-bottom { align-items: flex-start; flex-wrap: wrap; gap: 18px 26px; }
-  .home-actions { width: 100%; margin-left: 0; }
+  .home-actions { display: grid; grid-template-columns: 1fr; gap: 10px; width: 100%; margin-left: 0; }
+  .home-cta { width: 100%; justify-content: space-between; }
 }
