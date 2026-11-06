@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generatedAt": "2026-11-04T17:29:16+00:00",
+    "generatedAt": "2026-11-04T19:14:33+00:00",
     "paperCount": 17166,
     "subjectCount": 2995,
-    "questionCount": 165954,
-    "autoQuestionCount": 165734
+    "questionCount": 164768,
+    "autoQuestionCount": 164548
   },
   "subjects": [
     {
@@ -25872,7 +25872,7 @@
       "file": "papers/4-sem-dsp/2022/regular/4 sem- BIO 2252-DSP.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -27413,7 +27413,7 @@
       "file": "papers/additonal-mathematics/2011/makeup/Additonal Mathematics (MAT MCA – 501.1) RCS(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -27607,7 +27607,7 @@
       "file": "papers/advacne-design-of-steel-stucture/2017/regular/Advacne Design of Steel Stucture (CIE 4013) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -27629,7 +27629,7 @@
       "file": "papers/advacned-bioprocessing-systems/2019/regular/Advacned Bioprocessing Systems ( BIO 5124) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -27673,7 +27673,7 @@
       "file": "papers/advance-design-of-steel-structure/2018/regular/Advance Design of Steel Structure (CIE 4013) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -28013,7 +28013,7 @@
       "file": "papers/advanced-applications-of-probability-and-statistics/2022/regular/Advanced Applications of Probability and Statistics (AML 5201).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -28035,7 +28035,7 @@
       "file": "papers/advanced-applications-of-probability-and-statistics/2023/makeup/Advanced Applications of Probability and Statistics (AML 5201)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -28057,7 +28057,7 @@
       "file": "papers/advanced-applications-of-probability-and-statistics/2023/regular/Advanced Applications of Probability and Statistics (AML 5201).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -28079,7 +28079,7 @@
       "file": "papers/advanced-applications-of-probability-and-statistics/2024/regular/Advanced Applications of Probability and Statistics (AML 5201).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -28299,7 +28299,7 @@
       "file": "papers/advanced-bioinformatics/2017/regular/Advanced Bioinformatics (Bio-520).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -28735,7 +28735,7 @@
       "file": "papers/advanced-bioprocess-engineering/2020/regular/Advanced Bioprocess Engineering (BIO 4013).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -28997,7 +28997,7 @@
       "file": "papers/advanced-bioseparation-processes/2024/regular/Advanced Bioseparation Processes(BIO 5112).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 26,
+      "questionCount": 24,
       "chapterIds": [
         "extracted"
       ],
@@ -30533,7 +30533,7 @@
       "file": "papers/advanced-concrete-technology/2024/regular/Advanced Concrete Technology (CIE 4051).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -30929,7 +30929,7 @@
       "file": "papers/advanced-control-theory/2021/regular/Advanced Control Theory (ICE 5152).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -31213,7 +31213,7 @@
       "file": "papers/advanced-data-science-part-iii/2024/makeup/Advanced Data Science- PART III (CRA 4062)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -32161,7 +32161,7 @@
       "file": "papers/advanced-design-of-steel-structure/2017/makeup/Advanced Design of Steel Structure (CIE 5263) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -32183,7 +32183,7 @@
       "file": "papers/advanced-design-of-steel-structure/2017/regular/ADvanced Design of Steel Structure (CIE 5263) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -32225,7 +32225,7 @@
       "file": "papers/advanced-design-of-steel-structures/2016/regular/Advanced design of steel structures [CIE-585] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 8,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -32247,7 +32247,7 @@
       "file": "papers/advanced-design-of-steel-structures/2018/regular/Advanced Design of Steel Structures (CIE 5263) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -32291,7 +32291,7 @@
       "file": "papers/advanced-design-of-steel-structures/2019/regular/Advanced Design of Steel Structures (CIE 4013).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 8,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -32685,7 +32685,7 @@
       "file": "papers/advanced-digital-communication/2019/makeup/Advanced Digital Communication (ECE 5101) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -34745,7 +34745,7 @@
       "file": "papers/advanced-hinfinity-control/2009/regular/Advanced Hinfinity Control (ICE-602).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -36663,7 +36663,7 @@
       "file": "papers/advanced-manufacturing-technology/2017/makeup/Advanced Manufacturing Technology (MME-323)(RCS)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -36685,7 +36685,7 @@
       "file": "papers/advanced-manufacturing-technology/2017/regular/Advanced Manufacturing Technology (MME-323)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -36707,7 +36707,7 @@
       "file": "papers/advanced-manufacturing-technology/2017/regular/Advanced Manufacturing Technology (MME-537)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -37979,7 +37979,7 @@
       "file": "papers/advanced-numerical-methods/2025/makeup/Advanced Numerical Methods (MAT 5122)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 4,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -39271,7 +39271,7 @@
       "file": "papers/advanced-process-dynamics-and-control/2010/regular/Advanced Process Dynamics and Control (CHE-407.5) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -40455,7 +40455,7 @@
       "file": "papers/advanced-reinforced-concrete-design/2018/regular/Advanced Reinforced Concrete Design (CIE 4014) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -40499,7 +40499,7 @@
       "file": "papers/advanced-reinforced-concrete-design/2019/regular/Advanced Reinforced Concrete Design (CIE 4014).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -40849,7 +40849,7 @@
       "file": "papers/advanced-separation-process/2014/regular/Advanced Separation Process (CHE 550).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -40871,7 +40871,7 @@
       "file": "papers/advanced-separation-process/2015/regular/Advanced Separation Process (CHE-550).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -40893,10 +40893,8 @@
       "file": "papers/advanced-separation-process/2016/regular/Advanced separation process (O.E) (CHE 550) RCS (2).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -41063,7 +41061,7 @@
       "file": "papers/advanced-strength-of-materials/2017/makeup/Advanced Strength of Materials (CIE 5281) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -41963,7 +41961,7 @@
       "file": "papers/advanced-transport-phenomena/2017/regular/Advanced Transport Phenomena (CHE-503)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -42807,7 +42805,7 @@
       "file": "papers/advances-in-concrete-engineering/2022/regular/Advances in Concrete Engineering (CIE 4051)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -44781,7 +44779,7 @@
       "file": "papers/air-and-noise-pollution/2024/regular/Air and Noise Pollution (CIE 4301).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -44891,7 +44889,7 @@
       "file": "papers/air-pollusion-monitioring-and-control/2013/regular/Air Pollusion Monitioring and Control (CHE 522).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -44999,7 +44997,7 @@
       "file": "papers/air-pollution-and-control/2022/regular/Air Pollution and Control (CIE 4055)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -45063,7 +45061,7 @@
       "file": "papers/air-pollution-and-control-pe-i/2017/regular/Air Pollution and Control-PE-I (CIE-325)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -45085,7 +45083,7 @@
       "file": "papers/air-pollution-control-and-equipment-design/2015/regular/Air Pollution Control and Equipment Design (CHE 555).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -45191,7 +45189,7 @@
       "file": "papers/air-pollution-control-engineering/2019/regular/Air Pollution Control Engineering (CIE 4017) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -45233,7 +45231,7 @@
       "file": "papers/air-pollution-monitoring-and-control/2013/makeup/Air Pollution Monitoring and Control (CHE 522) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -45255,7 +45253,7 @@
       "file": "papers/air-pollution-monitoring-and-control/2014/regular/Air Pollution Monitoring and Control (CHE-415).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 22,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -46011,7 +46009,7 @@
       "file": "papers/aircraft-design-ii/2018/makeup/Aircraft Design II ( AAE 3201) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -46033,7 +46031,7 @@
       "file": "papers/aircraft-design-ii/2018/regular/Aircraft Design II (AAE 3201) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -47405,7 +47403,7 @@
       "file": "papers/aircraft-system-instruments/2011/makeup/Aircraft System & Instruments (MME -369) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -48955,7 +48953,7 @@
       "file": "papers/analog-and-digital-communication/2023/regular/Analog and digital Communication (ECE 3151).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -48999,7 +48997,7 @@
       "file": "papers/analog-and-digital-communication/2024/regular/Analog and Digital Communication (ECE 3151).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -49043,7 +49041,7 @@
       "file": "papers/analog-and-digital-communication/2025/regular/Analog and Digital Communication (ECE 3121).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -49407,7 +49405,7 @@
       "file": "papers/analog-and-electronic-circuits/2025/makeup/Analog and Electronic Circuits (ECE 2121)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 8,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -49449,10 +49447,8 @@
       "file": "papers/analog-and-mixed-signal-deisgn/2024/regular/Analog and mixed Signal Deisgn (ECE 4061).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -50539,7 +50535,7 @@
       "file": "papers/analog-electronic-circuit/2024/makeup/Analog Electronic Circuit (IEC 231)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -50583,7 +50579,7 @@
       "file": "papers/analog-electronic-circuit/2025/regular/Analog Electronic Circuit (ECE 2121).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -50935,7 +50931,7 @@
       "file": "papers/analog-electronic-circuits/2013/makeup/Analog Electronic Circuits (ELE 209) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -51043,7 +51039,7 @@
       "file": "papers/analog-electronic-circuits/2014/makeup/Analog Electronic Circuits (ELE 209) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 21,
+      "questionCount": 20,
       "chapterIds": [
         "extracted"
       ],
@@ -51349,7 +51345,7 @@
       "file": "papers/analog-electronic-circuits/2019/regular/Analog Electronic Circuits (IEC 231).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 8,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -51543,7 +51539,7 @@
       "file": "papers/analog-electronics/2017/makeup/Analog Electronics (BME-2102)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -52529,7 +52525,7 @@
       "file": "papers/analog-system-design/2013/regular/Analog System Design (ECE -251).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -52705,7 +52701,7 @@
       "file": "papers/analog-system-design/2016/makeup/Analog system design [ELE 2204] (Make up) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -52727,7 +52723,7 @@
       "file": "papers/analog-system-design/2017/makeup/Analog System Design (ELE-2204) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -52923,7 +52919,7 @@
       "file": "papers/analog-systems-design/2012/regular/Analog Systems Design (ELE - 208).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 19,
       "chapterIds": [
         "extracted"
       ],
@@ -53761,7 +53757,7 @@
       "file": "papers/analysis-of-inderminate-strcutures/2017/regular/Analysis of Inderminate Strcutures (CIE 2202) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -53825,7 +53821,7 @@
       "file": "papers/analysis-of-indertiminate-structures/2017/makeup/Analysis of Indertiminate Structures (CIE 2202) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -53869,7 +53865,7 @@
       "file": "papers/analysis-of-indeterminate-structures/2016/makeup/Analysis of Indeterminate Structures (CIE-2202)(RCS)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -53913,7 +53909,7 @@
       "file": "papers/analysis-of-indeterminate-structures/2018/regular/Analysis of Indeterminate Structures (IE 2202) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -53957,7 +53953,7 @@
       "file": "papers/analysis-of-indeterminate-structures/2024/makeup/Analysis of Indeterminate Structures (CIE 3151)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -53979,10 +53975,8 @@
       "file": "papers/analysis-of-indeterminate-struvture/2024/regular/Analysis of Indeterminate Struvture (CIE 3151).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -55053,7 +55047,7 @@
       "file": "papers/analytics-degree-examination-november-2024/2025/regular/Analytics) Degree Examination - November 2024.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -55273,7 +55267,7 @@
       "file": "papers/anatomy-and-physiology/2012/makeup/Anatomy and Physiology (BME – 207) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 24,
+      "questionCount": 22,
       "chapterIds": [
         "extracted"
       ],
@@ -55295,7 +55289,7 @@
       "file": "papers/anatomy-and-physiology/2013/makeup/Anatomy and Physiology (BME 207) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 23,
+      "questionCount": 22,
       "chapterIds": [
         "extracted"
       ],
@@ -55317,7 +55311,7 @@
       "file": "papers/anatomy-and-physiology/2013/regular/Anatomy and Physiology (BME 207) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 24,
+      "questionCount": 22,
       "chapterIds": [
         "extracted"
       ],
@@ -55361,7 +55355,7 @@
       "file": "papers/anatomy-and-physiology/2014/regular/Anatomy and Physiology (BME 207) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 24,
+      "questionCount": 22,
       "chapterIds": [
         "extracted"
       ],
@@ -56561,10 +56555,8 @@
       "file": "papers/antennas/2009/makeup/Antennas (ECE-208) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -57811,7 +57803,7 @@
       "file": "papers/applied-linear-algebra/2009/makeup/Applied Linear Algebra (MAT – ECE – 308.5) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -57943,7 +57935,7 @@
       "file": "papers/applied-linear-algebra/2021/regular/Applied Linear Algebra (MCL 603).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -58009,7 +58001,7 @@
       "file": "papers/applied-linear-algebra/2023/regular/Applied Linear Algebra (AML 5101).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -58031,7 +58023,7 @@
       "file": "papers/applied-linear-algebra/2024/regular/Applied Linear Algebra (AML 5101).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -58309,7 +58301,7 @@
       "file": "papers/applied-numerical-analysis/2007/regular/Applied Numerical Analysis.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 3,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -58353,7 +58345,7 @@
       "file": "papers/applied-numerical-analysis/2009/regular/Applied Numerical Analysis (MEE-601) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -58595,7 +58587,7 @@
       "file": "papers/applied-numerical-methods/2023/makeup/Applied Numerical Methods (MAT 5155)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -58617,7 +58609,7 @@
       "file": "papers/applied-numerical-methods/2023/regular/Applied Numerical Methods (MAT 5155).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -58831,7 +58823,7 @@
       "file": "papers/applied-probability-and-statistics/2021/regular/Applied Probability and Statistics (MCL 601).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -58853,7 +58845,7 @@
       "file": "papers/applied-probability-and-statistics/2023/regular/Applied Probability and Statistics (AML 5103).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -58875,7 +58867,7 @@
       "file": "papers/applied-probability-and-statistics/2024/regular/Applied Probability and Statistics (AML 5103).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -58917,7 +58909,7 @@
       "file": "papers/applied-science-theory-examinition/2019/regular/Applied Science Theory Examinition (IMA 111).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 4,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -58961,7 +58953,7 @@
       "file": "papers/applied-soil-engineering/2017/regular/Applied Soil Engineering (CIE 3201) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -59005,7 +58997,7 @@
       "file": "papers/applied-soil-engineering/2019/regular/Applied Soil Engineering (CIE 3201) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -59093,7 +59085,7 @@
       "file": "papers/applied-soil-engineering/2024/makeup/Applied Soil Engineering (CIE 3251)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -59115,7 +59107,7 @@
       "file": "papers/applied-soil-engineering/2024/regular/Applied Soil Engineering (CIE 3251).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 19,
       "chapterIds": [
         "extracted"
       ],
@@ -62853,7 +62845,7 @@
       "file": "papers/artificial-intelligence/2024/makeup/Artificial Intelligence (CSE 2225)( Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -65309,10 +65301,8 @@
       "file": "papers/auto-tronics/2010/regular/Auto Tronics (MME-441) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -67129,7 +67119,7 @@
       "file": "papers/automobile-pllution-control/2013/regular/Automobile Pllution & Control (AAE-384) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -67173,7 +67163,7 @@
       "file": "papers/automobile-pollution-control/2013/makeup/Automobile Pollution & Control (AAE-384) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -67239,7 +67229,7 @@
       "file": "papers/automotiv-eengines/2020/regular/Automotiv eEngines (AAE 2172)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -69301,7 +69291,7 @@
       "file": "papers/autonomy-and-navigation-technology/2025/regular/Autonomy and Navigation Technology (ECE-5029).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -73933,7 +73923,7 @@
       "file": "papers/basic-electronics/2025/regular/Basic Electronics (ECE 1071).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -74335,7 +74325,7 @@
       "file": "papers/basic-engineering-thrmodynamics/2009/makeup/Basic Engineering Thrmodynamics (MEE-201) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -75125,7 +75115,7 @@
       "file": "papers/basic-reinforced-concrete-diesign/2018/regular/Basic Reinforced Concrete Diesign (CIE 2203) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -75233,7 +75223,7 @@
       "file": "papers/basic-structural-steel-deisgn/2019/regular/Basic Structural Steel Deisgn (CIE 3102).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -75275,7 +75265,7 @@
       "file": "papers/basic-structural-steel-deisgn/2021/regular/Basic Structural Steel Deisgn (ICE 244).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -76209,7 +76199,7 @@
       "file": "papers/basics-of-surveying/2017/makeup/Basics of surveying [CIE 2104] Make up (RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -78509,7 +78499,7 @@
       "file": "papers/biochemistry/2012/makeup/Biochemistry (BME – 209) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -78835,7 +78825,7 @@
       "file": "papers/biochenistry/2010/makeup/Biochenistry (BME-209) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 8,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -79705,7 +79695,7 @@
       "file": "papers/bioinformatics/2016/regular/Bioinformatics [BIO 302] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -80173,7 +80163,7 @@
       "file": "papers/biology-for-engineers/2015/regular/Biology for Engineers (BIO-1001).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 24,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -81985,7 +81975,7 @@
       "file": "papers/biomedical-digital-signal-processing/2009/makeup/Biomedical Digital Signal Processing (BME-309) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -85475,7 +85465,7 @@
       "file": "papers/bioprocess-and-bioreaction-engineering/2017/regular/Bioprocess and Bioreaction Engineering (BIO-311)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -85951,7 +85941,7 @@
       "file": "papers/bioprocess-control/2018/regular/Bioprocess control [BIO 4102].pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -86083,7 +86073,7 @@
       "file": "papers/bioprocess-control-n-instrumentation/2022/regular/Bioprocess Control n Instrumentation (BIO 3252).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -86627,7 +86617,7 @@
       "file": "papers/bioprocess-equipment-design-and-drawing/2010/regular/Bioprocess Equipment Design and Drawing (BIO-310).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 19,
       "chapterIds": [
         "extracted"
       ],
@@ -86845,7 +86835,7 @@
       "file": "papers/bioprocess-modelling-analysis-and-simulation/2016/regular/Bioprocess modelling analysis and simulation [BIO 504] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -87105,7 +87095,7 @@
       "file": "papers/bioreaction-engineering/2025/makeup/Bioreaction Engineering (Bio 3104)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -87323,7 +87313,7 @@
       "file": "papers/bioreactor-design-and-analysis/2016/regular/Bioreactor design and analysis BIO502( RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -87433,7 +87423,7 @@
       "file": "papers/bioremediation/2017/regular/Bioremediation (BIO-445)([Elective II)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -87499,7 +87489,7 @@
       "file": "papers/bioremediation/2020/regular/Bioremediation (BIO 4001)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -87541,7 +87531,7 @@
       "file": "papers/bioremidiation/2019/regular/Bioremidiation( BIO 4001) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -87563,7 +87553,7 @@
       "file": "papers/bioremidiation/2021/regular/Bioremidiation (BIO 4001).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -87585,7 +87575,7 @@
       "file": "papers/biosensors/2018/regular/Biosensors [BIO 4017] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -87651,7 +87641,7 @@
       "file": "papers/biosensors-pdf/2011/regular/Biosensors (BIO 609.2E).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -88451,7 +88441,7 @@
       "file": "papers/bridge-engineering/2019/regular/Bridge Engineering (CIE 4019) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -88515,7 +88505,7 @@
       "file": "papers/bridge-engineering/2024/regular/Bridge Engineering (CIE 4075).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -88581,7 +88571,7 @@
       "file": "papers/buidling-code-and-requirements/2022/makeup/Buidling Code and Requirements (CIE 4052)RCS(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -88623,7 +88613,7 @@
       "file": "papers/buidling-material-technology/2022/regular/Buidling Material Technology (CIE 2252) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -89269,7 +89259,7 @@
       "file": "papers/building-code-and-requirements/2017/regular/Building Code and Requirements (CIE-327)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -89291,7 +89281,7 @@
       "file": "papers/building-code-and-requirements/2018/regular/Building code and Requirements (CIE 4001) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -91097,7 +91087,7 @@
       "file": "papers/building-material-technology/2022/makeup/Building Material technology (CIE 2252) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -91537,7 +91527,7 @@
       "file": "papers/building-science-and-technology/2019/makeup/Building Science and Technology (CIE 2103)RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -91645,7 +91635,7 @@
       "file": "papers/building-science-technology/2017/makeup/Building science & technology [CIE 2103] Make up (RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -94475,7 +94465,7 @@
       "file": "papers/cell-and-molecular-biology/2017/makeup/Cell and molecular biology [BIO 2101] Make up (RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -94541,7 +94531,7 @@
       "file": "papers/cell-and-molecular-biology/2018/regular/Cell and Molecular Biology [BIO 2101] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -94563,7 +94553,7 @@
       "file": "papers/cell-biology/2020/regular/Cell Biology (BIO 2153).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -94585,7 +94575,7 @@
       "file": "papers/cell-biology/2021/regular/Cell Biology ( BIO-2153)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -97359,7 +97349,7 @@
       "file": "papers/chemical-process-industries/2017/regular/Chemical Process Industries (CHE-405)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -97381,7 +97371,7 @@
       "file": "papers/chemical-process-industries/2018/makeup/Chemical Process Industries (CHE-3104) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -97403,7 +97393,7 @@
       "file": "papers/chemical-process-industries/2018/regular/Chemical Process Industries (CHE-3104) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -97655,7 +97645,7 @@
       "file": "papers/chemical-reaction-engineering/2017/makeup/Chemical Reaction Engineering (CHE-307)(RCS)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -100857,7 +100847,7 @@
       "file": "papers/cipher-systems/2011/regular/Cipher Systems (ECE-312.4) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -101077,7 +101067,7 @@
       "file": "papers/cipher-systems/2024/makeup/Cipher Systems (ECE 4069)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -101421,7 +101411,7 @@
       "file": "papers/classical-mechanics-and-electromagnetism/2012/regular/Classical Mechanics and Electromagnetism (PHY – 603) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -105627,7 +105617,7 @@
       "file": "papers/communication-netwroks/2025/regular/Communication Netwroks (ECE 3123).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -106917,7 +106907,7 @@
       "file": "papers/communication-systems/2014/regular/Communication Systems (ELE 305).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -107959,7 +107949,7 @@
       "file": "papers/compilers-and-advanced-operating-system/2018/regular/Compilers and Advanced operating System (CSE-5201) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -108025,7 +108015,7 @@
       "file": "papers/complex-analysis/2010/regular/Complex Analysis (MAT-604) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -109755,7 +109745,7 @@
       "file": "papers/computational-biology/2018/regular/Computational biology [BIO 4018].pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -109799,7 +109789,7 @@
       "file": "papers/computational-biology-part-b/2022/regular/Computational Biology (BIO 4064)Part B.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -110239,7 +110229,7 @@
       "file": "papers/computational-fluid-dynamics/2018/makeup/Computational Fluid Dynamics (AAE 4002) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -111029,7 +111019,7 @@
       "file": "papers/computational-mathematics/2014/regular/Computational Mathematics (MAT 505) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -111131,7 +111121,7 @@
       "file": "papers/computational-mathematics/2025/makeup/Computational Mathematics (MAT 1172)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -111153,7 +111143,7 @@
       "file": "papers/computational-mathematics/2025/regular/Computational Mathematics (MAT 1172).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -111241,7 +111231,7 @@
       "file": "papers/computational-methods/2025/makeup/Computational Methods (MAT 5121)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -111433,7 +111423,7 @@
       "file": "papers/computational-methods-and-stochastic-processes/2012/regular/Computational Methods and stochastic Processes (MAT – 511) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -111585,7 +111575,7 @@
       "file": "papers/computational-methods-in-chemical-engineering/2014/regular/Computational Methods in Chemical Engineering (CHE 311).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -111693,7 +111683,7 @@
       "file": "papers/computational-methods-in-chemical-engineering/2024/regular/Computational Methods in Chemical Engineering (CHE 5113).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -111845,7 +111835,7 @@
       "file": "papers/computational-tchniques-in-biotechnology/2017/regular/Computational Tchniques in Biotechnology (BIO-307)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -111867,7 +111857,7 @@
       "file": "papers/computational-techniqes/2007/makeup/Computational Techniqes (MAT ELE 602) RCS (Make up Exam).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -111889,7 +111879,7 @@
       "file": "papers/computational-technique-and-optimization-pdf/2010/regular/Computational Technique and Optimization (ICE -612).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -112153,7 +112143,7 @@
       "file": "papers/computational-techniques-optimization/2011/regular/Computational Techniques & Optimization (ICE -612.1).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 4,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -112351,7 +112341,7 @@
       "file": "papers/computer-aided-design/2011/regular/Computer Aided Design (AUE – 212) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -112483,7 +112473,7 @@
       "file": "papers/computer-aided-design/2012/regular/Computer Aided Design (MME – 346) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -112593,7 +112583,7 @@
       "file": "papers/computer-aided-design/2013/regular/Computer Aided Design (MME 301) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -119549,7 +119539,7 @@
       "file": "papers/computer-science-and-finacial-technology/2025/makeup/Computer Science and Finacial Technology (MAT 2132)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -120565,7 +120555,7 @@
       "file": "papers/constrcution-economics-and-accounting/2017/regular/Constrcution Economics and Accounting (CIE 5202) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -120825,7 +120815,7 @@
       "file": "papers/construction-economics-and-accounting/2018/regular/Construction Economics and Accounting (CIE 5202) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -120933,7 +120923,7 @@
       "file": "papers/construction-management/2023/regular/Construction Management (CIE 3153).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -121343,7 +121333,7 @@
       "file": "papers/construction-planning-organisation-and-equipment/2017/regular/Construction Planning Organisation and Equipment (CIE-403)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -122159,7 +122149,7 @@
       "file": "papers/consumer-electronics/2022/regular/Consumer Electronics (ECE 4302).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -122625,7 +122615,7 @@
       "file": "papers/contract-managemeent/2019/regular/Contract Managemeent (CIE 5201).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -122669,7 +122659,7 @@
       "file": "papers/contract-managemenet/2019/regular/Contract Managemenet (CIE 5201) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -122821,7 +122811,7 @@
       "file": "papers/contract-management/2017/makeup/Contract Management (CIE 3285) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -122843,7 +122833,7 @@
       "file": "papers/contract-management/2017/regular/Contract Management (CIE 3285) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -122865,7 +122855,7 @@
       "file": "papers/contract-management/2017/regular/Contract Management (CIE 5201) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -122887,7 +122877,7 @@
       "file": "papers/contract-management/2018/regular/Contract Management (CIE 5201) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -123019,7 +123009,7 @@
       "file": "papers/contract-management-for-engineers/2022/regular/Contract Management for Engineers (CIE 4302).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -123519,7 +123509,7 @@
       "file": "papers/control-system-design/2010/regular/Control System Design (ICE – 623).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -123869,7 +123859,7 @@
       "file": "papers/control-system-design-technique/2013/regular/Control System Design Technique (ICE-505).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -124381,7 +124371,7 @@
       "file": "papers/control-systems/2018/makeup/Control Systems [EE 241] (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -124403,7 +124393,7 @@
       "file": "papers/control-systems/2018/regular/Control Systems (EE 241).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 3,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -128555,7 +128545,7 @@
       "file": "papers/data-analytics/2022/makeup/Data Analytics (ELE 4077)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 8,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -128753,7 +128743,7 @@
       "file": "papers/data-anlytics/2022/regular/Data Anlytics (ELE 4077).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 8,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -129577,7 +129567,7 @@
       "file": "papers/data-mining-and-predictive-analysis/2024/makeup/Data Mining and Predictive Analysis (ICT 3171)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -131761,7 +131751,7 @@
       "file": "papers/data-structures-and-algorithms/2023/regular/Data Structures and Algorithms (ELE 4078)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -132293,7 +132283,7 @@
       "file": "papers/data-warehouse-and-data-mining/2023/regular/Data Warehouse and Data Mining (ICT 3253).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -132567,7 +132557,7 @@
       "file": "papers/data-warehousing-and-data-mining/2018/makeup/Data Warehousing and Data Mining (MCA 5102) RCS MAKE UP.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -133377,10 +133367,8 @@
       "file": "papers/database-management-system/2024/regular/Database Management System (MTE 4055).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -134009,7 +133997,7 @@
       "file": "papers/database-management-systems/2018/regular/Database Management Systems [MTE 4011] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -134317,7 +134305,7 @@
       "file": "papers/database-management-systems/2025/regular/Database Management Systems (ELE 4079).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 22,
+      "questionCount": 25,
       "chapterIds": [
         "extracted"
       ],
@@ -135611,7 +135599,7 @@
       "file": "papers/deep-learning/2022/regular/Deep Learning (AML 5202).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -136797,7 +136785,7 @@
       "file": "papers/design-aand-analysis-of-algorithms-computer-science/2018/regular/Design aand analysis of algorithms (CS 245) Computer science.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 24,
+      "questionCount": 23,
       "chapterIds": [
         "extracted"
       ],
@@ -137973,7 +137961,7 @@
       "file": "papers/design-and-drawing-of-chemical-equipments/2021/regular/Design and Drawing of Chemical Equipments (CHE 4102).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -138353,7 +138341,7 @@
       "file": "papers/design-for-manufacture-and-assembly/2017/regular/Design for Manufacture and Assembly (MME 4001) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -138757,7 +138745,7 @@
       "file": "papers/design-of-aircraft-structures/2015/regular/Design of Aircraft Structures (AAE-342)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -138801,7 +138789,7 @@
       "file": "papers/design-of-biological-treatement-process/2017/regular/Design of Biological Treatement Process (BIO 4002).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -141063,10 +141051,8 @@
       "file": "papers/design-of-pre-stressed-concrete-structures/2023/regular/Design of Pre-stressed Concrete Structures (CIE 5271).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -141085,7 +141071,7 @@
       "file": "papers/design-of-prestressed-concrete/2025/makeup/Design of prestressed concrete (CIE 3124)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -143609,8 +143595,10 @@
       "file": "papers/differential-equations/2025/makeup/Differential Equations (MAT 5145)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 0,
-      "chapterIds": [],
+      "questionCount": 5,
+      "chapterIds": [
+        "extracted"
+      ],
       "hasSolutions": false
     },
     {
@@ -143629,7 +143617,7 @@
       "file": "papers/differential-equations/2025/regular/Differential Equations (MAT 5145).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -149197,7 +149185,7 @@
       "file": "papers/digital-signal-processing/2008/makeup/Digital Signal Processing (ECE-309) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -150189,7 +150177,7 @@
       "file": "papers/digital-signal-processing/2023/regular/Digital Signal Processing (ECE 2255).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -154007,7 +153995,7 @@
       "file": "papers/distributed-and-cloud-computing/2018/makeup/Distributed and cloud computing [CSE 4102] RCS (MAKE UP).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -158043,7 +158031,7 @@
       "file": "papers/dynamics-of-systems/2018/makeup/Dynamics Of Systems [ME 244] (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 8,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -158877,7 +158865,7 @@
       "file": "papers/earthquake-resistant-design-of-structures/2018/regular/Earthquake Resistant Design of Structures (CIE 5255) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -159939,7 +159927,7 @@
       "file": "papers/ecology-and-enviornment-impact-assesment/2023/regular/Ecology and Enviornment Impact Assesment (CIE 5284).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -160619,8 +160607,10 @@
       "file": "papers/eefm-list-of-tables/2022/regular/(PART A) EEFM_List of Tables.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 0,
-      "chapterIds": [],
+      "questionCount": 2,
+      "chapterIds": [
+        "extracted"
+      ],
       "hasSolutions": false
     },
     {
@@ -162117,7 +162107,7 @@
       "file": "papers/electric-vehicle-technology/2024/regular/Electric Vehicle Technology (ELE 5403).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -165987,7 +165977,7 @@
       "file": "papers/electromagnetic-theory/2019/regular/Electromagnetic Theory (IEC 233).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -166159,7 +166149,7 @@
       "file": "papers/electromagnetic-thoery/2020/makeup/Electromagnetic Thoery (ELE 2155)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 19,
       "chapterIds": [
         "extracted"
       ],
@@ -166657,7 +166647,7 @@
       "file": "papers/electromagnetic-waves/2022/makeup/Electromagnetic Waves (ECE 2252) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -166679,7 +166669,7 @@
       "file": "papers/electromagnetic-waves/2022/regular/Electromagnetic Waves (ECE 2252).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -166745,7 +166735,7 @@
       "file": "papers/electromagnetic-waves/2025/makeup/Electromagnetic Waves (ECE 2125)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -166767,7 +166757,7 @@
       "file": "papers/electromagnetic-waves/2025/regular/Electromagnetic Waves (ECE 2125).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -170887,7 +170877,7 @@
       "file": "papers/elements-of-mechatronics-system/2013/makeup/Elements Of Mechatronics System (MME – 229) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -174801,7 +174791,7 @@
       "file": "papers/energy-and-environment/2018/regular/Energy and environment (CIE 5283) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -177885,7 +177875,7 @@
       "file": "papers/engg-mathematics-iii/2012/makeup/Engg. Mathematics III (MAT – 211) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -177907,7 +177897,7 @@
       "file": "papers/engg-mathematics-iv/2008/regular/Engg. Mathematics -IV (MAT-ELE-202).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -177929,7 +177919,7 @@
       "file": "papers/engg-mathematics-iv/2011/makeup/Engg. Mathematics – IV (MAT – BIO – 202) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 19,
       "chapterIds": [
         "extracted"
       ],
@@ -178419,7 +178409,7 @@
       "file": "papers/engine-tribology/2020/regular/Engine Tribology (AAE 4019) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -178441,7 +178431,7 @@
       "file": "papers/engine-tribology/2021/regular/Engine Tribology (AAE 4019)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -179921,7 +179911,7 @@
       "file": "papers/engineering-economics-and-financial-management/2021/regular/Engineering Economics and Financial Management (HUM 3051)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -180607,7 +180597,7 @@
       "file": "papers/engineering-geology/2017/makeup/Engineering geology [CIE 2105] Make up (RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -180629,7 +180619,7 @@
       "file": "papers/engineering-geology/2018/makeup/Engineering Geology [CIE 2105] RCS (MAKE UP).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -180695,7 +180685,7 @@
       "file": "papers/engineering-geology/2022/regular/Engineering Geology (CIE 2253) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -181423,7 +181413,7 @@
       "file": "papers/engineering-mathematic-iii/2019/makeup/Engineering Mathematic -III (MAT 210) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -181489,7 +181479,7 @@
       "file": "papers/engineering-mathematic-s-iii/2023/regular/Engineering Mathematic s-III (MAT 2151).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 3,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -181511,7 +181501,7 @@
       "file": "papers/engineering-mathematics/2013/makeup/Engineering Mathematics (MAT 101) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -181709,7 +181699,7 @@
       "file": "papers/engineering-mathematics/2017/regular/Engineering Mathematics (MAT 2201) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -181731,7 +181721,7 @@
       "file": "papers/engineering-mathematics/2019/makeup/Engineering Mathematics (MAT 1151) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 3,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -181795,7 +181785,7 @@
       "file": "papers/engineering-mathematics/2019/regular/Engineering mathematics (MAT 1151).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -181947,7 +181937,7 @@
       "file": "papers/engineering-mathematics/2024/regular/Engineering Mathematics (MAT 1271)(CHM).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -181969,7 +181959,7 @@
       "file": "papers/engineering-mathematics/2025/makeup/Engineering Mathematics (MAT 1171)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -181991,7 +181981,7 @@
       "file": "papers/engineering-mathematics/2025/regular/Engineering Mathematics (MAT 1171).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -182033,7 +182023,7 @@
       "file": "papers/engineering-mathematics-1/2024/makeup/Engineering Mathematics - 1 (MAT-1171)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -182163,7 +182153,7 @@
       "file": "papers/engineering-mathematics-i/2017/regular/Engineering mathematics-I [MAT 1101] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -182265,7 +182255,7 @@
       "file": "papers/engineering-mathematics-ii/2011/makeup/Engineering Mathematics II (MAT - 102) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -182375,7 +182365,7 @@
       "file": "papers/engineering-mathematics-ii/2022/regular/Engineering Mathematics-II (MAT 1251).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -182397,7 +182387,7 @@
       "file": "papers/engineering-mathematics-ii/2024/makeup/Engineering Mathematics -II (MAT 1271)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -182611,7 +182601,7 @@
       "file": "papers/engineering-mathematics-iii/2014/makeup/Engineering Mathematics III (MAT 201) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -182633,7 +182623,7 @@
       "file": "papers/engineering-mathematics-iii/2017/makeup/Engineering Mathematics III (MAT-2101)(RCS)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -182851,7 +182841,7 @@
       "file": "papers/engineering-mathematics-iii/2025/regular/Engineering Mathematics -III (MAT 2121).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -183341,7 +183331,7 @@
       "file": "papers/engineering-physics/2010/regular/Engineering Physics (PHY- 101 102) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 96,
+      "questionCount": 95,
       "chapterIds": [
         "extracted"
       ],
@@ -183407,7 +183397,7 @@
       "file": "papers/engineering-physics/2012/makeup/Engineering Physics (PHY – 101,102) (Makeup) (New Syllabus).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 48,
+      "questionCount": 47,
       "chapterIds": [
         "extracted"
       ],
@@ -184025,7 +184015,7 @@
       "file": "papers/engineering-project-management/2013/regular/Engineering Project Management (CIE-501) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -184171,7 +184161,7 @@
       "file": "papers/engineering-statics-and-dynamics/2013/makeup/Engineering Statics and Dynamics (CE 111) Makeup.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 22,
+      "questionCount": 21,
       "chapterIds": [
         "extracted"
       ],
@@ -184407,7 +184397,7 @@
       "file": "papers/engineering-thermodynamics/2009/makeup/Engineering Thermodynamics (MEE – 221) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -185293,7 +185283,7 @@
       "file": "papers/enviornmental-impach-assesment-and-auditing/2019/makeup/Enviornmental Impach Assesment and Auditing (CIE 4021) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -185617,7 +185607,7 @@
       "file": "papers/enviornmental-management/2022/makeup/Enviornmental Management (CIE 4303)RCS(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -185639,7 +185629,7 @@
       "file": "papers/enviornmental-management/2022/regular/Enviornmental Management (CIE 4303).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -186027,7 +186017,7 @@
       "file": "papers/enviornmental-technology/2017/regular/Enviornmental Technology (AE 242).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -186863,7 +186853,7 @@
       "file": "papers/environmental-impact-assessment-and-management-plan/2014/regular/Environmental Impact Assessment and Management Plan (CHE-559).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 22,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -186885,7 +186875,7 @@
       "file": "papers/environmental-impact-assessment-and-management-plan/2015/regular/Environmental Impact Assessment and Management Plan (CHE 559).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -187039,7 +187029,7 @@
       "file": "papers/environmental-management/2018/regular/Environmental Management (CIE 5244) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -187061,7 +187051,7 @@
       "file": "papers/environmental-management/2019/regular/Environmental Management (CIE 5244).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -187105,7 +187095,7 @@
       "file": "papers/environmental-management/2024/regular/Environmental Management (CIE 5410).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -187485,7 +187475,7 @@
       "file": "papers/environmental-studies/2017/makeup/Environmental Studies [CIE 1002] (Make up) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -189407,7 +189397,7 @@
       "file": "papers/essentials-of-management/2011/makeup/Essentials of Management (HUM – 401) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -189451,7 +189441,7 @@
       "file": "papers/essentials-of-management/2011/regular/Essentials of Management (HUM – 401 HUM -301) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -190073,7 +190063,7 @@
       "file": "papers/estimating-costing-and-valuation/2017/regular/Estimating, Costing and Valuation (CIE-401)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -190159,7 +190149,7 @@
       "file": "papers/estimation-costing-and-valuaion-practice/2022/regular/Estimation Costing and Valuaion Practice (CIE 3252)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -190181,7 +190171,7 @@
       "file": "papers/estimation-costing-and-valuation/2017/makeup/Estimation, costing and valuation [CIE 401] (Make up) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -190203,7 +190193,7 @@
       "file": "papers/estimation-costing-and-valuation-practice/2022/makeup/Estimation Costing and Valuation Practice (CIE 3252)RCS(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -190247,7 +190237,7 @@
       "file": "papers/estimation-costing-valuation-and-practice/2024/makeup/Estimation Costing Valuation and Practice(CIE 3252)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -191767,7 +191757,7 @@
       "file": "papers/fatigue-and-fracture/2019/regular/Fatigue and Fracture (MME 4003) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -192273,7 +192263,7 @@
       "file": "papers/fermentation-engineering/2008/regular/Fermentation Engineering (BIO-303).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -192315,7 +192305,7 @@
       "file": "papers/fermentation-engineering/2009/regular/Fermentation Engineering (BIO-303).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 22,
+      "questionCount": 21,
       "chapterIds": [
         "extracted"
       ],
@@ -192359,7 +192349,7 @@
       "file": "papers/fermentation-engineering/2010/regular/Fermentation Engineering (BIO-303).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 22,
+      "questionCount": 21,
       "chapterIds": [
         "extracted"
       ],
@@ -194013,7 +194003,7 @@
       "file": "papers/finite-element-method-of-analysis/2019/regular/Finite Element Method of Analysis (CIE 4015) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -194403,7 +194393,7 @@
       "file": "papers/finite-element-methods/2015/regular/Finite Element Methods (ME 302.4).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -194469,7 +194459,7 @@
       "file": "papers/finite-element-methods/2016/regular/Finite element methods (MME 561) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -195721,7 +195711,7 @@
       "file": "papers/flexography-gravure-and-screen-printing/2023/regular/Flexography, Gravure and Screen Printing (MED 2254).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -197395,7 +197385,7 @@
       "file": "papers/fluid-flow-operations-in-bioprocessing/2021/regular/Fluid Flow Operations in Bioprocessing (BIO 2154)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -197587,7 +197577,7 @@
       "file": "papers/fluid-mechanics/2010/makeup/Fluid Mechanics (MME- 263) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -197823,7 +197813,7 @@
       "file": "papers/fluid-mechanics/2014/regular/Fluid Mechanics (AAE-361) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 22,
+      "questionCount": 21,
       "chapterIds": [
         "extracted"
       ],
@@ -197911,7 +197901,7 @@
       "file": "papers/fluid-mechanics/2016/regular/Fluid mechanics [MME-2202] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -198197,7 +198187,7 @@
       "file": "papers/fluid-mechanics/2022/makeup/Fluid Mechanics (IME 234)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -198305,7 +198295,7 @@
       "file": "papers/fluid-mechanics/2024/regular/Fluid Mechanics (CIE 2121).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -198327,7 +198317,7 @@
       "file": "papers/fluid-mechanics/2025/regular/Fluid Mechanics (AAE 2128).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -198349,7 +198339,7 @@
       "file": "papers/fluid-mechanics-1/2018/regular/Fluid Mechanics [CIE - 2101] RCS 1.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -199635,7 +199625,7 @@
       "file": "papers/food-processing-technology/2011/makeup/Food Processing Technology (BIO – 312.2E) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -200855,7 +200845,7 @@
       "file": "papers/foundations-ev-and-hybrid-vehicles/2025/makeup/Foundations EV and Hybrid Vehicles (ELE 3127)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -200877,7 +200867,7 @@
       "file": "papers/foundations-ev-and-hybrid-vehicles/2025/regular/Foundations EV and Hybrid Vehicles (ELE 3127).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -201835,7 +201825,7 @@
       "file": "papers/fuild-mechanics/2019/regular/Fuild Mechanics (IME 234).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -202265,7 +202255,7 @@
       "file": "papers/fundamental-of-telemetry-telecommunication-and-transponder/2024/regular/Fundamental of Telemetry Telecommunication and Transponder (AAE 5056).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -203231,7 +203221,7 @@
       "file": "papers/fundamentals-of-electronics/2025/regular/Fundamentals of Electronics (ECE 1072).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -203941,7 +203931,7 @@
       "file": "papers/game-theory-and-applications/2023/regular/Game Theory and Applications (ICT 4307).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -205345,7 +205335,7 @@
       "file": "papers/generation-transmission-distribution/2014/regular/Generation Transmission Distribution (ELE 307).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -205691,7 +205681,7 @@
       "file": "papers/genetic-engineering/2018/makeup/Genetic Engineering (BIO 2203) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -205821,7 +205811,7 @@
       "file": "papers/genomics-and-proteomics/2017/regular/Genomics and Proteomics (BIO 4005) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -205843,7 +205833,7 @@
       "file": "papers/genomics-and-proteomics/2017/regular/Genomics and Proteomics (BIO-431)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 22,
+      "questionCount": 20,
       "chapterIds": [
         "extracted"
       ],
@@ -206215,7 +206205,7 @@
       "file": "papers/geotechnical-engineering/2019/regular/Geotechnical Engineering (CIE 3101).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -206383,7 +206373,7 @@
       "file": "papers/geotechnical-engineering-i/2015/regular/Geotechnical Engineering-I (CIE-301).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -206599,7 +206589,7 @@
       "file": "papers/geotechnical-engineering-ii/2016/makeup/Geotechnical Engineering-II (CIE-302)(RCS)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -206725,7 +206715,7 @@
       "file": "papers/gound-improvement-technique/2018/regular/Gound Improvement Technique (CIE 4010) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -206967,7 +206957,7 @@
       "file": "papers/graph-theory/2012/regular/Graph Theory (MAT 301) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -207121,7 +207111,7 @@
       "file": "papers/graph-theory/2025/regular/Graph Theory (MAT 6102).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -208225,7 +208215,7 @@
       "file": "papers/ground-improvement-techniques/2017/regular/Ground improvement Techniques (CIE 4010) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -208313,7 +208303,7 @@
       "file": "papers/ground-water-engineering/2014/regular/Ground Water Engineering (CIE-423) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -208775,7 +208765,7 @@
       "file": "papers/health-diagnostics/2021/regular/Health Diagnostics (BIO 4019).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -209427,7 +209417,7 @@
       "file": "papers/heat-transfer/2017/regular/Heat Transfer (MME 3201) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -209725,7 +209715,7 @@
       "file": "papers/heat-transfer-operations/2013/makeup/Heat Transfer Operations (CHE 288) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -215575,7 +215565,7 @@
       "file": "papers/human-anatomy-and-physiology/2024/regular/Human Anatomy and Physiology(BME 5115).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -216229,7 +216219,7 @@
       "file": "papers/human-resource-management/2017/regular/Human Resource Management (RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -217075,7 +217065,7 @@
       "file": "papers/hybrid-and-electric-vehicles/2025/regular/Hybrid and Electric Vehicles (AAE 4039).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -217427,7 +217417,7 @@
       "file": "papers/hydraulics-and-hydraulic-machines/2019/makeup/Hydraulics and Hydraulic Machines(CIE4007) RCS(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -219205,7 +219195,7 @@
       "file": "papers/illumination-technology/2011/makeup/Illumination Technology (ELE – 407) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -219271,7 +219261,7 @@
       "file": "papers/illumination-technology/2012/regular/Illumination Technology (ELE – 407) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -219359,7 +219349,7 @@
       "file": "papers/illumination-technology/2015/regular/Illumination Technology (ELE 405).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -219403,7 +219393,7 @@
       "file": "papers/illumination-technology/2017/regular/Illumination Technology (ELE-405)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -219467,7 +219457,7 @@
       "file": "papers/ilumination-technology/2014/makeup/Ilumination Technology (ELE 405) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -219863,7 +219853,7 @@
       "file": "papers/imaging-techniques-ii/2011/regular/Imaging Techniques – II (PME- 204).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -219951,7 +219941,7 @@
       "file": "papers/immunotchnology/2017/regular/Immunotchnology [BIO 5250] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -219995,8 +219985,10 @@
       "file": "papers/immunotechnology/2010/makeup/Immunotechnology (BIO-312 E) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 0,
-      "chapterIds": [],
+      "questionCount": 4,
+      "chapterIds": [
+        "extracted"
+      ],
       "hasSolutions": false
     },
     {
@@ -220167,7 +220159,7 @@
       "file": "papers/immunotechnology/2015/regular/Immunotechnology (BIO-320)(Program Elective I).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 4,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -220255,7 +220247,7 @@
       "file": "papers/immunotechnology/2017/regular/Immunotechnology [BIO 4006] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -220649,7 +220641,7 @@
       "file": "papers/industrail-instrumenatation/2018/regular/Industrail Instrumenatation (ICE 2202).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -220823,7 +220815,7 @@
       "file": "papers/industrail-pollution-control/2020/regular/Industrail Pollution Control (OE-CHE 4301)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -220845,7 +220837,7 @@
       "file": "papers/industrail-pollution-control/2021/regular/Industrail Pollution Control (CHE 4301).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -221105,7 +221097,7 @@
       "file": "papers/industrail-wastewater-treatement/2019/regular/Industrail Wastewater Treatement (CIE 5222).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -221501,7 +221493,7 @@
       "file": "papers/industrial-automation-and-control/2017/regular/Industrial automation and Control (ELE-437)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -221589,10 +221581,8 @@
       "file": "papers/industrial-automation-and-control-program/2014/regular/Industrial Automation and Control Program Elective III (ELE 437).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -222907,7 +222897,7 @@
       "file": "papers/industrial-microbiology/2018/regular/Industrial Microbiology [BIO 2103] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -223143,7 +223133,7 @@
       "file": "papers/industrial-pollution-control/2022/regular/Industrial Pollution Control (CHE 4301) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -224463,7 +224453,7 @@
       "file": "papers/industrial-waste-treatement/2019/regular/Industrial Waste Treatement (CIE 4008) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -225023,7 +225013,7 @@
       "file": "papers/industrial-wastewater-engineering/2018/regular/Industrial Wastewater Engineering (CHE 5235) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -225045,7 +225035,7 @@
       "file": "papers/industrial-wastewater-engineering/2019/regular/Industrial Wastewater Engineering (CHE 5235) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -225147,7 +225137,7 @@
       "file": "papers/industrial-wastewater-treatment/2016/regular/Industrial wastewater treatment [CIE 524] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -225169,7 +225159,7 @@
       "file": "papers/industrial-wastewatertreatment/2018/regular/Industrial Wastewatertreatment (CIE 5222) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -225479,7 +225469,7 @@
       "file": "papers/information-retrieval/2022/regular/Information Retrieval (ICT 4035).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -225523,7 +225513,7 @@
       "file": "papers/information-retrieval/2024/makeup/Information Retrieval (CT 4035)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -225607,7 +225597,7 @@
       "file": "papers/information-retrival/2022/makeup/Information Retrival (ICT 4035)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -228511,7 +228501,7 @@
       "file": "papers/instrumentation-in-electrical-systems/2017/regular/Instrumentation in electrical systems [ELE 5105] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -228925,7 +228915,7 @@
       "file": "papers/integrated-circuit-systems/2013/regular/Integrated Circuit Systems (BME 305) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 19,
       "chapterIds": [
         "extracted"
       ],
@@ -229585,7 +229575,7 @@
       "file": "papers/integrated-lighting-deisgn/2020/regular/Integrated Lighting Deisgn (ELE 5154)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -229673,7 +229663,7 @@
       "file": "papers/integrated-lighting-design/2014/regular/Integrated Lighting Design (ELE 502).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -229717,7 +229707,7 @@
       "file": "papers/integrated-lighting-design/2015/regular/Integrated Lighting Design (ELE 439) (Prog.Ele.-III).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -229893,7 +229883,7 @@
       "file": "papers/integrated-lighting-design-program/2014/regular/Integrated Lighting Design Program Elective-III (ELE 439).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -232843,7 +232833,7 @@
       "file": "papers/introduction-bioinformatics/2017/regular/Introduction Bioinformatics (BIO 3282) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -234297,7 +234287,7 @@
       "file": "papers/introduction-to-biochemical-engineering/2018/makeup/Introduction to Biochemical Engineering ( CHE-4018) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -234319,7 +234309,7 @@
       "file": "papers/introduction-to-biochemical-engineering/2018/regular/Introduction to Biochemical Engineering (CHE-4018) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -234687,7 +234677,7 @@
       "file": "papers/introduction-to-bioinformatics/2016/regular/Introduction to bioinformatics [BIO 3282] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -235723,7 +235713,7 @@
       "file": "papers/introduction-to-chemical-engineering/2017/makeup/Introduction to Chemical Engineering (CHE-3281) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -237173,7 +237163,7 @@
       "file": "papers/introduction-to-data-analytics/2024/makeup/Introduction to Data Analytics (CSE-2126)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -237195,7 +237185,7 @@
       "file": "papers/introduction-to-data-analytics/2024/regular/Introduction to Data Analytics (CSE-2126)(M).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -237411,7 +237401,7 @@
       "file": "papers/introduction-to-design-oe/2022/regular/Introduction to Design (ELE 4302)(Makep)-OE.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -243257,7 +243247,7 @@
       "file": "papers/lighting-science-devices-and-systems/2017/makeup/Lighting Science-Devices and Systems (ELE 4007) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -243581,7 +243571,7 @@
       "file": "papers/linear-algebra/2007/regular/Linear Algebra.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -243911,7 +243901,7 @@
       "file": "papers/linear-algebra-and-its-applications-to-electrical-engineer/2018/makeup/Linear Algebra and Its applications to electrical Engineer (ELE 4030) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -243933,7 +243923,7 @@
       "file": "papers/linear-algebra-and-its-applications-to-electrical-engineering/2018/makeup/Linear algebra and its applications to electrical engineering [ELE 4030] RCS (MAKE UP).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -243955,7 +243945,7 @@
       "file": "papers/linear-algebra-and-logic/2023/makeup/Linear Algebra and Logic (MAT 2163)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -244371,7 +244361,7 @@
       "file": "papers/linear-and-digital-control-systems/2015/regular/Linear and Digital Control Systems (ECE-306).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -244631,7 +244621,7 @@
       "file": "papers/linear-control-theory/2009/regular/Linear Control Theory (ICE-301).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -245149,7 +245139,7 @@
       "file": "papers/linear-control-theory/2017/regular/Linear Control Theory (LCT 2204) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -245691,7 +245681,7 @@
       "file": "papers/linear-digital-control-systems/2009/makeup/Linear & Digital Control Systems (ECE-307) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -246647,7 +246637,7 @@
       "file": "papers/linear-networks-transient-analysis-ns/2013/regular/Linear Networks Transient Analysis (EE 231) NS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 23,
+      "questionCount": 22,
       "chapterIds": [
         "extracted"
       ],
@@ -249613,7 +249603,7 @@
       "file": "papers/machine-learning/2022/regular/Machine Learning (ICT 40320.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 4,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -249635,10 +249625,8 @@
       "file": "papers/machine-learning/2022/regular/Machine Learning (MTE 5054).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -249723,7 +249711,7 @@
       "file": "papers/machine-learning/2023/regular/Machine Learning (ICT 4032).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 4,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -250537,7 +250525,7 @@
       "file": "papers/machine-tool-operations/2010/makeup/Machine Tool Operations (MME -230) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -250559,7 +250547,7 @@
       "file": "papers/machine-tool-operations/2010/regular/Machine Tool Operations (MME -230) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -251987,7 +251975,7 @@
       "file": "papers/machines-of-solids/2025/makeup/Machines of Solids (ICE 111)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -253705,10 +253693,8 @@
       "file": "papers/manufacturing-process-engineering/2009/regular/Manufacturing Process Engineering (MME-227) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -254409,10 +254395,8 @@
       "file": "papers/manufacturing-processes/2014/makeup/Manufacturing Processes (MME 353) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -254495,7 +254479,7 @@
       "file": "papers/manufacturing-technology/2017/makeup/Manufacturing Technology (MME-2105)(RCS)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -255499,7 +255483,7 @@
       "file": "papers/mass-transfer-i/2016/regular/Mass transfer -I (CHE 203) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -256337,7 +256321,7 @@
       "file": "papers/mat/2021/regular/MAT.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -257167,7 +257151,7 @@
       "file": "papers/material-science-and-metallurgy/2017/makeup/Material science and metallurgy [AAE 2153] (Make up) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -258645,7 +258629,7 @@
       "file": "papers/mathematical-and-numerical-techniques-for-chemical-and-biotechnology/2019/makeup/Mathematical and Numerical Techniques for Chemical and Biotechnology (MAT 5102) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -259765,7 +259749,7 @@
       "file": "papers/mathematical-statistics/2018/regular/Mathematical statistics- (MAT-4107) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -259869,7 +259853,7 @@
       "file": "papers/mathematics/2008/makeup/Mathematics (ECE-601) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -260067,7 +260051,7 @@
       "file": "papers/mathematics-for-simulation-and-modelling/2021/makeup/Mathematics for Simulation and Modelling (MAT 5162)RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -260233,7 +260217,7 @@
       "file": "papers/mathematics-i/2016/regular/Mathematics-I (MA-111)(Common to all).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 25,
+      "questionCount": 24,
       "chapterIds": [
         "extracted"
       ],
@@ -260255,7 +260239,7 @@
       "file": "papers/mathematics-i/2020/makeup/Mathematics -I(IMA 111)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -260409,7 +260393,7 @@
       "file": "papers/mathematics-i/2025/makeup/Mathematics -I (IMA 111)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -260577,7 +260561,7 @@
       "file": "papers/mathematics-ii/2018/makeup/Mathematics - II [IMA 121] (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 3,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -260599,7 +260583,7 @@
       "file": "papers/mathematics-ii/2018/regular/Mathematics- II (MA 121).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -260643,7 +260627,7 @@
       "file": "papers/mathematics-ii/2019/regular/Mathematics II(IMA 121).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -260665,7 +260649,7 @@
       "file": "papers/mathematics-ii/2020/regular/Mathematics - II (MA1210).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -260709,7 +260693,7 @@
       "file": "papers/mathematics-ii/2021/regular/Mathematics -II (IMA 121).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -260797,7 +260781,7 @@
       "file": "papers/mathematics-ii-non-cs/2024/regular/Mathematics-II (IMA -121) Non CS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -261093,7 +261077,7 @@
       "file": "papers/mathematics-iii-non-cs/2023/makeup/Mathematics -III (IMA 231) NON CS(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -261407,7 +261391,7 @@
       "file": "papers/maths-iii/2023/makeup/Maths -III (MAT 2152)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -261429,7 +261413,7 @@
       "file": "papers/maths-iii/2023/regular/Maths -III (MAT 2152).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -262197,7 +262181,7 @@
       "file": "papers/measurement-and-instrumentation/2022/regular/Measurement and Instrumentation (ELE 3153).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -262679,7 +262663,7 @@
       "file": "papers/measurements-and-instrumentation/2021/regular/Measurements and Instrumentation (ELE 3202)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -263445,7 +263429,7 @@
       "file": "papers/mechanical-design-and-drawing/2012/makeup/Mechanical Design and Drawing (MEE – 307) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 4,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -263727,7 +263711,7 @@
       "file": "papers/mechanical-design-i/2011/makeup/Mechanical Design – I (MEE -204) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 3,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -265423,7 +265407,7 @@
       "file": "papers/mechanical-vibrations/2011/regular/Mechanical Vibrations (MEE -405) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -265511,7 +265495,7 @@
       "file": "papers/mechanical-vibrations/2017/makeup/Mechanical Vibrations (MME-403)(RCS)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -266253,7 +266237,7 @@
       "file": "papers/mechanics-of-solids/2013/makeup/Mechanics of Solids (CIE 102) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -266275,7 +266259,7 @@
       "file": "papers/mechanics-of-solids/2013/makeup/Mechanics of Solids (CIE-101) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -266297,7 +266281,7 @@
       "file": "papers/mechanics-of-solids/2013/regular/Mechanics of Solids (CIE 101) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -266495,7 +266479,7 @@
       "file": "papers/mechanics-of-solids/2019/makeup/Mechanics of Solids (CIE 1051) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -266823,7 +266807,7 @@
       "file": "papers/mechanics-of-structures/2017/makeup/Mechanics of structures [CIE 2102] Make up (RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -266845,7 +266829,7 @@
       "file": "papers/mechanics-of-structures/2018/makeup/Mechanics of Structures [CIE 2102) (MAKE UP).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -266867,7 +266851,7 @@
       "file": "papers/mechanics-of-structures/2018/regular/Mechanics Of Structures (ICE 122).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -268713,7 +268697,7 @@
       "file": "papers/mee-206/2006/regular/MEE 206.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -269825,7 +269809,7 @@
       "file": "papers/mems-technology/2021/regular/MEMS Technology (ECE 4306).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -269847,7 +269831,7 @@
       "file": "papers/mems-technology/2022/makeup/MEMS Technology (ECE 4306) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -269869,7 +269853,7 @@
       "file": "papers/mems-technology/2024/regular/Mems Technology (ECE 4306).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -270083,7 +270067,7 @@
       "file": "papers/metabolic-engineering/2020/regular/Metabolic Engineering (BIO 4007).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -270253,7 +270237,7 @@
       "file": "papers/metrology/2007/regular/Metrology -Revised.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 21,
+      "questionCount": 20,
       "chapterIds": [
         "extracted"
       ],
@@ -272109,7 +272093,7 @@
       "file": "papers/microcontroller-applications/2014/makeup/Microcontroller & Applications (ECE 351) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -276881,7 +276865,7 @@
       "file": "papers/ml-principles-applications/2022/regular/ML Principles Applications(AML 5203).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -276925,7 +276909,7 @@
       "file": "papers/mlpa/2023/regular/MLPA.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -277775,7 +277759,7 @@
       "file": "papers/mobile-communication/2008/regular/Mobile Communication (ECE-405.1) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -278147,7 +278131,7 @@
       "file": "papers/mobile-communication/2017/regular/Mobile Communication (ECE-4010).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -278997,7 +278981,7 @@
       "file": "papers/modeling-and-simulation-in-bioprocess-engg/2010/makeup/Modeling and Simulation in Bioprocess Engg. (BIO-409) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -279107,7 +279091,7 @@
       "file": "papers/modeling-and-simulation-of-environmental-systems/2014/regular/Modeling and Simulation of Environmental Systems (CHE 556).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -279129,7 +279113,7 @@
       "file": "papers/modeling-and-simulation-of-power-electronic-system/2013/regular/Modeling and Simulation of Power Electronic System (ELE 508).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -279567,7 +279551,7 @@
       "file": "papers/modelling-and-simulation-in-bioprocess-engineering/2017/regular/Modelling and Simulation in Bioprocess Engineering (BIO-405)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -281679,7 +281663,7 @@
       "file": "papers/molecular-biology-and-genetical-engineering/2022/regular/Molecular Biology and Genetical Engineering (BIO 2153).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -282195,7 +282179,7 @@
       "file": "papers/momentum-transfer/2017/makeup/Momentum Transfer (CHE-2102) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -284817,7 +284801,7 @@
       "file": "papers/natural-computing/2023/makeup/Natural Computing (ICT 4051)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -286559,7 +286543,7 @@
       "file": "papers/network-analysys-and-signals-part-a/2022/regular/Network Analysys and signals (ICE2154) PART A.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -287143,7 +287127,7 @@
       "file": "papers/networking-with-tcpip/2022/regular/Networking with TCPIP(ICT 4305) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -287943,7 +287927,7 @@
       "file": "papers/neural-networks-and-fuzzy-logic/2023/makeup/Neural Networks and Fuzzy Logic (ICT 4052)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -287965,7 +287949,7 @@
       "file": "papers/neural-networks-and-fuzzy-logic/2023/regular/Neural Networks and Fuzzy Logic (ICT 4052).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -289281,7 +289265,7 @@
       "file": "papers/non-destructive-testing-of-materials/2018/makeup/Non Destructive Testing of Materials [CIE 4023] (MAKE UP).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -289391,7 +289375,7 @@
       "file": "papers/non-destructive-testing-of-materials-open-elective/2016/regular/Non-destructive testing of materials [cie 556] open elective.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -289587,7 +289571,7 @@
       "file": "papers/non-newtonian-flow-in-process-industries/2022/makeup/Non-Newtonian Flow in Process Industries (CHE 4067) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -289609,10 +289593,8 @@
       "file": "papers/non-newtonian-flow-in-process-industries/2022/regular/Non-Newtonian Flow in Process Industries (CHE 4067).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -291025,7 +291007,7 @@
       "file": "papers/numeriacl-analysis-i/2017/makeup/Numeriacl Analysis -I (MAT 608) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -291047,7 +291029,7 @@
       "file": "papers/numerical-analysis/2013/regular/Numerical Analysis (MAT 608).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -291135,7 +291117,7 @@
       "file": "papers/numerical-analysis-i/2014/makeup/Numerical Analysis I (MAT 608) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -291157,7 +291139,7 @@
       "file": "papers/numerical-analysis-ii/2011/regular/Numerical Analysis –II ( MAT – 705) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 21,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -291201,7 +291183,7 @@
       "file": "papers/numerical-methods-and-computational-physics/2012/regular/Numerical Methods and Computational Physics (PHY – 604).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -291287,10 +291269,8 @@
       "file": "papers/numerical-methods-and-computational-physics/2017/regular/Numerical Methods and computational Physics (PHY 604) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -291479,7 +291459,7 @@
       "file": "papers/numerical-methods-in-civil-engg/2010/makeup/Numerical Methods In Civil Engg (CIE – 202) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -291501,7 +291481,7 @@
       "file": "papers/numerical-methods-in-civil-engg/2010/regular/Numerical Methods In Civil Engg. (CIE – 202).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -291543,7 +291523,7 @@
       "file": "papers/numerical-methods-in-civil-engg/2015/regular/Numerical Methods in Civil Engg. (CE 245).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -291565,7 +291545,7 @@
       "file": "papers/numerical-methods-in-civil-engg/2018/makeup/Numerical Methods In Civil Engg [CE 245] (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 3,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -291965,7 +291945,7 @@
       "file": "papers/object-oriented-analysis-and-design-using-uml/2011/makeup/Object Oriented Analysis and Design using UML (CSE - 308) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 19,
       "chapterIds": [
         "extracted"
       ],
@@ -292009,7 +291989,7 @@
       "file": "papers/object-oriented-analysis-and-design-using-uml/2012/makeup/Object Oriented Analysis and Design Using UML (CSE – 308) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -294575,7 +294555,7 @@
       "file": "papers/offshore-strcutural-engineering/2017/regular/Offshore Strcutural Engineering (CIE 5259) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -294597,7 +294577,7 @@
       "file": "papers/offshore-structural-engineering/2009/regular/Offshore Structural Engineering (CIE-612.1) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 8,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -294639,7 +294619,7 @@
       "file": "papers/offshore-structural-engineering/2011/makeup/Offshore Structural Engineering (CE – 611.1)RCS(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -294683,7 +294663,7 @@
       "file": "papers/offshore-structural-engineering/2012/regular/Offshore Structural Engineering (CIE – 582).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -294749,7 +294729,7 @@
       "file": "papers/offshore-structural-engineering/2018/regular/Offshore structural engineering (CIE 5259) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -294815,7 +294795,7 @@
       "file": "papers/offshore-structural-engineering/2024/regular/Offshore Structural Engineering (CIE 5425).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -295765,7 +295745,7 @@
       "file": "papers/operating-system-unix/2008/makeup/Operating System & Unix (CSE-307) ( Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 19,
       "chapterIds": [
         "extracted"
       ],
@@ -295829,7 +295809,7 @@
       "file": "papers/operating-system-unix/2009/regular/Operating System & Unix (CSE-307).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -296905,7 +296885,7 @@
       "file": "papers/operation-research/2009/makeup/Operation Research (ECE-405.4) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -296971,7 +296951,7 @@
       "file": "papers/operation-research/2013/regular/Operation Research (MAT-401).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -297245,7 +297225,7 @@
       "file": "papers/operations-management/2020/regular/Operations Management (HUM 4014).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -297879,7 +297859,7 @@
       "file": "papers/operations-research/2019/makeup/Operations Research (MME 4026) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -299469,7 +299449,7 @@
       "file": "papers/optimization-method/2011/regular/Optimization Method (MAT – 701) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -299535,7 +299515,7 @@
       "file": "papers/optimization-methods-i/2017/regular/Optimization Methods I (MAT-701)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -299683,7 +299663,7 @@
       "file": "papers/optimization-of-chemical-processes/2014/regular/Optimization of Chemical Processes (CHE 502).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -299959,7 +299939,7 @@
       "file": "papers/optimization-techniques/2025/makeup/Optimization Techniques (MAT 5127)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -305285,7 +305265,7 @@
       "file": "papers/pattern-recognition/2022/makeup/Pattern Recognition (ICT 5053)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -305461,7 +305441,7 @@
       "file": "papers/pattern-recognition-part-b/2022/regular/Pattern Recognition (ICT 4053)PART B.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -306199,7 +306179,7 @@
       "file": "papers/petrochemicals/2010/makeup/Petrochemicals (CHE-407.3E) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -306963,7 +306943,7 @@
       "file": "papers/petrolium-refinery-engineering/2017/makeup/Petrolium Refinery Engineering (CHE-423) (Make up).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -308815,7 +308795,7 @@
       "file": "papers/physics-i/2025/makeup/Physics -I (IPH 111)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -309275,7 +309255,7 @@
       "file": "papers/physics-ii/2023/makeup/Physics(IPH 121)-II(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -310445,7 +310425,7 @@
       "file": "papers/plant-engineering-and-maintenence/2015/regular/Plant Engineering and Maintenence (MME-350)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 19,
       "chapterIds": [
         "extracted"
       ],
@@ -310665,7 +310645,7 @@
       "file": "papers/plant-layout-and-material-handling/2011/regular/Plant Layout and Material Handling (MME -331.4) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -310687,7 +310667,7 @@
       "file": "papers/plant-layout-and-material-handling/2012/makeup/Plant Layout and Material Handling (Elective ) (MME- 331.4) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -314939,7 +314919,7 @@
       "file": "papers/power-system-analysis/2008/makeup/Power System Analysis (ELE-3090 RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -316565,7 +316545,7 @@
       "file": "papers/prestressed-concrete-design/2019/regular/Prestressed Concrete Design (CIE 4016) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -316939,7 +316919,7 @@
       "file": "papers/principles-of-advertising/2023/makeup/Principles of Advertising (MED 4066) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -316961,7 +316941,7 @@
       "file": "papers/principles-of-advertising/2023/regular/Principles of Advertising (MED 4066).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -317949,7 +317929,7 @@
       "file": "papers/principles-of-data-communication-part-a/2022/regular/Principles of Data Communication (ICT 2156) PART A.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -318037,10 +318017,8 @@
       "file": "papers/principles-of-data-privacy-and-security/2024/makeup/Principles of Data Privacy and Security (DSE 2224)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -318059,10 +318037,8 @@
       "file": "papers/principles-of-data-privacy-and-security/2024/regular/Principles of Data Privacy and Security (DSE 2224).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -318857,7 +318833,7 @@
       "file": "papers/principles-of-programming-languages/2009/makeup/Principles of Programming Languages (CSE-303) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -321453,7 +321429,7 @@
       "file": "papers/printing-inks-and-toners/2010/makeup/Printing Inks and Toners (PME-301) RCS (makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -322697,7 +322673,7 @@
       "file": "papers/probability-and-optimization/2024/regular/Probability and Optimization (MAT 2233).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -323297,7 +323273,7 @@
       "file": "papers/probability-statistics-and-stochastic-process-iv/2009/makeup/Probability, Statistics And Stochastic Process – IV (MAT – CSE – 202) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 21,
+      "questionCount": 20,
       "chapterIds": [
         "extracted"
       ],
@@ -323533,7 +323509,7 @@
       "file": "papers/probability-statistics-stochastic-process/2011/regular/Probability , Statistics & Stochastic Process (MAT-CSE-202) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 18,
       "chapterIds": [
         "extracted"
       ],
@@ -326527,7 +326503,7 @@
       "file": "papers/process-instrumentation-and-control/2014/makeup/Process Instrumentation and Control (ICE 401) (makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -327007,7 +326983,7 @@
       "file": "papers/process-integration-for-petroleum-industries/2022/regular/Process integration for Petroleum Industries (CHE 4054) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 4,
+      "questionCount": 1,
       "chapterIds": [
         "extracted"
       ],
@@ -327597,7 +327573,7 @@
       "file": "papers/process-modelling-and-simulation/2017/regular/Process Modelling and Simulation (CHE-403)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -330009,10 +329985,8 @@
       "file": "papers/production-of-automotive-components/2010/makeup/Production of Automotive Components (MME -331.1) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -330031,10 +330005,8 @@
       "file": "papers/production-of-automotive-components/2010/regular/Production of Automotive Components (MME -331.1) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -330053,10 +330025,8 @@
       "file": "papers/production-of-automotive-components/2011/makeup/Production of Automotive Components (MME -331.1) RCS(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -330075,10 +330045,8 @@
       "file": "papers/production-of-automotive-components/2011/regular/Production of Automotive components (MME 331.1) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -330097,10 +330065,8 @@
       "file": "papers/production-of-automotive-componets/2009/regular/Production of Automotive Componets (MME-331.1) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -330361,7 +330327,7 @@
       "file": "papers/production-operations-management/2014/regular/Production & Operations Management (HSS 544) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -330777,7 +330743,7 @@
       "file": "papers/production-techniques/2010/makeup/Production Techniques (MEE-209) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -331643,7 +331609,7 @@
       "file": "papers/program-food-processing-technology/2016/regular/Program elective ii food processing technology [BIO 322] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -333857,7 +333823,7 @@
       "file": "papers/protein-engineering/2018/regular/Protein engineering [BIO 4008].pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -334175,7 +334141,7 @@
       "file": "papers/publishing-science/2014/makeup/Publishing Science (PME 220) Makeup.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 24,
+      "questionCount": 20,
       "chapterIds": [
         "extracted"
       ],
@@ -336145,7 +336111,7 @@
       "file": "papers/quantum-mechanics-i/2017/regular/Quantum Mechanics I (PHY-605)(CS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -336535,7 +336501,7 @@
       "file": "papers/quantum-mechanics-ii/2023/regular/Quantum Mechanics II (PHY 5253).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -336579,7 +336545,7 @@
       "file": "papers/quantum-mechanics-ii-cs/2013/regular/Quantum Mechanics II (PHY 606) CS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -337115,7 +337081,7 @@
       "file": "papers/railway-and-airport-engineering/2022/regular/Railway and Airport Engineering (CIE 3253) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -337269,7 +337235,7 @@
       "file": "papers/railway-engineering-and-airport-planing/2017/regular/Railway Engineering and Airport Planing (CIE 3203) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -337291,7 +337257,7 @@
       "file": "papers/railway-engineering-and-airport-planning/2017/makeup/Railway Engineering and Airport Planning (CIE 3203)RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -337813,7 +337779,7 @@
       "file": "papers/real-time-embedded-systems/2018/makeup/Real time embedded systems [ICE 4003] make up.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -337835,7 +337801,7 @@
       "file": "papers/real-time-embedded-systems/2018/regular/Real time embedded systems [ICE 4003].pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -338631,7 +338597,7 @@
       "file": "papers/real-time-systems/2023/makeup/Real Time Systems (ELE 4064)RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -338827,7 +338793,7 @@
       "file": "papers/recent-advances-in-concrete-technology/2018/regular/Recent Advances in Concrete Technology (CIE 5239) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -339085,7 +339051,7 @@
       "file": "papers/refrigeration-air-conditioning-systems/2018/makeup/Refrigeration & Air-conditioning Systems (MME 4012)RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -339721,7 +339687,7 @@
       "file": "papers/reinforcement-learning/2022/regular/Reinforcement Learning (AML 5204).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -339743,7 +339709,7 @@
       "file": "papers/reinforcement-learning/2023/regular/Reinforcement Learning (AML 5204).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -340391,7 +340357,7 @@
       "file": "papers/remote-sensing-and-gis/2016/regular/Remote Sensing and GIS (CIE-3282)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -340479,7 +340445,7 @@
       "file": "papers/remote-sensing-and-gis-in-enviornmental/2017/regular/Remote Sensing and GIS in Enviornmental (CIE 5248) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -340501,7 +340467,7 @@
       "file": "papers/remote-sensing-and-gis-in-enviornmental-engineering/2017/makeup/Remote Sensing and GIS in Enviornmental Engineering (CIE 5248) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -340523,7 +340489,7 @@
       "file": "papers/remote-sensing-and-gis-in-enviornmental-science/2019/regular/Remote Sensing and GIS in Enviornmental Science (CIE 5248).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -340849,7 +340815,7 @@
       "file": "papers/reneable-energy/2025/regular/Reneable Energy (ELE 4086).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -341681,7 +341647,7 @@
       "file": "papers/renewable-energy-systems/2012/regular/Renewable Energy Systems (MME – 447) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -341879,7 +341845,7 @@
       "file": "papers/renewable-energy-technology/2017/regular/Renewable Energy Technology (MME 5286) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -341923,7 +341889,7 @@
       "file": "papers/renewable-energy-technology/2018/regular/Renewable Energy Technology (MME 5286 ) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -342325,7 +342291,7 @@
       "file": "papers/research-methodology-and-technical-communication/2018/makeup/Research Methodology and Technical Communication (MAT 4220)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -343127,7 +343093,7 @@
       "file": "papers/resource-management/2017/regular/Resource Management (CIE 4004) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -347991,7 +347957,7 @@
       "file": "papers/separation-techniques-in-bioprocessing/2020/regular/Separation Techniques in Bioprocessing (BIO 3103).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -348379,7 +348345,7 @@
       "file": "papers/signal-analysis-and-telemetry/2018/regular/Signal Analysis and Telemetry(BM 241).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -348461,7 +348427,7 @@
       "file": "papers/signal-and-signal-procesing/2024/regular/Signal and Signal Procesing (IEE 241).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -348483,8 +348449,10 @@
       "file": "papers/signal-and-signal-processing/2024/makeup/Signal and Signal Processing (IEE 241)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 0,
-      "chapterIds": [],
+      "questionCount": 5,
+      "chapterIds": [
+        "extracted"
+      ],
       "hasSolutions": false
     },
     {
@@ -348629,7 +348597,7 @@
       "file": "papers/signal-processing/2018/makeup/Signal Processing [EC 244A] (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 3,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -348955,7 +348923,7 @@
       "file": "papers/signals-and-networks/2012/regular/Signals and Networks (ECE – 223).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -349043,7 +349011,7 @@
       "file": "papers/signals-and-signal-processing/2020/regular/Signals and Signal Processing (IEE 241).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 4,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -349109,7 +349077,7 @@
       "file": "papers/signals-and-signal-processing/2022/makeup/Signals and Signal Processing (IEE 241) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -349131,7 +349099,7 @@
       "file": "papers/signals-and-signal-processing/2022/regular/Signals and Signal Processing (IEE 241).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -349153,7 +349121,7 @@
       "file": "papers/signals-and-signal-processing/2023/makeup/Signals and Signal Processing (IEE 241)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 1,
+      "questionCount": 2,
       "chapterIds": [
         "extracted"
       ],
@@ -349175,8 +349143,10 @@
       "file": "papers/signals-and-signal-processing/2023/regular/Signals and Signal Processing (IEE 241).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 0,
-      "chapterIds": [],
+      "questionCount": 3,
+      "chapterIds": [
+        "extracted"
+      ],
       "hasSolutions": false
     },
     {
@@ -349283,7 +349253,7 @@
       "file": "papers/signals-and-systems/2009/regular/Signals and Systems (BME-206) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -349697,7 +349667,7 @@
       "file": "papers/signals-and-systems/2015/makeup/Signals and Systems (ELE-202)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -349895,7 +349865,7 @@
       "file": "papers/signals-and-systems/2018/makeup/Signals and Systems [EE 243] (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 3,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -349917,7 +349887,7 @@
       "file": "papers/signals-and-systems/2018/regular/Signals and Systems (EE 243).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 2,
+      "questionCount": 27,
       "chapterIds": [
         "extracted"
       ],
@@ -350203,7 +350173,7 @@
       "file": "papers/signals-and-systems/2025/regular/Signals and Systems (BME 2125).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -350701,7 +350671,7 @@
       "file": "papers/simultanous-heat-and-mass-transfer/2015/makeup/Simultanous Heat and Mass Transfer (CHE 303) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 22,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -350723,7 +350693,7 @@
       "file": "papers/simultanous-heat-and-mass-transfer/2015/regular/Simultanous Heat and Mass Transfer (CHE 303).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 21,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -353533,7 +353503,7 @@
       "file": "papers/software-design-using-object-oriented-paradigm/2015/regular/Software Design Using Object Oriented Paradigm(CS 122).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -354067,7 +354037,7 @@
       "file": "papers/software-engineering/2007/regular/Software Engineering.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 25,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -355555,7 +355525,7 @@
       "file": "papers/software-reliability/2023/regular/Software Reliability (ICT 4055).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -355793,7 +355763,7 @@
       "file": "papers/software-testing-and-analysis/2019/regular/Software Testing and Analysis (CSE 4020) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 26,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -356207,7 +356177,7 @@
       "file": "papers/solar-thermal-energy-systems/2018/regular/Solar thermal energy systems [MME 5143] (RG).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -357819,7 +357789,7 @@
       "file": "papers/solid-waste-engineering-and-management/2017/regular/Solid WAste Engineering and Management (CHE-4008) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 19,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -357863,7 +357833,7 @@
       "file": "papers/solid-waste-engineering-management/2014/regular/Solid Waste Engineering & Management (CHE 558).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 22,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -357885,7 +357855,7 @@
       "file": "papers/solid-waste-engineering-management/2016/regular/Solid waste engineering & management [CHE 558] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 20,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -358167,7 +358137,7 @@
       "file": "papers/solid-waste-management/2021/regular/Solid Waste Management ( BIO 4004).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -358211,7 +358181,7 @@
       "file": "papers/solid-waste-management/2022/regular/Solid Waste Management (CIE 4058)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -360969,7 +360939,7 @@
       "file": "papers/statistical-data-analysis/2015/regular/Statistical Data Analysis (BME-567)(RCS)(Program Elective II).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -360991,7 +360961,7 @@
       "file": "papers/statistical-data-analysis/2016/regular/Statistical Data Analysis (Program Elective II - BME 567) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -361751,7 +361721,7 @@
       "file": "papers/stochastic-processes-and-reliability/2022/makeup/Stochastic Processes and Reliability (MAT 5306) (Make up).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 5,
+      "questionCount": 3,
       "chapterIds": [
         "extracted"
       ],
@@ -362953,7 +362923,7 @@
       "file": "papers/strength-of-materials/2018/regular/Strength of Materials (CIE 3283) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -363281,7 +363251,7 @@
       "file": "papers/strength-of-materials/2024/makeup/Strength of Materials (IME 123)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -363535,7 +363505,7 @@
       "file": "papers/structural-analysis/2006/regular/Structural Analysis.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -363765,7 +363735,7 @@
       "file": "papers/structural-analysis/2019/regular/Structural Analysis (CE 242).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -363915,7 +363885,7 @@
       "file": "papers/structural-analysis-i/2015/regular/Structural Analysis-I (CIE-203).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -364021,7 +363991,7 @@
       "file": "papers/structural-analysis-ii/2015/makeup/Structural Analysis-II(CIE-204)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -364125,7 +364095,7 @@
       "file": "papers/structural-design-i/2009/regular/Structural Design –I (CIE-208) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -364469,7 +364439,7 @@
       "file": "papers/structural-design-ii/2017/regular/Structural Design-II (CIE-303)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -364599,7 +364569,7 @@
       "file": "papers/structural-design-iii/2014/regular/Structural Design III (CIE 304) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 10,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -364983,7 +364953,7 @@
       "file": "papers/structural-dynamics/2024/regular/Structural Dynamics (CIE 5129)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -365071,7 +365041,7 @@
       "file": "papers/structural-mechanics/2010/regular/Structural Mechanics (MME-271) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -366367,10 +366337,8 @@
       "file": "papers/subjectadvanced-separation-process/2016/regular/Subjectadvanced separation process (O.E) (CHE 550) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 7,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -367321,7 +367289,7 @@
       "file": "papers/swem-med-4053-end-sem-2022-for-scrutiny/2023/makeup/SWEM MED 4053_End sem MAKEUP 2022 for scrutiny.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -369053,7 +369021,7 @@
       "file": "papers/system-modeling-and-identification/2018/regular/System modeling and identification [ICE 5123].pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -371909,7 +371877,7 @@
       "file": "papers/technology-management/2011/makeup/Technology Management (MME – 608) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -371931,7 +371899,7 @@
       "file": "papers/technology-management/2011/regular/Technology Management (MME – 652.4) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -374173,10 +374141,8 @@
       "file": "papers/theory-of-machines/2022/makeup/Theory of Machines (MTE 3154)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 6,
-      "chapterIds": [
-        "extracted"
-      ],
+      "questionCount": 0,
+      "chapterIds": [],
       "hasSolutions": false
     },
     {
@@ -374217,7 +374183,7 @@
       "file": "papers/theory-of-machines/2022/regular/Theory of Machines (MTE 3154).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 31,
+      "questionCount": 25,
       "chapterIds": [
         "extracted"
       ],
@@ -374655,7 +374621,7 @@
       "file": "papers/theory-of-machines-machine-design/2013/makeup/Theory of Machines & Machine Design (MME 353) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -375205,7 +375171,7 @@
       "file": "papers/theory-of-metal-forming/2019/makeup/Theory of Metal Forming (MME 4045) RCS(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 16,
       "chapterIds": [
         "extracted"
       ],
@@ -377983,7 +377949,7 @@
       "file": "papers/tissue-engineering/2018/regular/Tissue Engineering (BME 5239) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -378815,7 +378781,7 @@
       "file": "papers/tool-engineering-and-design/2019/regular/Tool Engineering and Design (MME 4111) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -379725,7 +379691,7 @@
       "file": "papers/traffic-systems-and-engineering/2022/regular/Traffic Systems and Engineering (CIE 4070)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -379899,7 +379865,7 @@
       "file": "papers/transmission-and-distribution/2009/makeup/Transmission and Distribution (ELE-307) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -380435,7 +380401,7 @@
       "file": "papers/transport-phenomena-in-bioprocessing/2017/makeup/Transport Phenomena in Bioprocessing (BIO-505)(RCS)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 5,
       "chapterIds": [
         "extracted"
       ],
@@ -380519,7 +380485,7 @@
       "file": "papers/transport-phenomena-in-bioprocessing-pdf/2011/regular/Transport Phenomena in Bioprocessing (BIO 605).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -381057,7 +381023,7 @@
       "file": "papers/transprt-phenomena/2009/regular/Transprt Phenomena (CHE-308) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 8,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -381803,7 +381769,7 @@
       "file": "papers/turbo-machines/2018/makeup/Turbo Machines (MME 3101) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 11,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -383879,7 +383845,7 @@
       "file": "papers/urban-transport-planning/2022/makeup/Urban Transport Planning (CIE 4068) RCS(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 17,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -383901,7 +383867,7 @@
       "file": "papers/urban-transport-planning/2022/regular/Urban Transport Planning (CIE 4068)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 4,
       "chapterIds": [
         "extracted"
       ],
@@ -383923,7 +383889,7 @@
       "file": "papers/urban-transportation-planing/2019/regular/PE-4 Urban Transportation Planing (CIE 4028) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -384053,7 +384019,7 @@
       "file": "papers/urban-transportation-systems/2016/regular/Urban Transportation Systems (CIE-320)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 11,
       "chapterIds": [
         "extracted"
       ],
@@ -384469,7 +384435,7 @@
       "file": "papers/valuation-techniques-in-engineering/2012/regular/Valuation Techniques In Engineering (CIE – 562) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 21,
+      "questionCount": 20,
       "chapterIds": [
         "extracted"
       ],
@@ -384747,7 +384713,7 @@
       "file": "papers/vehicle-aerodynamics/2013/regular/Vehicle Aerodynamics (AUE-403) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 22,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -384901,7 +384867,7 @@
       "file": "papers/vehicle-areodynamics/2013/makeup/Vehicle Areodynamics (AUE-403) RCS (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 23,
+      "questionCount": 17,
       "chapterIds": [
         "extracted"
       ],
@@ -388235,7 +388201,7 @@
       "file": "papers/vlsi-design/2022/makeup/VLSI Design (ECE 2254) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -388257,7 +388223,7 @@
       "file": "papers/vlsi-design/2022/regular/VLSI DEsign (ECE 2254).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 6,
       "chapterIds": [
         "extracted"
       ],
@@ -389613,7 +389579,7 @@
       "file": "papers/waste-water-management/2017/regular/Waste Water Management (CIE 3202) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -389787,7 +389753,7 @@
       "file": "papers/water-resource-engineering/2017/regular/Water Resource Engineering (CIE 2201) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 16,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -389853,7 +389819,7 @@
       "file": "papers/water-resource-engineering/2022/regular/Water Resource Engineering (CIE 2255)RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 13,
       "chapterIds": [
         "extracted"
       ],
@@ -389919,7 +389885,7 @@
       "file": "papers/water-resources-engineering/2013/regular/Water Resources Engineering (CIE-305).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 21,
+      "questionCount": 20,
       "chapterIds": [
         "extracted"
       ],
@@ -389985,7 +389951,7 @@
       "file": "papers/water-resources-engineering/2016/makeup/Water Resources Engineering (CIE-2201)(RCS)(Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 15,
       "chapterIds": [
         "extracted"
       ],
@@ -390007,7 +389973,7 @@
       "file": "papers/water-resources-engineering/2016/regular/Water Resources Engineering (CIE-2201)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 15,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -390029,7 +389995,7 @@
       "file": "papers/water-resources-engineering/2017/regular/Water resources Engineering (CIE-305)(RCS).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 18,
+      "questionCount": 14,
       "chapterIds": [
         "extracted"
       ],
@@ -390323,7 +390289,7 @@
       "file": "papers/water-suply-engineering/2019/regular/Water Suply Engineering (CIE 3103) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 9,
+      "questionCount": 7,
       "chapterIds": [
         "extracted"
       ],
@@ -390367,7 +390333,7 @@
       "file": "papers/water-supply-engineering/2017/regular/Water supply engineering [CIE 3103] RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 10,
       "chapterIds": [
         "extracted"
       ],
@@ -392013,7 +391979,7 @@
       "file": "papers/wireless-communication/2008/makeup/Wireless Communication (ECE-608.3) RCS (makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],
@@ -392035,7 +392001,7 @@
       "file": "papers/wireless-communication/2008/regular/Wireless Communication (ECE-608.3) RCS.pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 12,
+      "questionCount": 9,
       "chapterIds": [
         "extracted"
       ],
@@ -392563,7 +392529,7 @@
       "file": "papers/wireless-communication/2021/regular/Wireless Communication (ECE 3252).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 13,
+      "questionCount": 12,
       "chapterIds": [
         "extracted"
       ],
@@ -392607,7 +392573,7 @@
       "file": "papers/wireless-communication/2022/makeup/Wireless Communication (ECE 3252) (Makeup).pdf",
       "solutionFile": null,
       "notes": null,
-      "questionCount": 14,
+      "questionCount": 8,
       "chapterIds": [
         "extracted"
       ],

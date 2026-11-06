@@ -162,7 +162,15 @@ splits numerators and denominators onto separate lines, so a few of those blocks
 can come through truncated or merged. Those are text-layer limitations rather
 than rendering errors; the extracted value can be corrected by hand if needed.
 
-Scanned/image-only PDFs have no text layer; they still need OCR or manual
+Some papers keep only the prose in the text layer and draw every equation as an
+image (common with `wkhtmltopdf`-generated papers). When extraction finds several
+question labels with no body, `paperpal extract` renders the pages and runs
+Tesseract OCR, then repairs the OCR labels against the text layer. This needs
+`pdftoppm` and `tesseract` on `PATH`; without them the original text layer is
+kept. OCR is best-effort, so equations and tables may still need a quick manual
+cleanup.
+
+Scanned/image-only PDFs with no text layer at all still need OCR or manual
 curation before their questions can be imported.
 
 ### Diagrams from the PDFs

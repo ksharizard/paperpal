@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[2]
 PAPERS_DIR = ROOT / "papers"
 EXTRACTED_INDEX = ROOT / "build" / "extracted" / "index.json"
 AUTO_FILE = ROOT / "data" / "auto-questions.json"
-AUTO_VERSION = 9
+AUTO_VERSION = 10
 
 QUESTION_MARKER = re.compile(
     r"^\s*(?:Q(?:uestion)?\s*\.?\s*)?(?P<number>\d{1,2})"
@@ -138,6 +138,13 @@ def _parse_questions(text: str) -> list[tuple[str, str, int]]:
     for index, line in enumerate(lines):
         match = QUESTION_MARKER.match(line)
         if not match:
+            continue
+        # ``2x + 4y = 12`` is an equation continuation, not question 2x.  A
+        # lowercase letter only counts as a label when it is punctuated.
+        if (
+            (match.group("letter") or "").islower()
+            and not match.group("separator1")
+        ):
             continue
         number = match.group("number")
         letter = (match.group("letter") or "").upper()
