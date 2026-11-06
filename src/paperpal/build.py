@@ -18,6 +18,7 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 from .auto_questions import build_auto_questions
+from .curriculum import apply_curriculum, load_curriculum
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
@@ -997,6 +998,10 @@ def build_bank():
             }
         )
     all_subjects = enriched_source_subjects + auto_subjects
+    curriculum = load_curriculum()
+    if curriculum:
+        changed = apply_curriculum(all_subjects, curriculum)
+        progress(f"Applied {curriculum['name']} to {changed:,} subject semesters")
     subject_ids = {subject["id"] for subject in all_subjects}
     all_questions = [
         question for question in questions + auto_questions
@@ -1093,6 +1098,8 @@ def build_bank():
     archive["meta"]["subjectCount"] = len(archive["subjects"])
     archive["meta"]["questionCount"] = len(all_questions)
     archive["meta"]["autoQuestionCount"] = len(auto_questions)
+    if curriculum:
+        apply_curriculum(archive["subjects"], curriculum)
     progress("Writing archive and question-bank JSON")
     with ARCHIVE_FILE.open("w", encoding="utf-8") as handle:
         json.dump(archive, handle, ensure_ascii=False, indent=2)
@@ -1158,7 +1165,7 @@ def build_bank():
             json.dumps(
                 {
                     "questions": subject_questions,
-                    "papers": [papers_by_id[paper_id] for paper_id in subject_paper_ids if paper_id in papers_by_id],
+                    "papers": [papers_by_id[paper_id] for paper_id in sorted(subject_paper_ids) if paper_id in papers_by_id],
                 },
                 ensure_ascii=False,
                 separators=(",", ":"),

@@ -1,0 +1,193 @@
+{
+  "format": "paperpal-curriculum-v1",
+  "id": "cse-2026",
+  "name": "B.Tech. Computer Science and Engineering (2026 admission)",
+  "source": "Course structure_CSE-2026 admission.pdf",
+  "semesters": [
+    {
+      "number": 1,
+      "label": "First year · Physics or Chemistry cycle",
+      "subjects": [
+        { "code": "SMS 1102", "name": "Computational Mathematics - I", "aliases": ["Computational Mathematics"] },
+        { "code": "SMS 1002", "name": "Applied Physics for Engineers" },
+        { "code": "SMS 1004", "name": "Applied Chemistry for Engineers" },
+        { "code": "EES 1004", "name": "Fundamentals of Electronics" },
+        { "code": "EES 1002", "name": "Fundamentals of Electrical Engineering" },
+        { "code": "CES 1102", "name": "Programming for Problem Solving", "aliases": ["Problem Solving Using Computers"] },
+        { "code": "CCS 1002", "name": "Engineering Mechanics and Smart Buildings" },
+        { "code": "MES 1002", "name": "Fundamentals of Mechanical Engineering", "aliases": ["Basic Mechanical Engineering", "Mechanical Engineering Science"] },
+        { "code": "SMS 1005", "name": "Communication Skills in English" },
+        { "code": "MES 1011", "name": "Workshop Practice" },
+        { "code": "CES 1111", "name": "Programming for Problem Solving Lab" },
+        { "code": "SMS 1006", "name": "Universal Human Values and Professional Ethics" },
+        { "code": "SMS 1007", "name": "Human Rights and Constitution" },
+        { "code": "CCS 1003", "name": "Environmental Studies" },
+        { "code": "MES 1012", "name": "Computer Aided Engineering Graphics", "aliases": ["Engineering Graphics"] }
+      ]
+    },
+    {
+      "number": 2,
+      "label": "First year · Physics or Chemistry cycle",
+      "subjects": [
+        { "code": "SMS 1202", "name": "Computational Mathematics - II", "aliases": ["Computational Mathematics"] },
+        { "code": "SMS 1002", "name": "Applied Physics for Engineers" },
+        { "code": "SMS 1004", "name": "Applied Chemistry for Engineers" },
+        { "code": "EES 1002", "name": "Fundamentals of Electrical Engineering" },
+        { "code": "EES 1004", "name": "Fundamentals of Electronics" },
+        { "code": "MES 1002", "name": "Fundamentals of Mechanical Engineering", "aliases": ["Basic Mechanical Engineering", "Mechanical Engineering Science"] },
+        { "code": "CES 1201", "name": "Introduction to Object Oriented Programming", "aliases": ["Object Oriented Programming"] },
+        { "code": "CES 1211", "name": "Introduction to Object Oriented Programming Lab", "aliases": ["Object Oriented Programming Lab"] },
+        { "code": "CCS 1003", "name": "Environmental Studies" },
+        { "code": "CES 1212", "name": "Data Visualisation" },
+        { "code": "SMS 1005", "name": "Communication Skills in English" },
+        { "code": "MES 1011", "name": "Workshop Practice" },
+        { "code": "MES 1012", "name": "Computer Aided Engineering Graphics", "aliases": ["Engineering Graphics"] }
+      ]
+    },
+    {
+      "number": 3,
+      "subjects": [
+        { "code": "SMS 2101", "name": "Discrete Mathematical Structures" },
+        { "code": "CES 2101", "name": "Data Structures" },
+        { "code": "CES 2102", "name": "Data Communication and Computer Networks", "aliases": ["Data Communication and Networking", "Data Communication"] },
+        { "code": "CES 2103", "name": "Data Analytics" },
+        { "code": "CES 2104", "name": "Digital Systems and Computer Organization" },
+        { "code": "CES 2111", "name": "Data Structures Lab" },
+        { "code": "CES 2112", "name": "Digital Systems Lab" }
+      ]
+    },
+    {
+      "number": 4,
+      "subjects": [
+        { "code": "SMS 2201", "name": "Probability and Optimization" },
+        { "code": "CES 2201", "name": "Database Systems" },
+        { "code": "CES 2202", "name": "Design and Analysis of Algorithms" },
+        { "code": "CES 2203", "name": "Introduction to Artificial Intelligence", "aliases": ["Artificial Intelligence"] },
+        { "code": "CES 2204", "name": "Operating Systems" },
+        { "code": "CES 2211", "name": "Operating Systems Lab" },
+        { "code": "CES 2212", "name": "Database Systems Lab" },
+        { "code": "CES 2213", "name": "Object Oriented Software Development Lab", "aliases": ["Object Oriented Software Development"] }
+      ]
+    },
+    {
+      "number": 5,
+      "label": "Three CS specialization courses",
+      "subjects": [
+        { "code": "SMS 3003", "name": "Foundation of Technology Management", "aliases": ["Technology Management"] },
+        { "code": "CES 3101", "name": "Finite Automata and Compiler Design", "aliases": ["Finite Automata and Formal Languages", "Compiler Design"] },
+        { "code": "CEO 3101", "name": "Foundations of Computer Vision", "aliases": ["Computer Vision"] },
+        { "code": "CEO 3102", "name": "Machine Learning" },
+        { "code": "CEO 3103", "name": "Parallel Computer Architecture and Programming" },
+        { "code": "CEO 3104", "name": "Embedded Systems and IoT", "aliases": ["Embedded Systems"] },
+        { "code": "CEO 3105", "name": "Network Protocols and Programming", "aliases": ["Network Protocols"] },
+        { "code": "CEO 3106", "name": "Cloud Computing" },
+        { "code": "CEO 3108", "name": "Data Privacy and Security" },
+        { "code": "CEO 3109", "name": "Statistical Machine Learning" },
+        { "code": "CEO 3110", "name": "Big Data Analytics" },
+        { "code": "CEO 3112", "name": "Software Engineering and Design Technology" },
+        { "code": "CEO 3113", "name": "DevOps - Using AI" },
+        { "code": "CEO 3114", "name": "Full Stack Application Development" },
+        { "code": "CEO 3116", "name": "Number Theory and Cryptography" },
+        { "code": "CEO 3117", "name": "Essentials of Cyber Security", "aliases": ["Cyber Security"] },
+        { "code": "CEO 3118", "name": "Incident Response and Threat Intelligence" },
+        { "code": "CEO 3120", "name": "Fundamentals of Quantum Computing" },
+        { "code": "CEO 3121", "name": "Quantum Algorithms" },
+        { "code": "CEO 3122", "name": "Quantum Communications and Quantum Networks" },
+        { "code": "CEO 3124", "name": "Fundamentals of Game Design" },
+        { "code": "CEO 3125", "name": "Introduction to Digital Twin Technologies" },
+        { "code": "CEO 3126", "name": "Game Engine Architecture" },
+        { "code": "CEO 3128", "name": "Fundamentals of Robotics", "aliases": ["Introduction to Robotics"] },
+        { "code": "CEO 3129", "name": "Robot Sensing and Vision" },
+        { "code": "CEO 3130", "name": "Robot Operating System" }
+      ]
+    },
+    {
+      "number": 6,
+      "label": "Two CS specialization courses and two program electives",
+      "subjects": [
+        { "code": "SMS 3004", "name": "Emerging Economic Landscape" },
+        { "code": "CEO 3201", "name": "Deep Learning and Applications", "aliases": ["Deep Learning"] },
+        { "code": "CEO 3202", "name": "Natural Language Processing" },
+        { "code": "CEO 3204", "name": "Network Security" },
+        { "code": "CEO 3205", "name": "Wireless Communication and Networking", "aliases": ["Wireless Communication and Networks"] },
+        { "code": "CEO 3207", "name": "Image and Video Analytics" },
+        { "code": "CEO 3208", "name": "Generative AI" },
+        { "code": "CEO 3209", "name": "Software Testing and Analysis" },
+        { "code": "CEO 3210", "name": "Software Project Management" },
+        { "code": "CEO 3212", "name": "Cyber Law, Cyber Crime and Cyber Ethics" },
+        { "code": "CEO 3213", "name": "Applied Cryptography" },
+        { "code": "CEO 3215", "name": "Advanced Quantum Algorithms" },
+        { "code": "CEO 3216", "name": "Industrial Applications of Quantum Computing" },
+        { "code": "CEO 3218", "name": "Game Programming and Development" },
+        { "code": "CEO 3219", "name": "Gamification and Digital Twin System" },
+        { "code": "CEO 3220", "name": "Deep Learning for Robotics" },
+        { "code": "CEO 3221", "name": "Advanced Robotics Programming" },
+        { "code": "CEP 4401", "name": "Internet of Things and its Applications", "aliases": ["Internet of Things"] },
+        { "code": "CEP 4402", "name": "Augmented and Virtual Reality" },
+        { "code": "CEP 4403", "name": "Conversational AI" },
+        { "code": "CEP 4404", "name": "Fundamentals of iOS" },
+        { "code": "CEP 4405", "name": "iOS Application Development" },
+        { "code": "CEP 4406", "name": "Blockchain Technology" },
+        { "code": "CEP 4407", "name": "Wireless Technologies" },
+        { "code": "CEP 4408", "name": "Foundations of Quantum Computing" },
+        { "code": "CEP 4409", "name": "Reinforcement Learning" },
+        { "code": "CEP 4410", "name": "Mobile Application Development" },
+        { "code": "CEP 4411", "name": "Foundations and Ethics of Generative AI" },
+        { "code": "CEP 4412", "name": "Prompt Engineering" },
+        { "code": "CEP 4413", "name": "Product Management" },
+        { "code": "CEP 4414", "name": "Enterprise Data Architecture" },
+        { "code": "CEP 4415", "name": "Optimization Techniques" },
+        { "code": "CEP 4416", "name": "Cyber Forensics" },
+        { "code": "CEP 4417", "name": "Deep Learning" },
+        { "code": "CEP 4418", "name": "Machine Learning Tools and Technology", "aliases": ["Machine Learning Tools and Technologies"] },
+        { "code": "CEP 4419", "name": "Web Technologies", "aliases": ["Web Technologies and Applications"] },
+        { "code": "CEP 4420", "name": "Game Theory and Applications" },
+        { "code": "CEP 4421", "name": "Explainable AI" },
+        { "code": "CEP 4422", "name": "User Interface Engineering" },
+        { "code": "CEP 4423", "name": "Semantic Web" },
+        { "code": "CEP 4424", "name": "Graph Database" }
+      ]
+    },
+    {
+      "number": 7,
+      "label": "Five program electives or minor courses",
+      "subjects": [
+        { "code": "CEP 4401", "name": "Internet of Things and its Applications", "aliases": ["Internet of Things"] },
+        { "code": "CEP 4402", "name": "Augmented and Virtual Reality" },
+        { "code": "CEP 4403", "name": "Conversational AI" },
+        { "code": "CEP 4404", "name": "Fundamentals of iOS" },
+        { "code": "CEP 4405", "name": "iOS Application Development" },
+        { "code": "CEP 4406", "name": "Blockchain Technology" },
+        { "code": "CEP 4407", "name": "Wireless Technologies" },
+        { "code": "CEP 4408", "name": "Foundations of Quantum Computing" },
+        { "code": "CEP 4409", "name": "Reinforcement Learning" },
+        { "code": "CEP 4410", "name": "Mobile Application Development" },
+        { "code": "CEP 4411", "name": "Foundations and Ethics of Generative AI" },
+        { "code": "CEP 4412", "name": "Prompt Engineering" },
+        { "code": "CEP 4413", "name": "Product Management" },
+        { "code": "CEP 4414", "name": "Enterprise Data Architecture" },
+        { "code": "CEP 4415", "name": "Optimization Techniques" },
+        { "code": "CEP 4416", "name": "Cyber Forensics" },
+        { "code": "CEP 4417", "name": "Deep Learning" },
+        { "code": "CEP 4418", "name": "Machine Learning Tools and Technology", "aliases": ["Machine Learning Tools and Technologies"] },
+        { "code": "CEP 4419", "name": "Web Technologies", "aliases": ["Web Technologies and Applications"] },
+        { "code": "CEP 4420", "name": "Game Theory and Applications" },
+        { "code": "CEP 4421", "name": "Explainable AI" },
+        { "code": "CEP 4422", "name": "User Interface Engineering" },
+        { "code": "CEP 4423", "name": "Semantic Web" },
+        { "code": "CEP 4424", "name": "Graph Database" }
+      ]
+    },
+    {
+      "number": 8,
+      "subjects": [
+        { "code": "CES 4299", "name": "Internship" },
+        { "code": "CES 4999", "name": "Capstone Project" },
+        { "code": "CEH 5999", "name": "Capstone Project (Honours)" },
+        { "code": "CEH 5xxx", "name": "Honours Course 1" },
+        { "code": "CEH 5xxx", "name": "Honours Course 2" },
+        { "code": "CEH 5xxx", "name": "Honours Course 3" }
+      ]
+    }
+  ]
+}

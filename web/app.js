@@ -14,6 +14,9 @@ const state = {
   type: "all",
   year: "all",
   search: "",
+  semester: null,
+  homeSemester: null,
+  semesterCurriculumOnly: false,
   bookmarkedOnly: false,
   shuffleOrder: null,
   bookmarks: readBookmarks(),
@@ -37,6 +40,18 @@ const esc = (value = "") =>
 const semesterLabel = (item) => {
   const semesters = item?.semesters || (item?.semester ? [item.semester] : []);
   return semesters.length ? `Sem ${semesters.join(", ")}` : "";
+};
+const ordinal = (number) => {
+  const tail = number % 100;
+  if (tail >= 11 && tail <= 13) return `${number}th`;
+  return `${number}${({ 1: "st", 2: "nd", 3: "rd" })[number % 10] || "th"}`;
+};
+const subjectSemesters = (subject) =>
+  subject?.semesters || (subject?.semester ? [subject.semester] : []);
+const subjectsInSemester = (number) => {
+  if (!state.bank) return [];
+  return state.bank.subjects.filter((subject) =>
+    subject.questionCount && subject.paperCount && subjectSemesters(subject).includes(number));
 };
 
 /* ------------------------------------------------------------- rich text */
@@ -373,6 +388,172 @@ function saveBookmarks() {
   localStorage.setItem("paperpal.bookmarks", JSON.stringify([...state.bookmarks]));
 }
 
+/* ------------------------------------------------------------- semesters */
+
+function semesterCounts() {
+  const counts = new Map();
+  if (!state.bank) return counts;
+  for (const subject of state.bank.subjects) {
+    if (!subject.questionCount || !subject.paperCount) continue;
+    for (const number of subjectSemesters(subject)) {
+      const count = counts.get(number) || { total: 0, curriculum: 0 };
+      count.total += 1;
+      if (subject.curriculum) count.curriculum += 1;
+      counts.set(number, count);
+    }
+  }
+  return counts;
+}
+
+function buildSemesterGrid() {
+  const grid = $("#semester-grid");
+  if (!grid) return;
+  const counts = semesterCounts();
+  grid.innerHTML = Array.from({ length: 8 }, (_, index) => index + 1)
+    .map((number) => {
+      const count = counts.get(number);
+      const active = state.homeSemester === number;
+      let meta = "View subjects";
+      if (count) {
+        if (count.curriculum) {
+          const extra = count.total - count.curriculum;
+          meta = `${count.curriculum} CSE 2026${extra ? ` · ${extra} more` : ""}`;
+        } else {
+          meta = `${count.total} subject${count.total === 1 ? "" : "s"}`;
+        }
+      }
+      return `<button class="semester-card ${active ? "is-active" : ""}" type="button" data-semester="${number}" aria-pressed="${active}">
+        <span class="semester-name">${ordinal(number)} sem</span>
+        <span class="semester-meta">${meta}</span>
+        <span class="semester-arrow" aria-hidden="true">↗</span>
+      </button>`;
+    })
+    .join("");
+  $$("[data-semester]", grid).forEach((button) => {
+    button.addEventListener("click", () => selectSemester(Number(button.dataset.semester)));
+  });
+}
+
+async function selectSemester(number) {
+  if (state.homeSemester === number) {
+    clearSemesterSelection();
+    return;
+  }
+
+  state.homeSemester = number;
+  state.semester = number;
+  buildSemesterGrid();
+
+  const panel = $("#semester-panel");
+  panel.classList.remove("is-hidden");
+  $("#semester-panel-eyebrow").textContent = "Available subjects";
+  $("#semester-panel-title").textContent = `${ordinal(number)} semester`;
+  $("#semester-subject-grid").innerHTML = '<div class="empty">Loading subjects…</div>';
+
+  try {
+    await loadBank();
+  } catch (error) {
+    $("#semester-subject-grid").innerHTML =
+      `<div class="empty"><strong>Could not load the question bank</strong><br>${esc(error.message)}</div>`;
+    return;
+  }
+
+  await ensureSubjectInSemester(number);
+  state.semesterCurriculumOnly = subjectsInSemester(number).some((subject) => subject.curriculum);
+  buildSubjectList();
+  buildSemesterGrid();
+  renderSemesterSubjects(number);
+}
+
+async function ensureSubjectInSemester(number) {
+  const options = subjectsInSemester(number);
+  if (options.length && !options.some((subject) => subject.id === state.subjectId)) {
+    const preferred = options.find((subject) => subject.curriculum) || options[0];
+    state.subjectId = preferred.id;
+    state.chapterId = "all";
+    try {
+      await loadSubjectQuestions(state.subjectId);
+    } catch {
+      // The question pane reports the failure if the user opens this subject.
+    }
+  }
+  return options;
+}
+
+function semesterSubjectCard(subject) {
+  return `
+    <button class="semester-subject" type="button" data-subject-pick="${esc(subject.id)}">
+      <span class="semester-subject-name">${esc(subject.name)}</span>
+      <span class="semester-subject-meta">${subject.questionCount} q</span>
+      <span class="semester-subject-arrow" aria-hidden="true">→</span>
+    </button>`;
+}
+
+function renderSemesterSubjects(number) {
+  const grid = $("#semester-subject-grid");
+  const subjects = subjectsInSemester(number).sort((a, b) => a.name.localeCompare(b.name));
+  if (!subjects.length) {
+    grid.innerHTML = '<div class="empty"><strong>No subjects yet</strong>No question papers in the bank are tagged for this semester.</div>';
+    return;
+  }
+
+  const curriculum = subjects.filter((subject) => subject.curriculum);
+  const others = subjects.filter((subject) => !subject.curriculum);
+  const primary = curriculum.length ? curriculum : subjects;
+  const secondary = curriculum.length ? others : [];
+
+  grid.innerHTML = [
+    curriculum.length
+      ? `<p class="semester-subject-heading">CSE 2026 curriculum</p>`
+      : "",
+    `<div class="semester-subject-list">${primary.map(semesterSubjectCard).join("")}</div>`,
+    secondary.length
+      ? `<details class="semester-more">
+          <summary>Other subjects with papers this semester · ${secondary.length}</summary>
+          <div class="semester-subject-list">${secondary.map(semesterSubjectCard).join("")}</div>
+        </details>`
+      : "",
+  ].join("");
+  $$("[data-subject-pick]", grid).forEach((button) => {
+    button.addEventListener("click", () => openSemesterSubject(button.dataset.subjectPick, number));
+  });
+}
+
+function openSemesterSubject(subjectId, number) {
+  const picked = state.bank?.subjects.find((subject) => subject.id === subjectId);
+  if (picked && !picked.curriculum) state.semesterCurriculumOnly = false;
+  state.subjectId = subjectId;
+  state.semester = number;
+  state.chapterId = "all";
+  state.type = "all";
+  state.year = "all";
+  state.search = "";
+  state.subjectSearch = "";
+  state.bookmarkedOnly = false;
+  syncFilterControls();
+  buildSubjectList();
+  switchView("bank");
+}
+
+function clearSemesterSelection() {
+  state.homeSemester = null;
+  state.semester = null;
+  state.semesterCurriculumOnly = false;
+  $("#semester-panel")?.classList.add("is-hidden");
+  buildSemesterGrid();
+  if (!state.bank) return;
+  buildSubjectList();
+  if (currentView() === "bank") renderBank();
+}
+
+function syncFilterControls() {
+  if ($("#search")) $("#search").value = state.search;
+  if ($("#subject-search")) $("#subject-search").value = state.subjectSearch;
+  if ($("#filter-type")) $("#filter-type").value = state.type;
+  if ($("#filter-year")) $("#filter-year").value = state.year;
+  $("#bookmark-filter")?.setAttribute("aria-pressed", String(state.bookmarkedOnly));
+}
+
 /* ---------------------------------------------------------------- boot */
 
 // A per-load cache key stops browsers and GitHub Pages from serving a stale
@@ -394,6 +575,7 @@ function initializeBank() {
   buildSubjectList();
   buildYearFilter();
   buildPracticeSelectors();
+  buildSemesterGrid();
 }
 
 async function loadSubjectQuestions(subjectId) {
@@ -470,6 +652,7 @@ async function loadBank() {
 async function init() {
   applyTheme(localStorage.getItem("paperpal.theme") || "dark");
   bindChrome();
+  buildSemesterGrid();
   const view = currentView();
   canonicalizeRoute(view);
   switchView(view, false);
@@ -501,6 +684,7 @@ function bindChrome() {
   $$("[data-home-view]").forEach((control) => {
     control.addEventListener("click", () => switchView(control.dataset.homeView));
   });
+  $("#semester-panel-close")?.addEventListener("click", clearSemesterSelection);
 
   $("#theme-toggle").addEventListener("click", () => {
     const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
@@ -514,6 +698,10 @@ function bindChrome() {
   });
   $("#subject-search").addEventListener("input", (event) => {
     state.subjectSearch = event.target.value.trim().toLowerCase();
+    buildSubjectList();
+  });
+  $("#semester-only-input")?.addEventListener("change", (event) => {
+    state.semesterCurriculumOnly = event.target.checked;
     buildSubjectList();
   });
   $("#filter-type").addEventListener("change", (event) => { state.type = event.target.value; renderBank(); });
@@ -665,12 +853,28 @@ function switchView(view, navigate = true) {
 /* ---------------------------------------------------------------- bank */
 
 function buildSubjectList() {
+  const semesterSubjects = state.semester ? subjectsInSemester(state.semester) : [];
+  const curriculumCount = semesterSubjects.filter((subject) => subject.curriculum).length;
+  const onlyCurriculum = Boolean(state.semester && state.semesterCurriculumOnly && curriculumCount);
+  const onlyControl = $("#semester-only");
+  if (onlyControl) {
+    onlyControl.classList.toggle("is-hidden", !state.semester || !curriculumCount);
+    $("#semester-only-input").checked = onlyCurriculum;
+    $("#semester-only-label").textContent = `Only CSE 2026 (${curriculumCount})`;
+  }
   const subjects = state.bank.subjects.filter((subject) => {
     if (!subject.paperCount || !subject.questionCount) return false;
+    if (state.semester && !subjectSemesters(subject).includes(state.semester)) return false;
+    if (onlyCurriculum && !subject.curriculum) return false;
     if (!state.subjectSearch) return true;
     const haystack = [subject.name, subject.shortName, subject.id, semesterLabel(subject)].filter(Boolean).join(" ").toLowerCase();
     return haystack.includes(state.subjectSearch);
   });
+  if (state.semester) {
+    subjects.sort((a, b) =>
+      Number(Boolean(b.curriculum)) - Number(Boolean(a.curriculum))
+      || a.name.localeCompare(b.name));
+  }
   $("#subject-list").innerHTML = subjects
     .map((subject) => `
       <button class="subject-btn ${subject.id === state.subjectId ? "is-active" : ""}" data-subject="${subject.id}">
@@ -730,12 +934,13 @@ function resetFilters() {
   state.subjectSearch = "";
   state.bookmarkedOnly = false;
   state.shuffleOrder = null;
-  $("#search").value = "";
-  $("#subject-search").value = "";
-  $("#filter-type").value = "all";
-  $("#filter-year").value = "all";
-  $("#bookmark-filter").setAttribute("aria-pressed", "false");
-  buildChapterList();
+  state.semester = null;
+  state.homeSemester = null;
+  state.semesterCurriculumOnly = false;
+  $("#semester-panel")?.classList.add("is-hidden");
+  syncFilterControls();
+  buildSemesterGrid();
+  buildSubjectList();
   renderBank();
 }
 
@@ -774,10 +979,12 @@ function renderBank() {
   $("#bank-subtitle").textContent = description;
 
   const pills = [];
+  if (state.semester) pills.push(`<span class="filter-pill">Semester ${state.semester} <button data-clear-semester aria-label="Clear semester filter">×</button></span>`);
   if (state.bookmarkedOnly) pills.push(`<span class="filter-pill">Bookmarked <button data-clear-bookmarks aria-label="Clear bookmark filter">×</button></span>`);
   if (state.search) pills.push(`<span class="filter-pill">Search: ${esc(state.search)} <button data-clear-search aria-label="Clear search">×</button></span>`);
   $("#active-filters").innerHTML = pills.join("");
   $("#active-filters").onclick = (event) => {
+    if (event.target.closest("[data-clear-semester]")) clearSemesterSelection();
     if (event.target.closest("[data-clear-bookmarks]")) { state.bookmarkedOnly = false; $("#bookmark-filter").setAttribute("aria-pressed", "false"); renderBank(); }
     if (event.target.closest("[data-clear-search]")) { state.search = ""; $("#search").value = ""; renderBank(); }
   };

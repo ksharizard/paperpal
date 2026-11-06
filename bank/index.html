@@ -33,6 +33,23 @@
           </div>
         </div>
 
+        <div class="semester-heading">
+          <span>Choose a semester</span>
+          <span class="home-rule"></span>
+        </div>
+        <div class="semester-grid" id="semester-grid" aria-label="Semesters"></div>
+
+        <div class="semester-panel is-hidden" id="semester-panel">
+          <div class="semester-panel-head">
+            <div>
+              <p class="eyebrow" id="semester-panel-eyebrow">Semester subjects</p>
+              <h3 class="semester-panel-title" id="semester-panel-title"></h3>
+            </div>
+            <button class="ghost-btn" type="button" id="semester-panel-close">Back to all semesters</button>
+          </div>
+          <div class="semester-subject-grid" id="semester-subject-grid"></div>
+        </div>
+
         <div class="home-bottom">
           <div class="home-actions">
             <button class="home-cta home-cta-primary" type="button" data-home-view="bank">
@@ -56,6 +73,10 @@
           <label class="search subject-search">
             <span aria-hidden="true">⌕</span>
             <input id="subject-search" type="search" placeholder="Find a subject…" autocomplete="off">
+          </label>
+          <label class="semester-only is-hidden" id="semester-only">
+            <input type="checkbox" id="semester-only-input">
+            <span id="semester-only-label">Only CSE 2026 subjects</span>
           </label>
           <div class="subject-list" id="subject-list"></div>
         </div>

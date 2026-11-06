@@ -183,6 +183,9 @@ main { max-width: 1440px; margin: 0 auto; padding: 30px max(20px, 4vw) 60px; }
 
 .subject-list { display: grid; gap: 3px; margin-top: 8px; max-height: 48vh; overflow-y: auto; }
 .subject-search { margin: 0 0 9px; }
+.semester-only { display: flex; align-items: center; gap: 8px; margin: 0 0 9px; color: var(--ink-2); font-size: 12px; cursor: pointer; }
+.semester-only input { accent-color: var(--accent); }
+.semester-only:hover { color: var(--ink); }
 .subject-empty { padding: 10px 4px; font-size: 12px; }
 .subject-btn {
   display: flex;
@@ -654,6 +657,43 @@ body.is-lightbox-open { overflow: hidden; }
 .semester-card:hover { transform: translateY(-5px) rotate(-1deg); background: var(--accent-soft); border-color: var(--accent); }
 .semester-name { font-family: var(--sans); font-size: 20px; font-weight: 650; }
 .semester-arrow { align-self: flex-end; color: var(--accent); font-size: 17px; line-height: 1; }
+.semester-card.is-active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.semester-card.is-active .semester-arrow,
+.semester-card.is-active .semester-meta { color: #fff; }
+.semester-meta { color: var(--ink-3); font-size: 11px; font-variant-numeric: tabular-nums; }
+.semester-panel {
+  margin-top: 18px;
+  padding: 20px 22px;
+  border: 1px solid var(--line-strong);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.semester-panel-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 14px; }
+.semester-panel-title { font-family: var(--serif); font-size: 23px; font-weight: 600; letter-spacing: -.02em; line-height: 1.2; }
+.semester-subject-grid { display: block; max-height: 340px; overflow-y: auto; padding-right: 4px; }
+.semester-subject-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.semester-subject-heading { margin-bottom: 8px; color: var(--ink-3); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; font-weight: 650; }
+.semester-more { margin-top: 14px; }
+.semester-more summary { cursor: pointer; color: var(--ink-2); font-size: 12.5px; font-weight: 600; }
+.semester-more summary:hover { color: var(--accent-ink); }
+.semester-more[open] summary { margin-bottom: 9px; }
+.semester-subject {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: var(--surface-2);
+  color: var(--ink);
+  text-align: left;
+}
+.semester-subject:hover { border-color: var(--accent); background: var(--accent-soft); }
+.semester-subject-name { flex: 1; font-size: 13.5px; font-weight: 600; line-height: 1.35; }
+.semester-subject-meta { color: var(--ink-3); font-size: 11px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.semester-subject-arrow { color: var(--accent); line-height: 1; }
 .home-bottom { display: flex; align-items: flex-end; gap: 30px; margin-top: auto; padding-top: 20px; border-top: 1px dashed var(--line-strong); }
 .home-stat { display: grid; gap: 1px; min-width: 126px; }
 .home-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-left: 0; }
@@ -748,4 +788,9 @@ body.is-lightbox-open { overflow: hidden; }
   .home-bottom { align-items: flex-start; flex-wrap: wrap; gap: 18px 26px; }
   .home-actions { display: grid; grid-template-columns: 1fr; gap: 10px; width: 100%; margin-left: 0; }
   .home-cta { width: 100%; justify-content: space-between; }
+  .semester-panel { padding: 16px; }
+  .semester-panel-head { flex-direction: column; gap: 10px; }
+  .semester-subject-grid { max-height: 320px; }
+  .semester-subject-list { grid-template-columns: 1fr; }
+  .semester-subject-meta { font-size: 10.5px; }
 }
